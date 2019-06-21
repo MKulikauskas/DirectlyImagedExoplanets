@@ -28,7 +28,7 @@ imtelescope	                    |\ # "imtelescope", Telescope used in observatio
 iminstrument.                   |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
-imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		        |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			        |\ # "imifu", IFU used (1=yes, 0=no)
 #
