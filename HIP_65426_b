@@ -11,9 +11,9 @@ imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
 #
-plntname                          |\ # planet name
-ra_str                            |\ # RA [sexagesimal]
-dec_str                           |\ # Dec [sexagesimal]
+plntname              HIP 65426 b |\ # planet name
+ra_str                13:24:36.10 |\ # RA [sexagesimal]
+dec_str               -51:30:16.1 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
