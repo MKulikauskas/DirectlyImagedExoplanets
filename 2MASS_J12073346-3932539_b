@@ -20,8 +20,8 @@ dec_str                            -39:32:54.0 |\ # Dec [sexagesimal]
 imdeltmag                       | imdeltmagerr		                  | imdeltmaglim                          |\			# "imdeltmag", planet-host magnitude difference [mag]
 imflxratio                      | imflxratioerr1                    | imflxratioerr2                        | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
 imangsep                        | imangseperr1                      | imangseperr2                          | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                           | imseperr1                         | imseperr2                             | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                    46 | imtrueseperr1                   5 | imtrueseperr2                       5 | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+imsep                        46 | imseperr1                       5 | imseperr2                           5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                       | imtrueseperr1                     | imtrueseperr2                         | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                            | impaerr1                          | impaerr2                              | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist      64.4156487011943142 | imdisterr1     0.6476317853683199 | imdisterr2         0.6476317853683199 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                    |\ # "imtelescope", Telescope used in observations ##added this
