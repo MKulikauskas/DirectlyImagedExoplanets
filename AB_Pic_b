@@ -13,7 +13,7 @@ imrefid			               TBD	  |\ # refid for paper
 #
 plntname                 AB Pic b |\ # planet name
 ra_str                06:19:12.91 |\ # RA [sexagesimal]
-dec_str              -58:03:15.50 |\ # Dec [sexagesimal]
+dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
