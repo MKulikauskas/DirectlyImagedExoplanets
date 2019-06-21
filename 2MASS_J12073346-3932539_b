@@ -13,7 +13,7 @@ imrefid			               TBD	  |\ # refid for paper
 #
 plntname             2MASS J12073346-3932539 b |\ # planet name
 ra_str                             12:07:33.47 |\ # RA [sexagesimal]
-dec_str                           -39:32:54.00 |\ # Dec [sexagesimal]
+dec_str                            -39:32:54.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
