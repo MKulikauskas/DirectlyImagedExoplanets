@@ -11,9 +11,9 @@ imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
 #
-plntname                          |\ # planet name
-ra_str                            |\ # RA [sexagesimal]
-dec_str                           |\ # Dec [sexagesimal]
+plntname              Fomalhaut b |\ # planet name
+ra_str                22:57:39.05 |\ # RA [sexagesimal]
+dec_str               -29:37:20.1 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
