@@ -61,7 +61,7 @@ image		                 | imageerr1	        | imageerr2	       | imagelim	    |\
 # Model Columns
 #
 implstype			|\ # "implstype", planet spectral type
-implmass                        | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                    9.0 | implmasserr1      3.0 | implmasserr2     3.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                        | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                      | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            |\ # "immodel", description of model ##Reference that the model is drawn from.
