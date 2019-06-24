@@ -18,12 +18,12 @@ dec_str                         -51:30:16.1  |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltmag                     TBD  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                    TBD  | imflxratioerr1        | imflxratioerr2       | imflxratiolim     |\ 	# "imflxratio", planet/host flux ratio
-imangsep                     .830  | imangseperr1          | imangseperr2         | imangseplim       |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                          92  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
-imtruesep                    null  | imtrueseperr1         | imtrueseperr2        | imtrueseplim      |\  # "imtruesep", true star-planet separation [AU] 
-impa                            | impaerr1              | impaerr2             | impalim           |\  # "impa", star-planet position angle [deg] 
-imdist                       111.4   | imdisterr1         3.8   | imdisterr2         3.8  | imdistlim         |\  # "imdist", distance to star [pc]
+imflxratio                    TBD  | imflxratioerr1        | imflxratioerr2       | imflxratiolim    0 |\ 	# "imflxratio", planet/host flux ratio
+imangsep                     .830  | imangseperr1         0.003 | imangseperr2        0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          92  | imseperr1             | imseperr2            | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                    null  | imtrueseperr1         | imtrueseperr2        | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                          150  | impaerr1             0.3 | impaerr2            0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                      111.4  | imdisterr1         3.8   | imdisterr2         3.8  | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             SPHERE  |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.             IRDIS  |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2017-01-16  |\ # "imdateobs", [YYYY-MM-DD] ##added this
@@ -60,7 +60,7 @@ image		            ~17 | imageerr1	       | imageerr2	      | imagelim	   |\ # "
 #
 # Model Columns
 #
-implstype			|\ # "implstype", planet spectral type
+implstype			            L6  |\ # "implstype", planet spectral type
 implmass                   7  | implmasserr1         +2 | implmasserr2        -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                1450  | impltemperr1       150  | impltemperr2      150  | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius               1.5  | implradiuserr1      0.1 | implradiuserr2     0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
