@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Macintosh_et_al_2015_cloudfree.dat
+# FILENAME:        51_Eri_b_SM-750K
 # DATE:            2019-06-20
 #                                    
 # Addition of direct imaging values
@@ -64,7 +64,7 @@ implstype			|\ # "implstype", planet spectral type
 implmass                     67 | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    750 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		     Cloud-free	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		     SM-750K (Cloud-free)|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
