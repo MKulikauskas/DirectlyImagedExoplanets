@@ -55,7 +55,7 @@ implnlpmag                      | implnlpmagerr1        | implnlpmagerr2       |
 #
 imstype			  F0 IV |\ # "imstype", stellar host spectral type
 immass                    1.510 | immasserr1      0.038 | immasserr2     0.024 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                           | imlumerr1             | imlumerr2            | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                      4.92 | imlumerr1        0.41 | imlumerr2       0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                 | imageerr1	        | imageerr2	       | imagelim	    |\ # "image", stellar age [My]
 #
 # Model Columns
