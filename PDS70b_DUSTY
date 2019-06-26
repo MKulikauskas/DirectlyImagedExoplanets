@@ -62,10 +62,10 @@ image		              5.4 | imageerr1	           1.0 | imageerr2	        1.0 | im
 #
 implstype			             L |\ # "implstype", planet spectral type
 implmass                   5-9 (hot start: "hottest," "hot," "DUSTY"), 12-14 ("warm")  | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
-impltemp                   1200  | impltemperr1        200  | impltemperr2       200  | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp                    1200  | impltemperr1        200  | impltemperr2       200  | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 > 1.3  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
-immodel		           Exo-REM, DUSTY	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodel		                 DUSTY	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		                TBD |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
