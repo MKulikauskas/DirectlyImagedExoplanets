@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:      
+# FILENAME:        HR8799e
 # DATE:            2019-06-**
 #                                    
 # Addition of direct imaging values
@@ -48,8 +48,8 @@ imkmag                    5.240 | imkmagerr1      0.018 | imkmagerr2     0.018 |
 imlpmag                   5.220 | imlpmagerr1     0.018 | imlpmagerr2    0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                       | implnjmagerr1         | implnjmagerr2        | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                       | implnhmagerr1         | implnhmagerr2        | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                       | implnkmagerr1         | implnkmagerr2        | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                      | implnlpmagerr1        | implnlpmagerr2       | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnkmag                18.407 | implnkmagerr1   2.225 | implnkmagerr2  2.225 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag               14.587 | implnlpmagerr1  0.175 | implnlpmagerr2  0.175 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
