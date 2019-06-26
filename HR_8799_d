@@ -46,10 +46,10 @@ imjmag                    5.383 | imjmagerr1      0.027 | imjmagerr2     0.027 |
 imhmag                    5.280 | imhmagerr1      0.018 | imhmagerr2     0.018 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                    5.240 | imkmagerr1      0.018 | imkmagerr2     0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   5.220 | imlpmagerr1     0.018 | imlpmagerr2    0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                       | implnjmagerr1         | implnjmagerr2        | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                       | implnhmagerr1         | implnhmagerr2        | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                       | implnkmagerr1         | implnkmagerr2        | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                      | implnlpmagerr1        | implnlpmagerr2       | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnjmag                 15.26 | implnjmagerr1    0.43 | implnjmagerr2   0.43 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 13.86 | implnhmagerr1    0.22 | implnhmagerr2   0.22 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 13.11 | implnkmagerr1    0.12 | implnkmagerr2   0.12 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                11.56 | implnlpmagerr1   0.16 | implnlpmagerr2  0.16 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -62,8 +62,8 @@ image		                 | imageerr1	        | imageerr2	       | imagelim	    |\
 #
 implstype			|\ # "implstype", planet spectral type
 implmass                     10 | implmasserr1        3 | implmasserr2       3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                        | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                      | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                   1090 | impltemperr1       90 | impltemperr2      10 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.2 | implradiuserr1      0 | implradiuserr2   0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        |\ # "immodeldef" (1=yes, 0=no)
 #
