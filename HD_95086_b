@@ -19,16 +19,16 @@ dec_str               -68:40:02.4 |\ # Dec [sexagesimal]
 #
 imdeltmag                       | imdeltmagerr		                 | imdeltmaglim                     |\			# "imdeltmag", planet-host magnitude difference [mag]
 imflxratio                      | imflxratioerr1                   | imflxratioerr2                   | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
-imangsep                        | imangseperr1                     | imangseperr2                     | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                      55.7 | imseperr1                    2.5 | imseperr2                    2.5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imangsep                  623.9 | imangseperr1                 7.4 | imangseperr2                 7.4 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                      56.4 | imseperr1                    0.7 | imseperr2                    0.7 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                       | imtrueseperr1                    | imtrueseperr2                    | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                            | impaerr1                         | impaerr2                         | impalim            0 |\  # "impa", star-planet position angle [deg] 
+impa                      151.8 | impaerr1                     0.8 | impaerr2                     0.8 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist       86.442684714095307 | imdisterr1     0.243081110733617 | imdisterr2     0.243081110733617 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	                    |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                   |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	                VLT |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument               NaCo |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2011-12-18, 2012-01-11, 2012-02-10, 2013-02-14, 2013-03-24, 2013-03-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
-imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		        |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			        |\ # "imifu", IFU used (1=yes, 0=no)
 #
@@ -44,16 +44,16 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 imjmag                          | imjmagerr1            | imjmagerr2           | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
 imhmag                          | imhmagerr1            | imhmagerr2           | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                          | imkmagerr1            | imkmagerr2           | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                         | imlpmagerr1           | imlpmagerr2          | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+imkmag                     6.79 | imkmagerr1       0.02 | imkmagerr2      0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                     6.2 | imlpmagerr1       0.2 | imlpmagerr2      0.2 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                       | implnjmagerr1         | implnjmagerr2        | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                       | implnhmagerr1         | implnhmagerr2        | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                       | implnkmagerr1         | implnkmagerr2        | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                      | implnlpmagerr1        | implnlpmagerr2       | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag                16.49 | implnlpmagerr1   0.50 | implnlpmagerr2  0.50 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			  F0 IV |\ # "imstype", stellar host spectral type
+imstype			  A8 |\ # "imstype", stellar host spectral type
 immass                      1.6 | immasserr1          0 | immasserr2         0 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                           | imlumerr1             | imlumerr2            | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                 | imageerr1	        | imageerr2	       | imagelim	    |\ # "image", stellar age [My]
@@ -64,7 +64,7 @@ implstype			|\ # "implstype", planet spectral type
 implmass                      5 | implmasserr1        2 | implmasserr2       2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                        | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                      | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		            |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		       COND |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
