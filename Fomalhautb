@@ -1,9 +1,10 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:      
+# FILENAME:        Fomalhautb
 # DATE:            2019-06-**
 #                                    
-# Addition of direct imaging values
+# Addition of direct i
+ing values
 #                                    
 objectid                    TBD   |\ # objectID for object
 imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
@@ -17,19 +18,19 @@ dec_str               -29:37:20.1 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                       | imdeltmagerr		      | imdeltmaglim         |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                      | imflxratioerr1        | imflxratioerr2       | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
+imdeltmag                  28.8 | imdeltmagerr		    0 | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imflxratio                   ∼5 | imflxratioerr1      0 | imflxratioerr2     0 | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
 imangsep                        | imangseperr1          | imangseperr2         | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                       160 | imseperr1          33 | imseperr2         79 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imsep                      ≃115 | imseperr1           0 | imseperr2          0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                       | imtrueseperr1         | imtrueseperr2        | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                            | impaerr1              | impaerr2             | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                      7.7 | imdisterr1          0 | imdisterr2         0 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	                    |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	                HST, Keck II, Gemini Observatory |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.                   |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		        |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			        |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -55,15 +56,15 @@ implnlpmag                      | implnlpmagerr1        | implnlpmagerr2       |
 #
 imstype			  F0 IV |\ # "imstype", stellar host spectral type
 immass                     1.92 | immasserr1          0 | immasserr2         0 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                           | imlumerr1             | imlumerr2            | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                 | imageerr1	        | imageerr2	       | imagelim	    |\ # "image", stellar age [My]
+imlum                3.4 × 10−7 | imlumerr1           0 | imlumerr2          0 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                        | imageerr1	            | imageerr2	           | imagelim	    |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype			|\ # "implstype", planet spectral type
 implmass                        | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                        | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                      | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                    400 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.2 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        |\ # "immodeldef" (1=yes, 0=no)
 #
