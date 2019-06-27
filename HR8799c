@@ -34,7 +34,7 @@ imifu 			       ? |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			       4 |\ # "ns", number of stars constituting the host system
+ns			                      1 |\ # "ns", number of stars constituting the host system
 ra                          TBD |\ # RA [decimal]
 dec                         TBD |\ # Dec [decimal]
 glon                        TBD |\ # "l" [decimal]
@@ -64,8 +64,8 @@ implstype		                  L	|\ # "implstype", planet spectral type
 implmass                     10 | implmasserr1        3 | implmasserr2       3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   1090 | impltemperr1       90 | impltemperr2      10 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1      0 | implradiuserr2   0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		           PHOENIX (atmosphere model) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		       ? |\ # "immodeldef" (1=yes, 0=no)
+immodel	                    PHOENIX (atmosphere model) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		                ? |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
