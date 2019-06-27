@@ -1,0 +1,72 @@
+# USER:            christia
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HR8799e_PHOENIX
+# DATE:            2019-06-**
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for object
+imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
+imrefid			               TBD	  |\ # refid for paper
+#
+# Default Columns
+#
+plntname                HR 8799 e |\ # planet name
+ra_str                23:07:28.72 |\ # RA [sexagesimal]
+dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltmag                  null | imdeltmagerr		 null | imdeltmaglim    null |\			# "imdeltmag", planet-host magnitude difference [mag]
+imflxratio                 null | imflxratioerr1   null | imflxratioerr2  null | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
+imangsep                  0.368 | imangseperr1    0.009 | imangseperr2   0.009 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                      14.5 | imseperr1         0.5 | imseperr2        0.5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                       null | impaerr1         null | impaerr2        null | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                     39.4 | imdisterr1        1.1 | imdisterr2       1.1 | imdistlim          0 |\  # "imdist", distance to star [pc]
+imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument            400 mas diameter mask |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2009-7-31, 2009-8-1, 2009-11-1, 2010-7-13, 2010-7-21, 2010-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	           null |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      ? |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                    5.383 | imjmagerr1      0.027 | imjmagerr2     0.027 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    5.280 | imhmagerr1      0.018 | imhmagerr2     0.018 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    5.240 | imkmagerr1      0.018 | imkmagerr2     0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                   5.220 | imlpmagerr1     0.018 | imlpmagerr2    0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                  null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                  null | implnhmagerr1    null | implnhmagerr2   null | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                18.407 | implnkmagerr1   2.225 | implnkmagerr2  2.225 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag               14.587 | implnlpmagerr1  0.175 | implnlpmagerr2 0.175 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			  A5V |\ # "imstype", stellar host spectral type
+immass      1.510 | immasserr1      0.038 | immasserr2     0.024 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum        4.92 | imlumerr1        0.41 | imlumerr2       0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		       60 | imageerr1	         30 | imageerr2	       100 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype			             null |\ # "implstype", planet spectral type
+implmass                7 or 10 | implmasserr  2(7) or 3(10) | implmasserr2  3(7) or 3(10) | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                   null | impltemperr1          null | impltemperr2           null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                 null | implradiuserr1        null | implradiuserr2         null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		      PHOENIX (atmosphere model) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		  ? |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
