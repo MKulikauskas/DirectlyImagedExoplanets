@@ -62,9 +62,9 @@ image		                      8 | imageerr1	          4 | imageerr2	         3 | 
 #
 implstype			          L5-L9.5 |\ # "implstype", planet spectral type
 implmass                    6.5 | implmasserr1      3.5 | implmasserr2     3.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                   1250 | impltemperr1      200 | impltemperr2     200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp                   1300 | impltemperr1      300 | impltemperr2     300 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		            Burrows et al. (1997) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		            Burrows et al. (1997) (non-gray)|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        ? |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
