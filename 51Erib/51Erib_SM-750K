@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        51Erib_SM-750K
+# FILENAME:        51Erib_SM-750K.dat
 # DATE:            2019-06-20
 #                                    
 # Addition of direct imaging values
@@ -17,8 +17,7 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                  null | imdeltmagerr		 null | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                 null | imflxratioerr1   null | imflxratioerr2  null | imflxratiolim    0 |\ 	# "imflxratio", planet/host flux ratio
+imdeltmag                       | imdeltmagerr		      | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                  0.449 | imangseperr1    0.007 | imangseperr2   0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
@@ -64,7 +63,7 @@ implstype			                T |\ # "implstype", planet spectral type
 implmass                     67 | implmasserr1        0 | implmasserr2       0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    750 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		     SM-750K (Cloud-free)|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          SM-750K (Cloud-free), Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
