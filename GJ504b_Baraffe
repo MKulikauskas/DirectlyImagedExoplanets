@@ -1,12 +1,12 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        GJ504b_Baraffe
+# FILENAME:        Kuzuhara_et_al_Baraffe.dat
 # DATE:            2019-06-26
 #                                    
 # Addition of direct imaging values
 #                                    
-objectid                    TBD   |\ # objectID for object
-imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
+objectid                   TBD    |\ # objectID for object
+imreflink     2013ApJ...774...11K |\ # "imreflink, ADS bibcode
 imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
@@ -29,8 +29,8 @@ iminstrument       HiCIAO, IRCS |\ # "iminstrument", Instrument used in observat
 imdateobs	               2011-3-26, 2011-5-22, 2011-8-12, 2011-8-15, 2012-2-28, 2012-4-12, 2012-5-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      ? |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			      ? |\ # "imifu", IFU used (1=yes, 0=no)
+imcorona		      TBD/null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      TBD/null |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -65,7 +65,7 @@ implmass                    4.0 | implmasserr1      4.5 | implmasserr2     1.0 |
 impltemp                    510 | impltemperr1       30 | impltemperr2      20 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		           Baraffe et al. 2003 (most commonly used cooling model) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		       ? |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		       TBD |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
