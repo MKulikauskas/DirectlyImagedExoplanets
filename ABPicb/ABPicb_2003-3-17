@@ -18,7 +18,7 @@ dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltmag                       | imdeltmagerr		                   | imdeltmaglim                       |\			# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                   5460 | imangseperr1                    14 | imangseperr2                    14 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                   5.46 | imangseperr1                 0.014 | imangseperr2                 0.014 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      null | imseperr1                     null | imseperr2                     null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                     175.33 | impaerr1                      0.18 | impaerr2                      0.18 | impalim            0 |\  # "impa", star-planet position angle [deg] 
@@ -59,12 +59,12 @@ image		                   30 | imageerr1	             10 | imageerr2	           
 #
 # Model Columns
 #
-implstype		              L1(+2, -1)	|\ # "implstype", planet spectral type
+implstype		               L1(+2, -1) |\ # "implstype", planet spectral type
 implmass                         13.5 | implmasserr1      0.5 | implmasserr2     0.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                       1684.5 | impltemperr1    171.5 | impltemperr2   171.5 | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp                      1682.75 | impltemperr1    88.75 | impltemperr2   88.75 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                    null  | implradiuserr1     null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		                    null  |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		                   0  |\ # "immodeldef" (1=yes, 0=no)
+immodel		                    DUSTY, Chauvin et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		                0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
