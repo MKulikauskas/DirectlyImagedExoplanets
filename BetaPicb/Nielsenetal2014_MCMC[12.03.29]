@@ -1,0 +1,64 @@
+# USER:            christia
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Nielsen_et_al_2014_MCMC.dat
+# DATE:            2019-06-21
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for 51 Eri b
+imreflink            2014ApJ...794..158N   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                      β Pic b  |\ # planet name
+ra_str                    05:47:17.09  |\ # RA [sexagesimal]
+dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltmag                      To-do  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                       0.448  | imangseperr1         0.005 | imangseperr2       0.005  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
+imsep                           null  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
+imtruesep                       null  | imtrueseperr1         | imtrueseperr2        | imtrueseplim      |\  # "imtruesep", true star-planet separation [AU] 
+impa                            211.8 | impaerr1               0.6 | impaerr2           0.6  | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                          null  | imdisterr1              | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
+imtelescope	              Gemini-South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.                   Gemini/NICI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                       2012-03-29 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
+imdisk 	                      1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona  		             null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu  			                  0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                     1 |\ # "ns", number of stars constituting the host system
+ra                         TBD |\ # RA [decimal]
+dec                        TBD |\ # Dec [decimal]
+glon                       TBD |\ # "l" [decimal]
+glat                  	   TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+
+#
+# Stellar Parameter Columns
+#
+imstype			               A6 |\ # "imstype", stellar host spectral type
+immass                     1.76 | immasserr1        0.18  | immasserr2      0.17 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                      null | imlumerr1               | imlumerr2            | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                   16.5 | imageerr1	           4.5 | imageerr2	        4.5 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype	              null	|\ # "implstype", planet spectral type
+implmass                  1.6 | implmasserr1         0.3 | implmasserr2        0.3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                null  | impltemperr1          | impltemperr2         | impltemplim       |\ # "impltemp", planet temp [K]
+implradius              null  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
+immodel		               MCMC |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
