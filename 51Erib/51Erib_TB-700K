@@ -27,7 +27,7 @@ imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 |
 imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.         GPI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2015-12-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	           null |\ # "imcluster", name of associated cluster
+imcluster	       beta Pic |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
