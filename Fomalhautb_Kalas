@@ -1,0 +1,74 @@
+# USER:            christia
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Fomalhautb_Kalas
+# DATE:            2019-06-**
+#                                    
+# Addition of direct i
+ing values
+#                                    
+objectid                    TBD   |\ # objectID for object
+imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
+imrefid			               TBD	  |\ # refid for paper
+#
+# Default Columns
+#
+plntname              Fomalhaut b |\ # planet name
+ra_str                22:57:39.05 |\ # RA [sexagesimal]
+dec_str               -29:37:20.1 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltmag                         28.8 | imdeltmagerr		     0 | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imflxratio                          ∼5 | imflxratioerr1      0 | imflxratioerr2     0 | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
+imangsep                         12.61 | imangseperr1        0 | imangseperr2       0 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                             ≃115 | imseperr1           0 | imseperr2          0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                         null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                            316.86 | impaerr1            0 | impaerr2           0 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                             7.7 | imdisterr1          0 | imdisterr2         0 | imdistlim          0 |\  # "imdist", distance to star [pc]
+imtelescope	    HST, Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.     ACS/HRC, NIRC2, NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2004-10-25, 2004-10-26, 2006-7-14, 2006-7-15, 2006-7-16, 2006-7-17, 2006-7-18, 2006-7-19, 2006-7-20, 2005-7-27, 2005-7-28, 2005-10-21, 2005-10-22, 2008-9-17, 2008-9-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	           null |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			       ? |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			        |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                     null | imjmagerr1       null | imjmagerr2      null | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                     null | imhmagerr1       null | imhmagerr2      null | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     null | imkmagerr1       null | imkmagerr2      null | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                    null | imlpmagerr1      null | imlpmagerr2     null | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                  null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 >22.9 | implnhmagerr1       0 | implnhmagerr2      0 | implnhmaglim    3σ |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                >16.6 | implnlpmagerr1      0 | implnlpmagerr2     0 | implnlpmaglim   3σ |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			               null |\ # "imstype", stellar host spectral type
+immass                     1.92 | immasserr1          0 | immasserr2         0 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                3.4 × 10−7 | imlumerr1           0 | imlumerr2          0 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                    200 | imageerr1	        100 | imageerr2	       100 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               null |\ # "implstype", planet spectral type
+implmass                    2.6 | implmasserr1      0.9 | implmasserr2     0.9 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    400 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.2 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		            Kalas et al. (2008) dynamical model |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		        ? |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
+
