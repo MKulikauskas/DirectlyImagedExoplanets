@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        ABPicb_Burrows.dat
+# FILENAME:        ABPicb_Burrows1.dat
 # DATE:            2019-06-26
 #                                    
 # Addition of direct imaging values
@@ -60,8 +60,8 @@ image		                 30.4 | imageerr1	              0 | imageerr2	           
 # Model Columns
 #
 implstype		               L1(+2, -1) |\ # "implstype", planet spectral type
-implmass                         13.5 | implmasserr1      0.5 | implmasserr2     0.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                       1684.5 | impltemperr1    171.5 | impltemperr2   171.5 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implmass                           13 | implmasserr1        0 | implmasserr2       0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                         1513 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                    null  | implradiuserr1     null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		                    Burrows, Chauvin et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                0  |\ # "immodeldef" (1=yes, 0=no)
