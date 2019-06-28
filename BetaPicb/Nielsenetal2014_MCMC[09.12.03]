@@ -56,7 +56,7 @@ implstype	              null	|\ # "implstype", planet spectral type
 implmass                  1.6 | implmasserr1         0.3 | implmasserr2        0.3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                null  | impltemperr1          | impltemperr2         | impltemplim       |\ # "impltemp", planet temp [K]
 implradius              null  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
-immodel		               MCMC |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		               MCMC (Markov-chain Monte Carlo) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
