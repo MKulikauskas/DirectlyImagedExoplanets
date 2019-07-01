@@ -63,7 +63,7 @@ implstype			                T |\ # "implstype", planet spectral type
 implmass                      7 | implmasserr1        5 | implmasserr2       5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    675 | impltemperr1       75 | impltemperr2      75 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          0 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		       null |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
