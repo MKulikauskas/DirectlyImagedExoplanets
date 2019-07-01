@@ -1,1 +1,72 @@
+# USER:            christia
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        51Erib_2015-01-31.dat
+# DATE:            2019-07-01
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for 51 Eri b
+imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
+imrefid			    TBD	  |\ # refid for paper
+#
+# Default Columns
+#
+plntname                 51 Eri b |\ # planet name
+ra_str                04:37:36.13 |\ # RA [sexagesimal]
+dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltmag                       | imdeltmagerr		      | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                  0.461 | imangseperr1    0.007 | imangseperr2   0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                      170.6 | impaerr1          0.9 | impaerr2         0.9 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2015-01-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	       beta Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                      3 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                     4.74 | imjmagerr1       0.04 | imjmagerr2      0.04 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                     4.77 | imhmagerr1       0.08 | imhmagerr2      0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     4.54 | imkmagerr1       0.02 | imkmagerr2      0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                    4.54 | imlpmagerr1      0.21 | imlpmagerr2     0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                 19.09 | implnjmagerr1    0.42 | implnjmagerr2   0.42 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 19.20 | implnhmagerr1    0.23 | implnhmagerr2   0.23 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                16.16 | implnlpmagerr1   0.29 | implnlpmagerr2  0.29 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			               F0IV |\ # "imstype", stellar host spectral type
+immass                     1.75 | immasserr1       0.05 | immasserr2      0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                       7.1 | imlumerr1           1 | imlumerr2          1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                     20 | imageerr1	          6 | imageerr2	         6 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype			                T |\ # "implstype", planet spectral type
+implmass                      7 | implmasserr1        5 | implmasserr2       5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    675 | impltemperr1       75 | impltemperr2      75 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          null |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
 
