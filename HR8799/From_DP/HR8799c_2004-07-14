@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HR8799c_2014-07-14.dat
+# FILENAME:        HR8799c_2004-07-14.dat
 # DATE:            2019-07-01
 #                                    
 # Addition of direct imaging values
@@ -25,7 +25,7 @@ impa                       null | impaerr1           null | impaerr2           n
 imdist                     39.4 | imdisterr1          1.1 | imdisterr2          1.1 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	         2014-07-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	         2004-07-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               null |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
