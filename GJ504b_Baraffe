@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Kuzuhara_et_al_Baraffe.dat
+# FILENAME:        Kuzuhara_et_al_2013_Baraffe.dat
 # DATE:            2019-06-26
 #                                    
 # Addition of direct imaging values
@@ -17,20 +17,22 @@ dec_str               +09:25:27.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                  null | imdeltmagerr		          null | imdeltmaglim                null |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                 null | imflxratioerr1            null | imflxratioerr2              null | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
-imangsep                   2.48 | imangseperr1                 0 | imangseperr2                   0 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imdeltjmag                  15.804 | imdeltjmagerr		           | imdeltjmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdelthmag                  16.280 | imdelthmagerr		           | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltkmag                  15.382 | imdeltkmagerr		           | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltlpmag                 12.900 | imdeltlpmagerr		           | imdeltlpmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                   2.479 | imangseperr1                 0.016 | imangseperr2                   0.016 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      43.5 | imseperr1                    0 | imseperr2                      0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1             null | imtrueseperr2               null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                       null | impaerr1                  null | impaerr2                    null | impalim            0 |\  # "impa", star-planet position angle [deg] 
-imdist       17.538126323574428 | imdisterr1   0.077645446586077 | imdisterr2     0.077645446586077 | imdistlim          0 |\  # "imdist", distance to star [pc]
+impa                       327.94 | impaerr1                  0.39 | impaerr2                    0.39 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                   17.56  | imdisterr1            0.08 | imdisterr2                0.08 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	             Subaru |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument       HiCIAO, IRCS |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	               2011-3-26, 2011-5-22, 2011-8-12, 2011-8-15, 2012-2-28, 2012-4-12, 2012-5-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	           null |\ # "imcluster", name of associated cluster
-imdisk 		              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      TBD/null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			      TBD/null |\ # "imifu", IFU used (1=yes, 0=no)
+iminstrument             HiCIAO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	            2011-3-26 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	             0 |\ # "imcluster", name of associated cluster
+imdisk 		             0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      null |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
