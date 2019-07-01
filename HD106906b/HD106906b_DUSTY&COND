@@ -1,0 +1,72 @@
+# USER:            christia
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HD106906b_Bailey.dat
+# DATE:            2019-06-26
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for object
+imreflink      2014ApJ...780L...4B |\ # "imreflink, ADS bibcode
+imrefid			               TBD	  |\ # refid for paper
+#
+# Default Columns
+#
+plntname              HD 106906 b |\ # planet name
+ra_str                12:17:53.19 |\ # RA [sexagesimal]
+dec_str               -55:58:31.9 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltmag                          | imdeltmagerr		               | imdeltmaglim                       |\			# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                      7.11 | imangseperr1             0.03 | imangseperr2                  0.03 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          650 | imseperr1                   0 | imseperr2                        0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                     null | imtrueseperr1            null | imtrueseperr2                 null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                         307.3 | impaerr1                  0.2 | impaerr2                       0.2 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                          92 | imdisterr1                  6 | imdisterr2                       6 | imdistlim          0 |\  # "imdist", distance to star [pc]
+imtelescope	  Baade 6.5 m Magellan |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument   MagAO + Clio2, FIRE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              null |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	               LCC |\ # "imcluster", name of associated cluster
+imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		       0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			       0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                     6.95 | imjmagerr1    0.03 | imjmagerr2    0.03 | imjmaglim     0 |\ # "imjmag", stellar magnitude J-band [mag] 
+imhmag                     6.68 | imhmagerr1    0.05 | imhmagerr2    0.05 | imhmaglim     0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     6.68 | imkmagerr1    0.03 | imkmagerr2    0.03 | imkmaglim     0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                     6.7 | imlpmagerr1    0.1 | imlpmagerr2    0.1 | imlpmaglim    0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                  17.6 | implnjmagerr1  0.3 | implnjmagerr2  0.3 | implnjmaglim  0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                 15.38 | implnhmagerr1 0.07 | implnhmagerr2 0.07 | implnhmaglim  0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 15.46 | implnkmagerr1 0.06 | implnkmagerr2 0.06 | implnkmaglim  0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                 14.6 | implnlpmagerr1 0.1 | implnlpmagerr2 0.1 | implnlpmaglim 0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			           F5V |\ # "imstype", stellar host spectral type
+immass                 1.5 | immasserr1   0.10 | immasserr2  0.10 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                 0.75 | imlumerr1    0.06 | imlumerr2   0.06 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                13 | imageerr1	     2 | imageerr2	    2 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		     L2.5 ± 1	|\ # "implstype", planet spectral type
+implmass               11 | implmasserr1        2 | implmasserr2       2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1800 | impltemperr1      100 | impltemperr2     100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius           null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          DUSTY (cloud) and COND (cloud-free), Bailey et al. 2013 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
+
