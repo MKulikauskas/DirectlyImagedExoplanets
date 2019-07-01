@@ -26,11 +26,11 @@ impa                      125.8 | impaerr1                        0 | impaerr2  
 imdist      64.4156487011943142 | imdisterr1     0.6476317853683199 | imdisterr2         0.6476317853683199 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            VLT-UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NACO |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	 2004-4-27, 2004-6-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	                 null |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			      ? |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -65,7 +65,7 @@ implmass                    6.5 | implmasserr1      3.5 | implmasserr2     3.5 |
 impltemp                   1300 | impltemperr1      300 | impltemperr2     300 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            Burrows et al. (1997) (non-gray)|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		        ? |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
