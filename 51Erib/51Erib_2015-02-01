@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        51Erib_2015-01-31.dat
+# FILENAME:        51Erib_2015-02-01.dat
 # DATE:            2019-07-01
 #                                    
 # Addition of direct imaging values
@@ -23,9 +23,9 @@ imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 |
 imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                      170.4 | impaerr1          3.0 | impaerr2         3.0 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	     2015-01-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	       Keck 2 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2015-02-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	       beta Pic |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -63,7 +63,7 @@ implstype			                T |\ # "implstype", planet spectral type
 implmass                      7 | implmasserr1        5 | implmasserr2       5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    675 | impltemperr1       75 | impltemperr2      75 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          null |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          0 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
