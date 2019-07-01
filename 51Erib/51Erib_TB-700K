@@ -24,9 +24,9 @@ imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 |
 imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                       null | impaerr1         null | impaerr2        null | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.         GPI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	     2015-12-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope     Gemini South, Keck 2 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument              GPI, NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	           null |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	       beta Pic |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
