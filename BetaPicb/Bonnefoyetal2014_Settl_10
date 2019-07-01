@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Bonnefoy_et_al_2014_MCMC.dat
+# FILENAME:        Bonnefoy_et_al_2014_model.dat
 # DATE:            2019-06-28
 #                                    
 # Addition of direct imaging values
@@ -60,10 +60,10 @@ image		                  21  | imageerr1	           4 | imageerr2	        4 | im
 # Model Columns
 #
 implstype	              L1 (+1,-1.5)	|\ # "implstype", planet spectral type
-implmass                 11.5  | implmasserr1         0.8 | implmasserr2        0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                1650  | impltemperr1         150 | impltemperr2        150 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius              null  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
-immodel		              MCMC (Markov-chain Monte Carlo)  |\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                 8  | implmasserr1         21 | implmasserr2        6 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                1600  | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius              1.57  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
+immodel		              Settl 10  |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
