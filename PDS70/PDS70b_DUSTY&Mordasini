@@ -17,7 +17,7 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                    null | imdeltmagerr1  null | imdeltmagerr2   null | imdeltmaglim    0 |\  # "imdeltmag", planet-host magnitude difference [mag]
+imdeltjmag                    null | imdeltmagerr1  null | imdeltmagerr2   null | imdeltmaglim null |\  # "imdeltmag", planet-host magnitude difference [mag]
 imdelthmag                    askT | imdeltmagerr1	askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
 imdeltkmag                    askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
 imdeltlpmag                   askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
@@ -48,7 +48,7 @@ imjmag                   9.553 | imjmagerr1      0.024 | imjmagerr2     0.024 | 
 imhmag                   8.823 | imhmagerr1       0.04 | imhmagerr2      0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   8.542 | imkmagerr1      0.023 | imkmagerr2     0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                  7.913 | imlpmagerr1      0.03 | imlpmagerr2     0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                 null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 askT | implnhmagerr1    askT | implnhmagerr2   askT | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 askT | implnkmagerr1    askT | implnkmagerr2   askT | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                askT | implnlpmagerr1   askT | implnlpmagerr2  askT | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
@@ -64,8 +64,8 @@ image		              5.4 | imageerr1	            0 | imageerr2	           0 | im
 #
 implstype			             L |\ # "implstype", planet spectral type
 implmass                   7 | implmasserr1         2 | implmasserr2        2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                1200 | impltemperr1       200 | impltemperr2      200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius              >1.3 | implradiuserr1       0 | implradiuserr2      0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                null | impltemperr1      null | impltemperr2     null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius              null | implradiuserr1    null | implradiuserr2   null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		              DUSTY, Chabrier et al. 2000, 'hottest' and 'hot' tracks, Mordasini et al. 2017|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
