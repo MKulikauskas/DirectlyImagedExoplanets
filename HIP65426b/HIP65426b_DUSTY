@@ -44,11 +44,11 @@ glat                  	    TBD |\ # "b" [decimal]
 imjmag                   6.826 | imjmagerr1      0.019 | imjmagerr2      0.019 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
 imhmag                   6.853 | imhmagerr1      0.049 | imhmagerr2      0.049 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   6.771 | imkmagerr1      0.018 | imkmagerr2      0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   null | imlpmagerr1      null | imlpmagerr2      null | imlpmaglim    null |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 null | implnjmagerr1    null | implnjmagerr2    null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 null | implnhmagerr1    null | implnhmagerr2    null | implnhmaglim  null |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 null | implnkmagerr1    null | implnkmagerr2    null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                null | implnlpmagerr1   null | implnlpmagerr2   null | implnlpmaglim null |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imlpmag                   null | imlpmagerr1      null | imlpmagerr2      null | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                 askT | implnjmagerr1    askT | implnjmagerr2    askT | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 askT | implnhmagerr1    askT | implnhmagerr2    askT | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 askT | implnkmagerr1    askT | implnkmagerr2    askT | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                null | implnlpmagerr1   null | implnlpmagerr2   null | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 # 
 # Stellar Parameter Columns
 #
