@@ -11,21 +11,21 @@ imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                        PDS 70 b  |\ # planet name
-ra_str                       14:08:10.16  |\ # RA [sexagesimal]
-dec_str                     -41:23:52.58  |\ # Dec [sexagesimal]
+plntname                        PDS 70 b |\ # planet name
+ra_str                       14:08:10.16 |\ # RA [sexagesimal]
+dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                      null   | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdelthmag                      9.117  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltkmag                      7.808  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltlpmag                      6.837  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                      .195 | imangseperr1        0 | imangseperr2       0 | imangseplim     0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                          ∼22 | imseperr1           0 | imseperr2          0 | imseplim        0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                     null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim null |\  # "imtruesep", true star-planet separation [AU] 
-impa                           155 | impaerr1            0 | impaerr2           0 | impalim         0 |\  # "impa", star-planet position angle [deg] 
-imdist                      113.43 | imdisterr1       0.52 | imdisterr2      0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
+imdeltjmag                    null | imdeltmagerr1  null | imdeltmagerr2   null | imdeltmaglim    0 |\  # "imdeltmag", planet-host magnitude difference [mag]
+imdelthmag                    askT | imdeltmagerr1	askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imdeltkmag                    askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imdeltlpmag                   askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                     0.195 | imangseperr1      0 | imangseperr2       0 | imangseplim     0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          ∼22 | imseperr1         0 | imseperr2          0 | imseplim        0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                     null | imtrueseperr1  null | imtrueseperr2   null | imtrueseplim null |\  # "imtruesep", true star-planet separation [AU] 
+impa                           155 | impaerr1          0 | impaerr2           0 | impalim         0 |\  # "impa", star-planet position angle [deg] 
+imdist                      113.43 | imdisterr1     0.52 | imdisterr2      0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
 imtelescope	               VLT UT3, VLT UT1, Gemini South |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.              SPHERE, NaCo, NICI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                 null |\ # "imdateobs", [YYYY-MM-DD] ##added this
@@ -58,7 +58,7 @@ implnlpmag                askT | implnlpmagerr1   askT | implnlpmagerr2  askT | 
 imstype			           K7 |\ # "imstype", stellar host spectral type
 immass               0.76 | immasserr1         0.02 | immasserr2        0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                0.35 | imlumerr1          0.09 | imlumerr2         0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                2 | imageerr1	            1 | imageerr2	           1 | imagelim	        0 |\ # "image", stellar age [My]
+image		              5.4 | imageerr1	            0 | imageerr2	           0 | imagelim	        0 |\ # "image", stellar age [My]
 # 
 # Model Columns
 #
