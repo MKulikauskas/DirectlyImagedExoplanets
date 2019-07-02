@@ -17,8 +17,10 @@ dec_str                            -39:32:54.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                  null | imdeltmagerr		             null | imdeltmaglim                     null |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                 null | imflxratioerr1               null | imflxratioerr2                   null | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
+imdeltjmag                 ≥5.5 | imdeltmagerr		             0.03 | imdeltmaglim                     0.03 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdelthmag                 askT | imdeltmagerr		             askT | imdeltmaglim                     askT |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltkmag                 askT | imdeltmagerr		             askT | imdeltmaglim                     askT |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltlmag                 askT | imdeltmagerr		             askT | imdeltmaglim                     askT |\			# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                  0.778 | imangseperr1                    0 | imangseperr2                        0 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                        46 | imseperr1                       5 | imseperr2                           5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1                null | imtrueseperr2                    null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
