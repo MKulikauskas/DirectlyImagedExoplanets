@@ -64,8 +64,8 @@ image		              5.4 | imageerr1	            1 | imageerr2	           1 | im
 #
 implstype			             L |\ # "implstype", planet spectral type
 implmass                 7.5 | implmasserr1       2.5 | implmasserr2      2.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                1200 | impltemperr1       200 | impltemperr2      200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius              >1.3 | implradiuserr1       0 | implradiuserr2      0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                null | impltemperr1      null | impltemperr2     null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius              null | implradiuserr1    null | implradiuserr2   null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		              warm start, Spiegel & Burrows 2012 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
