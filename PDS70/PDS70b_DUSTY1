@@ -21,7 +21,7 @@ imdeltjmag                    null | imdeltmagerr1  null | imdeltmagerr2   null 
 imdelthmag                    askT | imdeltmagerr1	askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
 imdeltkmag                    askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
 imdeltlpmag                   askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                      .195 | imangseperr1      0 | imangseperr2       0 | imangseplim     0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                     0.195 | imangseperr1      0 | imangseperr2       0 | imangseplim     0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          ∼22 | imseperr1         0 | imseperr2          0 | imseplim        0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                     null | imtrueseperr1  null | imtrueseperr2   null | imtrueseplim null |\  # "imtruesep", true star-planet separation [AU] 
 impa                           155 | impaerr1          0 | impaerr2           0 | impalim         0 |\  # "impa", star-planet position angle [deg] 
@@ -64,8 +64,8 @@ image		                2 | imageerr1	            1 | imageerr2	           1 | im
 #
 implstype			             L |\ # "implstype", planet spectral type
 implmass                 6.5 | implmasserr1       1.5 | implmasserr2      1.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                1200 | impltemperr1       200 | impltemperr2      200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius              >1.3 | implradiuserr1       0 | implradiuserr2      0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                null | impltemperr1      null | impltemperr2     null | impltemplim   null |\ # "impltemp", planet temp [K]
+implradius              null | implradiuserr1    null | implradiuserr2   null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
 immodel		              DUSTY, Chabrier et al. 2000 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
