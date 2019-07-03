@@ -17,13 +17,13 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                14.35 | imdeltjmagerr		0.422 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdeltjmag                 null | imdeltjmagerr		 null | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag                14.43 | imdelthmagerr	  0.244 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                 null | imdeltkmagerr		 null | imdeltkmaglim   null |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag               11.62 | imdeltlpmagerr  0.358 | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imdeltkmag                 null | imdeltkmagerr		 null | imdeltkmaglim      0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                null | imdeltlpmagerr   null | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.461 | imangseperr1    0.007 | imangseperr2   0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim  null |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                      170.6 | impaerr1          0.9 | impaerr2         0.9 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
@@ -48,10 +48,10 @@ imjmag                     4.74 | imjmagerr1       0.04 | imjmagerr2      0.04 |
 imhmag                     4.77 | imhmagerr1       0.08 | imhmagerr2      0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                     4.54 | imkmagerr1       0.02 | imkmagerr2      0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    4.54 | imlpmagerr1      0.21 | imlpmagerr2     0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 19.09 | implnjmagerr1    0.42 | implnjmagerr2   0.42 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                  null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 19.20 | implnhmagerr1    0.23 | implnhmagerr2   0.23 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                16.16 | implnlpmagerr1   0.29 | implnlpmagerr2  0.29 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                 null | implnlpmagerr1   null | implnlpmagerr2  null | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
