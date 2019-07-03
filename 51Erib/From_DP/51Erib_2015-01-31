@@ -55,7 +55,7 @@ implnlpmag                 null | implnlpmagerr1   null | implnlpmagerr2  null |
 #
 # Stellar Parameter Columns
 #
-imstype			               F0IV |\ # "imstype", stellar host spectral type
+imstype			              F0 IV |\ # "imstype", stellar host spectral type
 immass                     1.75 | immasserr1       0.05 | immasserr2      0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                       7.1 | imlumerr1           1 | imlumerr2          1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                     20 | imageerr1	          6 | imageerr2	         6 | imagelim	        0 |\ # "image", stellar age [My]
