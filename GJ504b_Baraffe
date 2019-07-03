@@ -17,18 +17,18 @@ dec_str               +09:25:27.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                  15.804 | imdeltjmagerr		           | imdeltjmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdelthmag                  16.280 | imdelthmagerr		           | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltkmag                  15.382 | imdeltkmagerr		           | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltlpmag                 12.900 | imdeltlpmagerr		           | imdeltlpmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                   2.479 | imangseperr1                 0.016 | imangseperr2                   0.016 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                      43.5 | imseperr1                    0 | imseperr2                      0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1             null | imtrueseperr2               null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                       327.94 | impaerr1                  0.39 | impaerr2                    0.39 | impalim            0 |\  # "impa", star-planet position angle [deg] 
-imdist                   17.56  | imdisterr1            0.08 | imdisterr2                0.08 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	             Subaru |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument             HiCIAO |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	            2011-3-26 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdeltjmag                15.804 | imdeltjmagerr		           | imdeltjmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdelthmag                16.280 | imdelthmagerr		           | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltkmag                15.382 | imdeltkmagerr		           | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltlpmag               12.900 | imdeltlpmagerr		           | imdeltlpmaglim               0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                   2.479 | imangseperr1          0.016 | imangseperr2             0.016 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                       43.5 | imseperr1                 0 | imseperr2                    0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                   null | imtrueseperr1          null | imtrueseperr2             null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                      327.94 | impaerr1               0.39 | impaerr2                  0.39 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                     17.56 | imdisterr1             0.08 | imdisterr2                0.08 | imdistlim          0 |\  # "imdist", distance to star [pc]
+imtelescope	              Subaru |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument              HiCIAO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	             2011-03-26, 2011-05-22, 2011-08-12, 2011-08-15, 2012-02-28, 2012-04-12, 2012-05-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	             0 |\ # "imcluster", name of associated cluster
 imdisk 		             0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
