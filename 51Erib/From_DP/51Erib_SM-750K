@@ -55,17 +55,17 @@ implnlpmag                16.16 | implnlpmagerr1   0.29 | implnlpmagerr2  0.29 |
 #
 # Stellar Parameter Columns
 #
-imstype			               F0IV |\ # "imstype", stellar host spectral type
+imstype			              F0 IV |\ # "imstype", stellar host spectral type
 immass                     1.75 | immasserr1       0.05 | immasserr2      0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                       7.1 | imlumerr1           1 | imlumerr2          1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                10,000? | imageerr1	          0 | imageerr2	         0 | imagelim	        0 |\ # "image", stellar age [My]
+image		                 10,000 | imageerr1	       null | imageerr2	      null | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype			         T4.5-T6? |\ # "implstype", planet spectral type
-implmass                     67 | implmasserr1        0 | implmasserr2       0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    750 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                0.76? | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implstype			          T4.5-T6 |\ # "implstype", planet spectral type
+implmass                     67 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    750 | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                 0.76 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          SM-750K (cloud-free), Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
