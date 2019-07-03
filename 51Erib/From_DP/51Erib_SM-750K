@@ -23,7 +23,7 @@ imdeltkmag                 null | imdeltkmagerr		 null | imdeltkmaglim   null |\
 imdeltlpmag               11.62 | imdeltlpmagerr  0.358 | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.449 | imangseperr1    0.007 | imangseperr2   0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim  null |\  # "imtruesep", true star-planet separation [AU] 
 impa                      170.4 | impaerr1          3.0 | impaerr2         3.0 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope     Gemini South, Keck 2 |\ # "imtelescope", Telescope used in observations ##added this
@@ -50,7 +50,7 @@ imkmag                     4.54 | imkmagerr1       0.02 | imkmagerr2      0.02 |
 imlpmag                    4.54 | imlpmagerr1      0.21 | imlpmagerr2     0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                 19.09 | implnjmagerr1    0.42 | implnjmagerr2   0.42 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 19.20 | implnhmagerr1    0.23 | implnhmagerr2   0.23 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                16.16 | implnlpmagerr1   0.29 | implnlpmagerr2  0.29 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
@@ -58,14 +58,14 @@ implnlpmag                16.16 | implnlpmagerr1   0.29 | implnlpmagerr2  0.29 |
 imstype			               F0IV |\ # "imstype", stellar host spectral type
 immass                     1.75 | immasserr1       0.05 | immasserr2      0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                       7.1 | imlumerr1           1 | imlumerr2          1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                 10,000 | imageerr1	          0 | imageerr2	         0 | imagelim	        0 |\ # "image", stellar age [My]
+image		                10,000? | imageerr1	          0 | imageerr2	         0 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype			         T4.5-T6? |\ # "implstype", planet spectral type
 implmass                     67 | implmasserr1        0 | implmasserr2       0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    750 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                 0.76? | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implradius                0.76? | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          SM-750K (cloud-free), Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
