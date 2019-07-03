@@ -48,14 +48,14 @@ imjmag                     4.74 | imjmagerr1       0.04 | imjmagerr2     -0.04 |
 imhmag                     4.77 | imhmagerr1       0.08 | imhmagerr2     -0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                     4.54 | imkmagerr1       0.02 | imkmagerr2     -0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    4.54 | imlpmagerr1      0.21 | imlpmagerr2    -0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 19.09 | implnjmagerr1    0.42 | implnjmagerr2  -0.42 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 19.20 | implnhmagerr1    0.23 | implnhmagerr2  -0.23 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnjmag                 19.09 | implnjmagerr1    0.40 | implnjmagerr2  -0.40 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 19.20 | implnhmagerr1    0.21 | implnhmagerr2  -0.21 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                16.16 | implnlpmagerr1   0.29 | implnlpmagerr2 -0.29 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag                16.16 | implnlpmagerr1   0.27 | implnlpmagerr2 -0.27 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			               F0IV |\ # "imstype", stellar host spectral type
+imstype			              F0 IV |\ # "imstype", stellar host spectral type
 immass                     1.75 | immasserr1       0.05 | immasserr2     -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                       7.1 | imlumerr1           1 | imlumerr2         -1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                     20 | imageerr1	          0 | imageerr2	         0 | imagelim	        0 |\ # "image", stellar age [My]
