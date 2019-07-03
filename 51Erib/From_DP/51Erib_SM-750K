@@ -62,7 +62,7 @@ image		                 10,000 | imageerr1	          0 | imageerr2	         0 | 
 #
 # Model Columns
 #
-implstype			                T |\ # "implstype", planet spectral type
+implstype			         T4.5-T6? |\ # "implstype", planet spectral type
 implmass                     67 | implmasserr1        0 | implmasserr2       0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    750 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
