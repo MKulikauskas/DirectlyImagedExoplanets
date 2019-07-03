@@ -66,7 +66,7 @@ implstype			          T4.5-T6 |\ # "implstype", planet spectral type
 implmass                      2 | implmasserr1     0 | implmasserr2    0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    700 | impltemperr1     0 | impltemperr2    0 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                    1 | implradiuserr1   0 | implradiuserr2  0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel	 TB-700K (partial-cloud)|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel	                      TB-700K (partial-cloud), Macintosh et al. 2015|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
