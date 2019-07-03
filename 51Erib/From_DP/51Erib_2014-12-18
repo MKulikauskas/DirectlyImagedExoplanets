@@ -17,7 +17,10 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                       | imdeltmagerr		      | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltjmag                14.35 | imdeltjmagerr		0.422 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                14.43 | imdelthmagerr	  0.244 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                 null | imdeltkmagerr		 null | imdeltkmaglim   null |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag               11.62 | imdeltlpmagerr  0.358 | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.449 | imangseperr1    0.007 | imangseperr2   0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
@@ -59,7 +62,7 @@ image		                     20 | imageerr1	          6 | imageerr2	         6 | 
 #
 # Model Columns
 #
-implstype			                T |\ # "implstype", planet spectral type
+implstype			          T4.5-T6 |\ # "implstype", planet spectral type
 implmass                      7 | implmasserr1        5 | implmasserr2       5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    675 | impltemperr1       75 | impltemperr2      75 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
