@@ -17,7 +17,10 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                       | imdeltmagerr		      | imdeltmaglim       0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltjmag                14.35 | imdeltjmagerr		0.422 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                14.43 | imdelthmagerr	  0.244 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                 null | imdeltkmagerr		 null | imdeltkmaglim   null |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag               11.62 | imdeltlpmagerr  0.358 | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.449 | imangseperr1    0.007 | imangseperr2   0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2        0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
@@ -25,8 +28,8 @@ impa                      170.4 | impaerr1          3.0 | impaerr2         3.0 |
 imdist                     29.4 | imdisterr1        0.3 | imdisterr2       0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope     Gemini South, Keck 2 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              GPI, NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	           null |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	       beta Pic |\ # "imcluster", name of associated cluster
+imdateobs	       2014-12-18, 2015-01-29, 2015-01-30, 2015-01-31, 2015-02-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	       bet Pic |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -63,7 +66,7 @@ implstype			                T |\ # "implstype", planet spectral type
 implmass                     67 | implmasserr1        0 | implmasserr2       0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    750 | impltemperr1        0 | impltemperr2       0 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1      0 | implradiuserr2     0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          SM-750K (Cloud-free), Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          SM-750K (cloud-free), Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
