@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Kuzuhara_et_al_2013_DUSTY.dat
-# DATE:            2019-06-26
+# DATE:            2019-07-03
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -21,10 +21,10 @@ imdeltjmag                15.804 | imdeltjmagerr		     null  | imdeltjmaglim    
 imdelthmag                16.280 | imdelthmagerr		     null  | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imdeltkmag                15.382 | imdeltkmagerr		     null  | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imdeltlpmag               12.900 | imdeltlpmagerr		     null  | imdeltlpmaglim               0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                   2.479 | imangseperr1          0.016 | imangseperr2            -0.016 | imangseplim      null |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                   2.483 | imangseperr1          0.008 | imangseperr2            -0.008 | imangseplim      null |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                       43.5 | imseperr1              null | imseperr2                 null | imseplim            0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                   null | imtrueseperr1          null | imtrueseperr2             null | imtrueseplim     null |\  # "imtruesep", true star-planet separation [AU] 
-impa                      327.94 | impaerr1               0.39 | impaerr2                 -0.39 | impalim             0 |\  # "impa", star-planet position angle [deg] 
+impa                      327.45 | impaerr1               0.19 | impaerr2                 -0.19 | impalim             0 |\  # "impa", star-planet position angle [deg] 
 imdist                     17.56 | imdisterr1             0.08 | imdisterr2               -0.08 | imdistlim           0 |\  # "imdist", distance to star [pc]
 imtelescope	              Subaru |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              HiCIAO |\ # "iminstrument", Instrument used in observations ##added this
