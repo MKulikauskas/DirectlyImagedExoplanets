@@ -29,7 +29,7 @@ imdist                      113.43 | imdisterr1     0.52 | imdisterr2      0.52 
 imtelescope	               VLT UT3, VLT UT1, Gemini South |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.              SPHERE, NaCo, NICI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                 null |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	             UCL |\ # "imcluster", name of associated cluster
+imcluster	             UCL/Sco-Cen |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			    null |\ # "imifu", IFU used (1=yes, 0=no)
