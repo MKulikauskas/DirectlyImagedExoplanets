@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        51Erib_hotstart.dat
+# FILENAME:        51Erib_hot-start.dat
 # DATE:            2019-06-20
 #                                    
 # Addition of direct imaging values
@@ -64,9 +64,9 @@ image		                     20 | imageerr1	       null | imageerr2	      null | 
 #
 implstype			          T4.5-T6 |\ # "implstype", planet spectral type
 implmass                     ~2 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                   null | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          hot start, Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
+impltemp                   null | impltemperr1     null | impltemperr2    null | impltemplim   null |\ # "impltemp", planet temp [K]
+implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
+immodel		          hot-start, Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
