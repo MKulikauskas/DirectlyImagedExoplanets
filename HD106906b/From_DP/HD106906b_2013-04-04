@@ -1,7 +1,7 @@
-# USER:            christia
+# USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        HD106906b_2013-04-04.dat
-# DATE:            2019-06-26
+# DATE:            2019-07-08
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -17,15 +17,18 @@ dec_str               -55:58:31.9 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                          | imdeltmagerr		               | imdeltmaglim                       |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltjmag                10.7 | imdeltjmagerr		       0.3 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                8.70 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                8.78 | imdeltkmagerr		      0.06 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag               7.94 | imdeltlpmagerr		      0.05 | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                      7.11 | imangseperr1             0.03 | imangseperr2                  0.03 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                          650 | imseperr1                   0 | imseperr2                        0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                     null | imtrueseperr1            null | imtrueseperr2                 null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+imsep                          650 | imseperr1                null | imseperr2                     null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                     null | imtrueseperr1            null | imtrueseperr2                 null | imtrueseplim       null |\  # "imtruesep", true star-planet separation [AU] 
 impa                         307.3 | impaerr1                  0.2 | impaerr2                       0.2 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                          92 | imdisterr1                  6 | imdisterr2                       6 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	  Baade 6.5 m Magellan |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument         MagAO + Clio2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	        2013-04-04 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	   6.5 m Magellan Clay |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument           MagAO/Clio2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2013-04-04&12 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               LCC |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -54,14 +57,14 @@ implnlpmag                 14.6 | implnlpmagerr1 0.1 | implnlpmagerr2 0.1 | impl
 #
 imstype			           F5V |\ # "imstype", stellar host spectral type
 immass                 1.5 | immasserr1   0.10 | immasserr2  0.10 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                 0.75 | imlumerr1    0.06 | imlumerr2   0.06 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                 null | imlumerr1    null | imlumerr2   null | imlumlim      null |\ # "imlum", stellar host [solar luminosity]
 image		                13 | imageerr1	     2 | imageerr2	    2 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		     L2.5 ± 1	|\ # "implstype", planet spectral type
 implmass               11 | implmasserr1        2 | implmasserr2       2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp             1875 | impltemperr1      150 | impltemperr2     150 | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp             1800 | impltemperr1      100 | impltemperr2     100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius           null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		           null |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
