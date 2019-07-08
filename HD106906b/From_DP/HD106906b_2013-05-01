@@ -17,13 +17,16 @@ dec_str               -55:58:31.9 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                          | imdeltmagerr		               | imdeltmaglim                       |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltjmag                10.7 | imdeltjmagerr		       0.3 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                8.70 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                8.78 | imdeltkmagerr		      0.06 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag               7.94 | imdeltlpmagerr		      0.05 | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                      7.11 | imangseperr1             0.03 | imangseperr2                  0.03 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          650 | imseperr1                   0 | imseperr2                        0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                     null | imtrueseperr1            null | imtrueseperr2                 null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                         307.3 | impaerr1                  0.2 | impaerr2                       0.2 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                          92 | imdisterr1                  6 | imdisterr2                       6 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	  Baade 6.5 m Magellan |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	  Baade 6.5 m Magellan Clay |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument                  FIRE |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	        2013-05-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               LCC |\ # "imcluster", name of associated cluster
