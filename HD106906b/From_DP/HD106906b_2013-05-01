@@ -21,11 +21,11 @@ imdeltjmag                10.7 | imdeltjmagerr		       0.3 | imdeltjmaglim      
 imdelthmag                8.70 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                8.78 | imdeltkmagerr		      0.06 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               7.94 | imdeltlpmagerr		      0.05 | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                      7.11 | imangseperr1             0.03 | imangseperr2                  0.03 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                          650 | imseperr1                   0 | imseperr2                        0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                     null | imtrueseperr1            null | imtrueseperr2                 null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                         307.3 | impaerr1                  0.2 | impaerr2                       0.2 | impalim            0 |\  # "impa", star-planet position angle [deg] 
-imdist                          92 | imdisterr1                  6 | imdisterr2                       6 | imdistlim          0 |\  # "imdist", distance to star [pc]
+imangsep                      7.11 | imangseperr1             0.03 | imangseperr2                  -0.03 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          650 | imseperr1                null | imseperr2                      null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                     null | imtrueseperr1            null | imtrueseperr2                  null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                         307.3 | impaerr1                  0.2 | impaerr2                       -0.2 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                          92 | imdisterr1                  6 | imdisterr2                       -6 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	  Baade 6.5 m Magellan Clay |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument                  FIRE |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	        2013-05-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
@@ -44,27 +44,27 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                     6.95 | imjmagerr1    0.03 | imjmagerr2    0.03 | imjmaglim     0 |\ # "imjmag", stellar magnitude J-band [mag] 
-imhmag                     6.68 | imhmagerr1    0.05 | imhmagerr2    0.05 | imhmaglim     0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                     6.68 | imkmagerr1    0.03 | imkmagerr2    0.03 | imkmaglim     0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                     6.7 | imlpmagerr1    0.1 | imlpmagerr2    0.1 | imlpmaglim    0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                  17.6 | implnjmagerr1  0.3 | implnjmagerr2  0.3 | implnjmaglim  0 |\ # "implnjmag", planet magnitude J-band [mag]
-implnhmag                 15.38 | implnhmagerr1 0.07 | implnhmagerr2 0.07 | implnhmaglim  0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 15.46 | implnkmagerr1 0.06 | implnkmagerr2 0.06 | implnkmaglim  0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                 14.6 | implnlpmagerr1 0.1 | implnlpmagerr2 0.1 | implnlpmaglim 0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                     6.95 | imjmagerr1    0.03 | imjmagerr2    -0.03 | imjmaglim     0 |\ # "imjmag", stellar magnitude J-band [mag] 
+imhmag                     6.68 | imhmagerr1    0.05 | imhmagerr2    -0.05 | imhmaglim     0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     6.68 | imkmagerr1    0.03 | imkmagerr2    -0.03 | imkmaglim     0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                     6.7 | imlpmagerr1    0.1 | imlpmagerr2    -0.1 | imlpmaglim    0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                  17.6 | implnjmagerr1  0.3 | implnjmagerr2  -0.3 | implnjmaglim  0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                 15.38 | implnhmagerr1 0.07 | implnhmagerr2 -0.07 | implnhmaglim  0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 15.46 | implnkmagerr1 0.06 | implnkmagerr2 -0.06 | implnkmaglim  0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                 14.6 | implnlpmagerr1 0.1 | implnlpmagerr2 -0.1 | implnlpmaglim 0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
 imstype			           F5V |\ # "imstype", stellar host spectral type
-immass                 1.5 | immasserr1   0.10 | immasserr2  0.10 | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                 1.5 | immasserr1   0.10 | immasserr2  -0.10 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                 null | imlumerr1    null | imlumerr2   null | imlumlim      null |\ # "imlum", stellar host [solar luminosity]
-image		                13 | imageerr1	     2 | imageerr2	    2 | imagelim	       0 |\ # "image", stellar age [My]
+image		                13 | imageerr1	     2 | imageerr2	    -2 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		     L2.5 ± 1	|\ # "implstype", planet spectral type
-implmass               11 | implmasserr1        2 | implmasserr2       2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp             1800 | impltemperr1      100 | impltemperr2     100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implmass               11 | implmasserr1        2 | implmasserr2       -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1800 | impltemperr1      100 | impltemperr2     -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius           null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		           DUSTY (cloud) and COND (cloud-free), Bailey et al. 2013 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
