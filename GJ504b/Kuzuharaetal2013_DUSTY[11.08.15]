@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Kuzuhara_et_al_2013_DUSTY.dat
-# DATE:            2019-07-03
+# DATE:            2019-07-08
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -17,10 +17,10 @@ dec_str               +09:25:27.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                15.804 | imdeltjmagerr		     null  | imdeltjmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdelthmag                16.280 | imdelthmagerr		     null  | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltkmag                15.382 | imdeltkmagerr		     null  | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltlpmag               12.900 | imdeltlpmagerr		     null  | imdeltlpmaglim               0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltjmag                15.804 | imdeltjmagerr		     0.15  | imdeltjmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdelthmag                16.280 | imdelthmagerr		     0.14  | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltkmag                15.382 | imdeltkmagerr		     0.28  | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
+imdeltlpmag               12.900 | imdeltlpmagerr		     0.21  | imdeltlpmaglim               0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                   2.448 | imangseperr1          0.024 | imangseperr2            -0.024 | imangseplim      null |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                       43.5 | imseperr1              null | imseperr2                 null | imseplim            0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                   null | imtrueseperr1          null | imtrueseperr2             null | imtrueseplim     null |\  # "imtruesep", true star-planet separation [AU] 
@@ -47,7 +47,7 @@ glat                  	    TBD |\ # "b" [decimal]
 imjmag                    4.106 | imjmagerr1       null | imjmagerr2     null  | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
 imhmag                    3.860 | imhmagerr1       null | imhmagerr2     null  | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                    3.808 | imkmagerr1       null | imkmagerr2     null  | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                    3.94 | imlpmagerr1      null | imlpmagerr2    null  | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+imlpmag                    3.94 | imlpmagerr1      0.09 | imlpmagerr2    -0.09  | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                 19.91 | implnjmagerr1    0.15 | implnjmagerr2   -0.15 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 20.14 | implnhmagerr1    0.14 | implnhmagerr2   -0.14 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 19.19 | implnkmagerr1    0.28 | implnkmagerr2   -0.28 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
