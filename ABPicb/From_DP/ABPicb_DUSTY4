@@ -26,7 +26,7 @@ imdist                     47.3 | imdisterr1                     1.7 | imdisterr
 imtelescope	             null |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             null |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               null |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                TBD |\ # "imcluster", name of associated cluster
+imcluster	  Tucana-Horologium |\ # "imcluster", name of associated cluster
 imdisk 		                  0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			       0 |\ # "imifu", IFU used (1=yes, 0=no)
