@@ -26,7 +26,7 @@ imsep                      null | imseperr1                     null | imseperr2
 imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
 impa                     175.13 | impaerr1                      0.21 | impaerr2                     -0.21 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	              VLT |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	         2004-03-05 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	  Tucana-Horologium |\ # "imcluster", name of associated cluster
