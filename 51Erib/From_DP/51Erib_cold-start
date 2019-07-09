@@ -1,4 +1,4 @@
-# USER:            christia
+# USER:            
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        51Erib_cold-start.dat
 # DATE:            2019-06-20
@@ -58,7 +58,7 @@ implnlpmag                16.16 | implnlpmagerr1   0.27 | implnlpmagerr2 -0.27 |
 imstype			              F0 IV |\ # "imstype", stellar host spectral type
 immass                     1.75 | immasserr1       0.05 | immasserr2     -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                       7.1 | imlumerr1           1 | imlumerr2         -1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                     20 | imageerr1	       null | imageerr2	      null | imagelim	        0 |\ # "image", stellar age [My]
+image		                     20 | imageerr1	          0 | imageerr2	         0 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
@@ -66,7 +66,7 @@ implstype			          T4.5-T6 |\ # "implstype", planet spectral type
 implmass                      7 | implmasserr1        5 | implmasserr2      -5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   null | impltemperr1     null | impltemperr2    null | impltemplim   null |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
-immodel		          cold-start, Macintosh et al. 2015 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          cold-start, Macintosh et al. (2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
