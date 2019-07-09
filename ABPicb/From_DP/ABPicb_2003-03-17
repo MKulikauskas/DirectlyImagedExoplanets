@@ -30,7 +30,7 @@ imtelescope	              VLT |\ # "imtelescope", Telescope used in observations
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	          2003-3-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                TBD |\ # "imcluster", name of associated cluster
-imdisk 		               null |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		              null? |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			       0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
