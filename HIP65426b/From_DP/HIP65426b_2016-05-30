@@ -48,24 +48,24 @@ imjmag                   6.826 | imjmagerr1      0.019 | imjmagerr2     -0.019 |
 imhmag                   6.853 | imhmagerr1      0.049 | imhmagerr2     -0.049 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   6.771 | imkmagerr1      0.018 | imkmagerr2     -0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   null | imlpmagerr1      null | imlpmagerr2      null | imlpmaglim    null |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                19.25 | implnjmagerr1   0.496 | implnjmagerr2   0.496 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                19.25 | implnjmagerr1   0.496 | implnjmagerr2  -0.496 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 askT | implnhmagerr1    askT | implnhmagerr2    askT | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 askT | implnkmagerr1    askT | implnkmagerr2    askT | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                null | implnlpmagerr1   null | implnlpmagerr2   null | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag                null | implnlpmagerr1   null | implnlpmagerr2   null | implnlpmaglim null |\ # "implnlpmag", planet magnitude Lp-band [mag]
 # 
 # Stellar Parameter Columns
 #
 imstype			        A2V |\ # "imstype", stellar host spectral type
-immass             1.96 | immasserr1        0.04 | immasserr2       0.04 | immasslim      0 |\ # "immass", stellar host [solar mass]
-imlum              17.3 | imlumerr1            0 | imlumerr2           0 | imlumlim       0 |\ # "imlum", stellar host [solar luminosity]
-image		             14 | imageerr1	           4 | imageerr2	         4 | imagelim	      0 |\ # "image", stellar age [My]
+immass             1.96 | immasserr1        0.04 | immasserr2      -0.04 | immasslim      0 |\ # "immass", stellar host [solar mass]
+imlum              17.3 | imlumerr1         null | imlumerr2        null | imlumlim       0 |\ # "imlum", stellar host [solar luminosity]
+image		             14 | imageerr1	           4 | imageerr2	        -4 | imagelim	      0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype			         L6 ± 1 |\ # "implstype", planet spectral type
-implmass                    9 | implmasserr1         3 | implmasserr2        3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                 1450 | impltemperr1       150 | impltemperr2      150 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                1.5 | implradiuserr1     0.1 | implradiuserr2    0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implmass                    9 | implmasserr1         3 | implmasserr2       -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                 1450 | impltemperr1       150 | impltemperr2     -150 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                1.5 | implradiuserr1     0.1 | implradiuserr2   -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		       null |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
