@@ -69,7 +69,7 @@ implradius                 0.76 | implradiuserr1   null | implradiuserr2  null |
 immodel		          null |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
-imnotes             Here, stellar luminosity is in L/Lʘ not Lʘ |\ # "imnotes", #notes on table information
+imnotes             Here, stellar luminosity is in L/Lʘ not Lʘ. |\ # "imnotes", #notes on table information
 #
 # Internal Counter
 #
