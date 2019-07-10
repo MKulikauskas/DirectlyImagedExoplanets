@@ -31,7 +31,7 @@ iminstrument              IRCS |\ # "iminstrument", Instrument used in observati
 imdateobs	            2011-08-12 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	             0 |\ # "imcluster", name of associated cluster
 imdisk 		             0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		        null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		           0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			           0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
