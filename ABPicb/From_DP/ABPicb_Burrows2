@@ -17,9 +17,9 @@ dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                 7.29 | imdeltjmagerr                 askT | imdeltjmaglim                    0 |\ # "imjmag", stellar magnitude J-band [mag]
-imdelthmag                 6.98 | imdelthmagerr                 askT | imdelthmaglim                    0 |\ # "imhmag", stellar magnitude H-band [mag]
-imdeltkmag                 6.49 | imdeltkmagerr                 askT | imdeltkmaglim                    0 |\ # "imkmag", stellar magnitude K-band [mag]
+imdeltjmag                 7.29 | imdeltjmagerr                0.083 | imdeltjmaglim                    0 |\ # "imjmag", stellar magnitude J-band [mag]
+imdelthmag                 6.98 | imdelthmagerr                0.083 | imdelthmaglim                    0 |\ # "imhmag", stellar magnitude H-band [mag]
+imdeltkmag                 6.49 | imdeltkmagerr                0.083 | imdeltkmaglim                    0 |\ # "imkmag", stellar magnitude K-band [mag]
 imdeltlpmag                null | imdeltlpmagerr                null | imdeltlpmaglim                null |\ # "imlpmag", stellar magnitude Lp-band [mag]
 imangsep                  5.45? | imangseperr1                0.015? | imangseperr2               -0.015? | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      null | imseperr1                     null | imseperr2                     null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
@@ -62,7 +62,7 @@ image		                 30.4 | imageerr1	           null | imageerr2	          n
 #
 # Model Columns
 #
-implstype		               L1(+2, -1) |\ # "implstype", planet spectral type
+implstype		              L1(+2, -1)? |\ # "implstype", planet spectral type
 implmass                           14 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                         1856 | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                       null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
