@@ -72,3 +72,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 # Internal Counter
 #
 cntr                        TBD |  # counter
+#
+notes                 The imhmag is in H2-band.  |\
+
