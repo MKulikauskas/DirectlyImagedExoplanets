@@ -71,6 +71,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes        J mag. is in J2MASS and H mag. is in H2. Other filters are listed in the reference paper. |\ # "imnotes", #notes on table information
+imnotes        Planet J mag. is in J2MASS and planet H mag. is in H2. Other filters are listed in the reference paper. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
