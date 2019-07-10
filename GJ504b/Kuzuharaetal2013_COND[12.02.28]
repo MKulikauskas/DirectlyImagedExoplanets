@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Kuzuhara_et_al_2013_DUSTY.dat
+# FILENAME:        Kuzuhara_et_al_2013_COND.dat
 # DATE:            2019-07-08
 #                                    
 # Addition of direct imaging values
@@ -66,7 +66,7 @@ implstype			   late T–early Y |\ # "implstype", planet spectral type
 implmass                    4.0 | implmasserr1      4.5 | implmasserr2     -1.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    510 | impltemperr1       30 | impltemperr2      -20 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim  null |\ # "implradius", planet radius [Jupiter radii]
-immodel		          DUSTY, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          COND, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
