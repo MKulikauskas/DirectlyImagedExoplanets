@@ -71,4 +71,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
+imnotes        J mag. is in J2MASS and H mag. is in H2. Other filters are listed in the references. |\ # "imnotes", #notes on table information
+#
 cntr                        TBD |  # counter
