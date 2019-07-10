@@ -22,7 +22,7 @@ imhmag                     7.60 | imhmagerr1                   0.104 | imhmagerr
 imkmag                     null | imkmagerr1                    null | imkmagerr2                    null | imkmaglim       null |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    null | imlpmagerr1                   null | imlpmagerr2                   null | imlpmaglim      null |\ # "imlpmag", stellar magnitude Lp-band [mag]
 imangsep                  5.453 | imangseperr1                 0.014 | imangseperr2                -0.014 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     257.9 | imseperr1                     null | imseperr2                     null | imseplim        null |\  # "imsep", projected star-planet separation [AU]
+imsep                     257.9 | imseperr1                      1.8 | imseperr2                      1.8 | imseplim        null |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
 impa                     175.10 | impaerr1                      0.20 | impaerr2                     -0.20 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim          0 |\  # "imdist", distance to star [pc]
