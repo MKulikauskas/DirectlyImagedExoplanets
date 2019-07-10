@@ -71,6 +71,4 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes          Planet mag. and delt. mag. may have multiple values. J mag. is in J2MASS and JIFS, H mag. is in H2 and H3, and K mag. is in K1 and K2. |\ # "imnotes", #notes on table information
-#
 cntr                        TBD |  # counter
