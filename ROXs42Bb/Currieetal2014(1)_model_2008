@@ -28,7 +28,7 @@ impa                       269.67 | impaerr1              1.00 | impaerr2       
 imdist                        135 | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	              Subaru  |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument                CIAO  |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	             2005-04-16 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	             2008-07-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  ρ Oph |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		              0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
