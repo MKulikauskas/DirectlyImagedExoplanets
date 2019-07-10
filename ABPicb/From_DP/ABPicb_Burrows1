@@ -21,14 +21,14 @@ imdeltjmag                 8.59 | imdeltjmagerr                0.083 | imdeltjma
 imdelthmag                 8.18 | imdelthmagerr                0.083 | imdelthmaglim                    0 |\ # "imhmag", stellar magnitude H-band [mag]
 imdeltkmag                 7.59 | imdeltkmagerr                0.083 | imdeltkmaglim                    0 |\ # "imkmag", stellar magnitude K-band [mag]
 imdeltlpmag                null | imdeltlpmagerr                null | imdeltlpmaglim                null |\ # "imlpmag", stellar magnitude Lp-band [mag]
-imangsep                  5.45? | imangseperr1                0.015? | imangseperr2               -0.015? | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                   null | imangseperr1                  null | imangseperr2                  null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      null | imseperr1                     null | imseperr2                     null | imseplim        null |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
-impa                    175.19? | impaerr1                     0.20? | impaerr2                    -0.20? | impalim            0 |\  # "impa", star-planet position angle [deg] 
+impa                       null | impaerr1                      null | impaerr2                      null | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	               2003-03-16, 2003-03-17, 2004-03-05, 2004-09-26? |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	               2003-03-17, 2004-03-05, 2004-09-26 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               Tucana-Horologium |\ # "imcluster", name of associated cluster
 imdisk 		              null? |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
