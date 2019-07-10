@@ -32,7 +32,7 @@ imdateobs	            2011-05-22 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	             0 |\ # "imcluster", name of associated cluster
 imdisk 		             0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		        null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			        null |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			           0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
