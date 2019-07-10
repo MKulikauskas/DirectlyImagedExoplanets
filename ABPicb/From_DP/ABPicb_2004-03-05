@@ -30,7 +30,7 @@ imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	         2004-03-05 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	  Tucana-Horologium |\ # "imcluster", name of associated cluster
-imdisk 		              null? |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		                  0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			       0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
@@ -62,9 +62,9 @@ image		                   30 | imageerr1	             10 | imageerr2	           
 #
 # Model Columns
 #
-implstype		              L1(+2, -1)? |\ # "implstype", planet spectral type
+implstype		               L1(+2, -1) |\ # "implstype", planet spectral type
 implmass                         13.5 | implmasserr1      0.5 | implmasserr2    -0.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     1682.75? | impltemperr1   88.75? | impltemperr2 -88.75? | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp                         null | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                       null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
 immodel	                         null |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                      0 |\ # "immodeldef" (1=yes, 0=no)
