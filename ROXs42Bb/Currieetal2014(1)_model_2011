@@ -26,9 +26,9 @@ imsep                        150  | imseperr1             | imseperr2           
 imtruesep                    null | imtrueseperr1         | imtrueseperr2        | imtrueseplim      |\  # "imtruesep", true star-planet separation [AU] 
 impa                       269.65 | impaerr1              0.25 | impaerr2             -0.25 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                        135 | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              Subaru  |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument                CIAO  |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	             2005-04-16 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	                Keck  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument               NIRC2  |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	             2011-06-22 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  ρ Oph |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		              0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
