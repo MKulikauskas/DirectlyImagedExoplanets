@@ -70,6 +70,7 @@ immodel		       null |\ # "immodel", description of model ##Reference that the m
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
-J mag. is in J2MASS and H mag. is in H2. Other filters are listed in the reference paper.
+#
+imnotes          K mag. is in K1. Other filters may be listed in the reference paper. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
