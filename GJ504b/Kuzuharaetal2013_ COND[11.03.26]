@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Kuzuhara_et_al_2013_DUSTY.dat
-# DATE:            2019-07-08
+# FILENAME:        Kuzuhara_et_al_2013_COND.dat
+# DATE:            2019-07-10
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -22,7 +22,7 @@ imdelthmag                16.280 | imdelthmagerr		     0.14  | imdelthmaglim    
 imdeltkmag                15.382 | imdeltkmagerr		     0.28  | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imdeltlpmag               12.900 | imdeltlpmagerr		     0.21  | imdeltlpmaglim               0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                   2.479 | imangseperr1          0.016 | imangseperr2            -0.016 | imangseplim         0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                       43.5 | imseperr1              null | imseperr2                 null | imseplim            0 |\  # "imsep", projected star-planet separation [AU]
+imsep                       43.5 | imseperr1              0.3 | imseperr2                 -0.3 | imseplim            0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                   null | imtrueseperr1          null | imtrueseperr2             null | imtrueseplim     null |\  # "imtruesep", true star-planet separation [AU] 
 impa                      327.94 | impaerr1               0.39 | impaerr2                 -0.39 | impalim             0 |\  # "impa", star-planet position angle [deg] 
 imdist                     17.56 | imdisterr1             0.08 | imdisterr2               -0.08 | imdistlim           0 |\  # "imdist", distance to star [pc]
@@ -32,7 +32,7 @@ imdateobs	            2011-03-26 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	             0 |\ # "imcluster", name of associated cluster
 imdisk 		             0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		        null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			        null |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			        0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -66,7 +66,7 @@ implstype			   late T–early Y |\ # "implstype", planet spectral type
 implmass                    4.0 | implmasserr1      4.5 | implmasserr2     -1.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    510 | impltemperr1       30 | impltemperr2      -20 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim  null |\ # "implradius", planet radius [Jupiter radii]
-immodel		          DUSTY, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          COND, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
