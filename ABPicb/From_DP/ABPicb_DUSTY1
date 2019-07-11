@@ -21,10 +21,10 @@ imdeltjmag                 9.79 | imdeltjmagerr1               0.083 | imdeltjma
 imdelthmag                 8.48 | imdelthmagerr1               0.083 | imdelthmagerr2              -0.078 | imdelthmaglim                    0 |\ # "imhmag", stellar magnitude H-band [mag]
 imdeltkmag                 7.39 | imdeltkmagerr1               0.083 | imdeltkmagerr2              -0.078 | imdeltkmaglim                    0 |\ # "imkmag", stellar magnitude K-band [mag]
 imdeltlpmag                null | imdeltlpmagerr1               null | imdeltlpmagerr2               null | imdeltlpmaglim                null |\ # "imlpmag", stellar magnitude Lp-band [mag]
-imangsep                   null | imangseperr1                  null | imangseperr2                  null | imangseplim                      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                      null | imseperr1                     null | imseperr2                     null | imseplim                         0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim                     0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                       null | impaerr1                      null | impaerr2                      null | impalim                          0 |\  # "impa", star-planet position angle [deg] 
+imangsep                   null | imangseperr1                  null | imangseperr2                  null | imangseplim                   null |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                      null | imseperr1                     null | imseperr2                     null | imseplim                      null |\  # "imsep", projected star-planet separation [AU]
+imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim                  null |\  # "imtruesep", true star-planet separation [AU] 
+impa                       null | impaerr1                      null | impaerr2                      null | impalim                       null |\  # "impa", star-planet position angle [deg] 
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim                        0 |\  # "imdist", distance to star [pc]
 imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
@@ -65,7 +65,7 @@ image		                   30 | imageerr1	           null | imageerr2	          n
 implstype		               L1(+2, -1) |\ # "implstype", planet spectral type
 implmass                           13 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                         1594 | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                       null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implradius                       null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
 immodel		                    DUSTY, Burrows et al (1997), Baraffe et al. (2002), B. Macintosh & M. Marley (private communication) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
 #
