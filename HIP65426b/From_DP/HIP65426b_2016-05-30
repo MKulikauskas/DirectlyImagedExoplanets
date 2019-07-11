@@ -1,7 +1,7 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        HIP65426b_2016-05-30.dat
-# DATE:            2019-06-21
+# DATE:            2019-07-11
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -48,9 +48,9 @@ imjmag                   6.826 | imjmagerr1              0.019 | imjmagerr2     
 imhmag                   6.853 | imhmagerr1              0.049 | imhmagerr2             -0.049 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   6.771 | imkmagerr1              0.018 | imkmagerr2             -0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   null | imlpmagerr1              null | imlpmagerr2              null | imlpmaglim    null |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 null | implnjmagerr1            null | implnjmagerr2            null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 null | implnhmagerr1            null | implnhmagerr2            null | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 null | implnkmagerr1            null | implnkmagerr2            null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnjmag                 null | implnjmagerr1            null | implnjmagerr2            null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 null | implnhmagerr1            null | implnhmagerr2            null | implnhmaglim  null |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 null | implnkmagerr1            null | implnkmagerr2            null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                null | implnlpmagerr1           null | implnlpmagerr2           null | implnlpmaglim null |\ # "implnlpmag", planet magnitude Lp-band [mag]
 # 
 # Stellar Parameter Columns
