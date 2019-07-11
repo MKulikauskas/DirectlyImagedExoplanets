@@ -65,7 +65,7 @@ image		              9 | imageerr1	         0.5 | imageerr2	      -0.5 | imageli
 implstype			         L6 ± 1 |\ # "implstype", planet spectral type
 implmass                 null | implmasserr1      null | implmasserr2     null | implmasslim   null |\ # "implmass", planet mass [Jupiter mass]
 impltemp                 null | impltemperr1      null | impltemperr2     null | impltemplim   null |\ # "impltemp", planet temp [K]
-implradius               null | implradiuserr1    null | implradiuserr2   null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implradius               null | implradiuserr1    null | implradiuserr2   null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
 immodel		          Bressan et al. (2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
