@@ -18,9 +18,9 @@ dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltjmag                 null | imdeltjmagerr1                null | imdeltjmagerr2                null | imdeltjmaglim   null |\  # "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                 7.60 | imdelthmagerr1               0.104 | imdelthmagerr2              -0.104 | imdelthmaglim      0 |\  # "imdeltjmag", planet-host magnitude difference [mag]
-imdeltkmag                 null | imdeltkmagerr1                null | imdeltkmagerr2                null | imdeltkmaglim   null |\  # "imdeltjmag", planet-host magnitude difference [mag]
-imdeltlpmag                null | imdeltlpmagerr1               null | imdeltlpmagerr2               null | imdeltlpmaglim  null |\  # "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                 7.60 | imdelthmagerr1               0.104 | imdelthmagerr2              -0.104 | imdelthmaglim      0 |\  # "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                 null | imdeltkmagerr1                null | imdeltkmagerr2                null | imdeltkmaglim   null |\  # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                null | imdeltlpmagerr1               null | imdeltlpmagerr2               null | imdeltlpmaglim  null |\  # "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                   5.45 | imangseperr1                 0.016 | imangseperr2                -0.016 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     257.8 | imseperr1                      1.8 | imseperr2                     -1.7 | imseplim        null |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
