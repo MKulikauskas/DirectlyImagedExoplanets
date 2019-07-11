@@ -22,7 +22,7 @@ imdelthmag                   11.14 | imdelthmagerr   0.344 | imdelthmaglim      
 imdeltkmag                   10.01 | imdeltkmagerr   0.579 | imdeltkmaglim      0 |\ # "imkmag", stellar magnitude K-band [mag]
 imdeltlpmag                   null | imdeltlpmagerr   null | imdeltlpmaglim  null |\ # "imlpmag", stellar magnitude Lp-band [mag]
 imangsep                     0.830 | imangseperr1    0.003 | imangseperr2  -0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                           92 | imseperr1           0 | imseperr2          0 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imsep                         92.5 | imseperr1         3.8 | imseperr2       -3.8 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                     null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim  null |\  # "imtruesep", true star-planet separation [AU] 
 impa                           150 | impaerr1          0.3 | impaerr2        -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                       111.4 | imdisterr1        3.8 | imdisterr2      -3.8 | imdistlim        0 |\  # "imdist", distance to star [pc]
@@ -57,7 +57,7 @@ implnlpmag                null | implnlpmagerr1   null | implnlpmagerr2   null |
 #
 imstype			        A2V |\ # "imstype", stellar host spectral type
 immass             1.96 | immasserr1        0.04 | immasserr2      -0.04 | immasslim      0 |\ # "immass", stellar host [solar mass]
-imlum              17.3 | imlumerr1            0 | imlumerr2           0 | imlumlim       0 |\ # "imlum", stellar host [solar luminosity]
+imlum              17.3 | imlumerr1         null | imlumerr2        null | imlumlim       0 |\ # "imlum", stellar host [solar luminosity]
 image		             14 | imageerr1	           4 | imageerr2	        -4 | imagelim	      0 |\ # "image", stellar age [My]
 #
 # Model Columns
