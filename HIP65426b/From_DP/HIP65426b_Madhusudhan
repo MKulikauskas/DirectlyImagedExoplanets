@@ -23,7 +23,7 @@ imdeltkmag                   10.01 | imdeltkmagerr   0.579 | imdeltkmaglim      
 imdeltlpmag                   null | imdeltlpmagerr   null | imdeltlpmaglim  null |\ # "imlpmag", stellar magnitude Lp-band [mag]
 imangsep                     0.830 | imangseperr1    0.003 | imangseperr2  -0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                         92.5 | imseperr1         3.8 | imseperr2       -3.8 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                     null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                     null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim  null |\  # "imtruesep", true star-planet separation [AU] 
 impa                           150 | impaerr1          0.3 | impaerr2        -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                       111.4 | imdisterr1        3.8 | imdisterr2      -3.8 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	               VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
@@ -57,16 +57,16 @@ implnlpmag                null | implnlpmagerr1   null | implnlpmagerr2   null |
 #
 imstype			        A2V |\ # "imstype", stellar host spectral type
 immass             1.96 | immasserr1        0.04 | immasserr2      -0.04 | immasslim      0 |\ # "immass", stellar host [solar mass]
-imlum              17.3 | imlumerr1            0 | imlumerr2           0 | imlumlim       0 |\ # "imlum", stellar host [solar luminosity]
+imlum              17.3 | imlumerr1         null | imlumerr2        null | imlumlim       0 |\ # "imlum", stellar host [solar luminosity]
 image		             14 | imageerr1	           4 | imageerr2	        -4 | imagelim	      0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype			         L6 ± 1 |\ # "implstype", planet spectral type
-implmass                 null | implmasserr1      null | implmasserr2     null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                 null | implmasserr1      null | implmasserr2     null | implmasslim   null |\ # "implmass", planet mass [Jupiter mass]
 impltemp                 1200 | impltemperr1       100 | impltemperr2     -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius               ∼1.8 | implradiuserr1       0 | implradiuserr2      0 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          thick AE cloud parametric, Madhusudhan et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
+implradius               ∼1.8 | implradiuserr1    null | implradiuserr2   null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          thick AE cloud parametric, Madhusudhan et al. (2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
