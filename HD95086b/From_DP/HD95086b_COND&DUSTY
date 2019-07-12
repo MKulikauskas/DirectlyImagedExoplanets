@@ -64,7 +64,7 @@ image		                   13.5 | imageerr1	        3.5 | imageerr2	      -3.5 | 
 #
 implstype		                L–T |\ # "implstype", planet spectral type
 implmass                    4.5 | implmasserr1      0.5 | implmasserr2    -0.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                   1000 | impltemperr1      200 | impltemperr2    -200 | impltemplim   null |\ # "impltemp", planet temp [K]
+impltemp                   1000 | impltemperr1      200 | impltemperr2    -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
 immodel		                 COND, Baraffe et al. (2003), DUSTY, Chabrier et al. (2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
