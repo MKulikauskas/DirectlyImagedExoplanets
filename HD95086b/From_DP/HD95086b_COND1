@@ -23,12 +23,12 @@ imdeltkmag                11.71 | imdeltkmagerr		            null | imdeltkmagli
 imdeltlpmag                9.79 | imdeltlpmagerr              0.40 | imdeltlpmaglim             -0.40 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  623.9 | imangseperr1                 7.4 | imangseperr2                -7.4 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      56.4 | imseperr1                    0.7 | imseperr2                   -0.7 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1               null | imtrueseperr2               null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                  null | imtrueseperr1               null | imtrueseperr2               null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
 impa                      151.8 | impaerr1                     0.8 | impaerr2                    -0.8 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     90.4 | imdisterr1                   3.4 | imdisterr2                  -3.4 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NaCo |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	               2011-12-18, 2012-01-11, 2012-02-10, 2013-02-14, 2013-03-24, 2013-03-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	            2012-01-11, 2013-02-14, 2013-03-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            LCC |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
