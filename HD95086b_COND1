@@ -1,7 +1,7 @@
-# USER:            christia
+# USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HD_95086_b
-# DATE:            2019-06-**
+# FILENAME:        HD95086b_COND1.dat
+# DATE:            2019-07-12
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -44,32 +44,34 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                     null | imjmagerr1           null | imjmagerr2          null | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                     null | imhmagerr1           null | imhmagerr2          null | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imjmag                     null | imjmagerr1           null | imjmagerr2          null | imjmaglim     null |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                     null | imhmagerr1           null | imhmagerr2          null | imhmaglim     null |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                     6.79 | imkmagerr1           0.02 | imkmagerr2         -0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    6.70 | imlpmagerr1          0.04 | imlpmagerr2        -0.04 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                  null | implnjmagerr1        null | implnjmagerr2       null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                  null | implnjmagerr1        null | implnjmagerr2       null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 ≃18.9 | implnhmagerr1        null | implnhmagerr2       null | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 ≃18.5 | implnkmagerr1        null | implnkmagerr2       null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                16.49 | implnlpma13.5gerr1   0.50 | implnlpmagerr2      0.50 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag                16.49 | implnlpma13.5gerr1   0.50 | implnlpmagerr2     -0.50 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			                 A8 |\ # "imstype", stellar host spectral type
-immass                      1.6 | immasserr1          0 | immasserr2         0 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                      null | imlumerr1        null | imlumerr2       null | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                   13.5 | imageerr1	        3.5 | imageerr2	       3.5 | imagelim	        0 |\ # "image", stellar age [My]
+imstype			             A8 III |\ # "imstype", stellar host spectral type
+immass                     ≃1.6 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                      null | imlumerr1        null | imlumerr2       null | imlumlim      null |\ # "imlum", stellar host [solar luminosity]
+image		                     17 | imageerr1	          2 | imageerr2	        -2 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		null |\ # "implstype", planet spectral type
-implmass                    4.5 | implmasserr1      0.5 | implmasserr2     0.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                   null | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		       COND |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      ? |\ # "immodeldef" (1=yes, 0=no)
+implstype		                L–T |\ # "implstype", planet spectral type
+implmass                      5 | implmasserr1        1 | implmasserr2      -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                   null | impltemperr1     null | impltemperr2    null | impltemplim   null |\ # "impltemp", planet temp [K]
+implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
+immodel		                 COND, Baraffe et al. (2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes                    Here, L' is at 3.4 μm. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
 
