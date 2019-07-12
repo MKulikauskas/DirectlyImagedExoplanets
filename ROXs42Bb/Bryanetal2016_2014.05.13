@@ -50,7 +50,7 @@ imkmag                8.67 | imkmagerr1       0.02 | imkmagerr2      -0.02 | imk
 imlpmag               null | imlpmagerr1       | imlpmagerr2      | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag             null | implnjmagerr1     | implnjmagerr2    | implnjmaglim      |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag             null | implnhmagerr1     | implnhmagerr2    | implnhmaglim      |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag             null | implnkmagerr1     | implnkmagerr2    | implnkmaglim      |\ # "implnkmag", planet magnitude K-band [mag]
+implnkmag            14.83 | implnkmagerr1    0.35 | implnkmagerr2   -0.35 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag            null | implnlpmagerr1    | implnlpmagerr2   | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
@@ -71,6 +71,6 @@ immodeldef		         0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                    imdeltkmag is in Ks-band |\ # "imnotes"
+imnotes                    imdeltkmag and implnkmag are in Ks-band |\ # "imnotes"
 #
 cntr                        TBD |  # counter
