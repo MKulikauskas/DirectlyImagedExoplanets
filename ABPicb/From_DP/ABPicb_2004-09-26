@@ -28,7 +28,7 @@ impa                     175.10 | impaerr1                      0.20 | impaerr2 
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	         2004-09-26 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	         2004-09-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	  Tucana-Horologium |\ # "imcluster", name of associated cluster
 imdisk 		               null |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
