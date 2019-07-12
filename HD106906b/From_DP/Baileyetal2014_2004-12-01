@@ -22,7 +22,7 @@ imdelthmag                null | imdelthmagerr		       | imdelthmaglim          
 imdeltkmag                null | imdeltkmagerr		       | imdeltkmaglim                 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               null | imdeltlpmagerr		       | imdeltlpmaglim                |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                      7.135 | imangseperr1             0.02 | imangseperr2                  -0.02 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                          650 | imseperr1                null | imseperr2                      null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imsep                        656.42 | imseperr1                6 | imseperr2                      -6 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                     null | imtrueseperr1            null | imtrueseperr2                  null | imtrueseplim       null |\  # "imtruesep", true star-planet separation [AU] 
 impa                         307.05 | impaerr1                  0.1 | impaerr2                       -0.1 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                          92 | imdisterr1                  6 | imdisterr2                       -6 | imdistlim          0 |\  # "imdist", distance to star [pc]
