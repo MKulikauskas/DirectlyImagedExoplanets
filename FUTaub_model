@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Luhman_et_al_2009_model.dat
-# DATE:            2019-07-01
+# DATE:            2019-07-12
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -19,22 +19,22 @@ dec_str                       	+25:02:59.6  |\ # Dec [sexagesimal]
 #
 imdeltmag                       | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
 imflxratio                      | imflxratioerr1        | imflxratioerr2       | imflxratiolim     |\ 	# "imflxratio", planet/host flux ratio
-imangsep                        | imangseperr1          | imangseperr2         | imangseplim       |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                           | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
+imangsep                       5.7 | imangseperr1          | imangseperr2         | imangseplim       |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          800 | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
 imtruesep                       | imtrueseperr1         | imtrueseperr2        | imtrueseplim      |\  # "imtruesep", true star-planet separation [AU] 
 impa                            | impaerr1              | impaerr2             | impalim           |\  # "impa", star-planet position angle [deg] 
-imdist                          | imdisterr1            | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
-imtelescope	               |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.              |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                 |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdist                         140 | imdisterr1            | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
+imtelescope	             UKIRT  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.            UKIDSS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	           2005-12-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	            Taurus |\ # "imcluster", name of associated cluster
+imdisk 		                1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			       |\ # "ns", number of stars constituting the host system
+ns			                2 |\ # "ns", number of stars constituting the host system
 ra                          TBD |\ # RA [decimal]
 dec                         TBD |\ # Dec [decimal]
 glon                        TBD |\ # "l" [decimal]
@@ -60,13 +60,15 @@ image		              | imageerr1	       | imageerr2	      | imagelim	   |\ # "im
 #
 # Model Columns
 #
-implstype			|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
+implstype			         M9.25 |\ # "implstype", planet spectral type
+implmass               0.015 | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
 impltemp                     | impltemperr1          | impltemperr2         | impltemplim       |\ # "impltemp", planet temp [K]
 implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
 immodel		     Cloud-free	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes                       implmass is recorded in stellar masses  |\ # "imnotes", notes on previous columns
 #
 cntr                        TBD |  # counter
