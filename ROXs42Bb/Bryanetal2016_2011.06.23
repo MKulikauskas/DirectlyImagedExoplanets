@@ -71,4 +71,6 @@ immodeldef		         0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
+imnotes                    implnkmag is in Ks-band |\ # "imnotes"
+#
 cntr                        TBD |  # counter
