@@ -19,7 +19,7 @@ dec_str                      -24:32:43.7  |\ # Dec [sexagesimal]
 #
 imdeltjmag               null  | imdeltjmagerr		       | imdeltjmaglim                 |\			# "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag               null  | imdelthmagerr		       | imdelthmaglim                 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag               null  | imdeltkmagerr		       | imdeltkmaglim                 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltkmag               6.16  | imdeltkmagerr		      0.35 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag              null  | imdeltlpmagerr		       | imdeltlpmaglim                |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                 1.173  | imangseperr1      0.001 | imangseperr2     -0.001 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      141  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
@@ -70,5 +70,7 @@ immodel		          null |\ # "immodel", description of model ##Reference that th
 immodeldef		         0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes                    imdeltkmag is in Ks-band |\ # "imnotes"
 #
 cntr                        TBD |  # counter
