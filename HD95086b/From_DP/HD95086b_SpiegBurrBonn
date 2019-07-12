@@ -28,7 +28,7 @@ impa                      151.8 | impaerr1                     0.8 | impaerr2   
 imdist                     90.4 | imdisterr1                   3.4 | imdisterr2                  -3.4 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NaCo |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                 2011-12-18, 2012-01-11, 2012-02-10, 2013-02-14, 2013-03-24, 2013-03-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	                 2012-01-11, 2013-02-14, 2013-03-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            LCC |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
