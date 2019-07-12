@@ -62,7 +62,7 @@ image		                   13.5 | imageerr1	        3.5 | imageerr2	       3.5 | 
 #
 # Model Columns
 #
-implstype		                L–T |\ # "implstype", planet spectral type
+implstype		               null |\ # "implstype", planet spectral type
 implmass                     >3 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   null | impltemperr1     null | impltemperr2    null | impltemplim   null |\ # "impltemp", planet temp [K]
 implradius                 null | implradiuserr1   null | implradiuserr2  null | implradiuslim null |\ # "implradius", planet radius [Jupiter radii]
