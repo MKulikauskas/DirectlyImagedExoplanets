@@ -17,10 +17,10 @@ dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                 8.59 | imdeltjmagerr1               0.083 | imdeltjmagerr2              -0.078 | imdeltjmaglim                    0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                 7.78 | imdelthmagerr1               0.083 | imdelthmagerr2              -0.078 | imdelthmaglim                    0 |\ # "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                 6.89 | imdeltkmagerr1               0.083 | imdeltkmagerr2              -0.078 | imdeltkmaglim                    0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag                null | imdeltlpmagerr1               null | imdeltlpmagerr2               null | imdeltlpmaglim                null |\ # "imdeltlpmag", planet-host magnitude difference [mag]
+imdeltjmag                 8.59 | imdeltjmagerr1               0.083 | imdeltjmaglim                    0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                 7.78 | imdelthmagerr1               0.083 | imdelthmaglim                    0 |\ # "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                 6.89 | imdeltkmagerr1               0.083 | imdeltkmaglim                    0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                null | imdeltlpmagerr1               null | imdeltlpmaglim                null |\ # "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                   null | imangseperr1                  null | imangseperr2                  null | imangseplim                   null |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      null | imseperr1                     null | imseperr2                     null | imseplim                      null |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1                 null | imtrueseperr2                 null | imtrueseplim                  null |\  # "imtruesep", true star-planet separation [AU] 
