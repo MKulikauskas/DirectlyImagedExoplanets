@@ -1,3 +1,13 @@
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Bryan_et_al_2016_2008.dat
+# DATE:            2019-07-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink             2016ApJ...827..100B  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
