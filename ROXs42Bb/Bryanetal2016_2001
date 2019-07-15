@@ -28,11 +28,11 @@ impa                     268.0 | impaerr1           1.5 | impaerr2          -1.5
 imdist                     120  | imdisterr1           10 | imdisterr2          -10 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             null  |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.            null  |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	            |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	           2001 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	              null |\ # "imcluster", name of associated cluster
 imdisk 		              null |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		         1  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			         0  |\ # "imifu", IFU used (1=yes, 0=no)
+imcorona		         null  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			         null  |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
