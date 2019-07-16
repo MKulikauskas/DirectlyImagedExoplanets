@@ -18,15 +18,17 @@ dec_str               -29:37:20.1 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                         null | imdeltmagerr		  null | imdeltmaglim    null |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                          ∼5 | imflxratioerr1      0 | imflxratioerr2     0 | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
-imangsep                         12.61 | imangseperr1        0 | imangseperr2       0 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             ≃115 | imseperr1           0 | imseperr2          0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imdeltjmag                        null | imdeltjmagerr    null | imdeltjmaglim   null |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                             | imdelthmagerr	       | imdelthmaglim        |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                        null | imdeltkmagerr		null | imdeltkmaglim   null |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                       null | imdeltlpmagerr   null | imdeltlpmaglim  null |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep                          askT | imangseperr1     askT | imangseperr2    askT | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                             askT | imseperr1        askT | imseperr2       askT | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                         null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                            316.86 | impaerr1            0 | impaerr2           0 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+impa                              askT | impaerr1         askT | impaerr2        askT | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                             7.7 | imdisterr1          0 | imdisterr2         0 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	    HST, Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.     ACS/HRC, NIRC2, NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	                   Keck II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.                    NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	              2005-7-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
@@ -54,7 +56,7 @@ implnlpmag                >16.6 | implnlpmagerr1      0 | implnlpmagerr2     0 |
 #
 # Stellar Parameter Columns
 #
-imstype			               null |\ # "imstype", stellar host spectral type
+imstype			                A3V |\ # "imstype", stellar host spectral type
 immass                     1.92 | immasserr1          0 | immasserr2         0 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                3.4 × 10−7 | imlumerr1           0 | imlumerr2          0 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                    200 | imageerr1	        100 | imageerr2	       100 | imagelim	        0 |\ # "image", stellar age [My]
