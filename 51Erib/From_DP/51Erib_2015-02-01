@@ -40,11 +40,11 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                     4.74 | imjmagerr1       0.04 | imjmagerr2     -0.04 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                     4.77 | imhmagerr1       0.08 | imhmagerr2     -0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                     4.54 | imkmagerr1       0.02 | imkmagerr2     -0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                    4.54 | imlpmagerr1      0.21 | imlpmagerr2    -0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                16.16 | implnlpmagerr1   0.27 | implnlpmagerr2 -0.27 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                     4.74 | imjmagerr        0.04 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                     4.77 | imhmagerr        0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     4.54 | imkmagerr        0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                    4.54 | imlpmagerr       0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnlpmag                16.16 | implnlpmagerr    0.27 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
