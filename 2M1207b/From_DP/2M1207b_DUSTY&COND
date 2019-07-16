@@ -17,7 +17,7 @@ dec_str                            -39:32:54.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                ≥5.50 | imdeltjmagerr		             null | imdeltjmaglim                       0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
+imdeltjmag                 5.50 | imdeltjmagerr		             null | imdeltjmaglim                       0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag                 5.70 | imdelthmagerr		            0.212 | imdelthmaglim                  -0.212 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                 4.98 | imdeltkmagerr		            0.114 | imdeltkmaglim                  -0.114 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                3.90 | imdeltlpmagerr		          0.172 | imdeltlpmaglim                 -0.172 |\ # "imdeltlpmag", planet-host magnitude difference [mag]
@@ -48,7 +48,7 @@ imjmag                    13.00 | imjmagerr1       0.03 | imjmagerr2     -0.03 |
 imhmag                    12.39 | imhmagerr1       0.03 | imhmagerr2     -0.03 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                    11.95 | imkmagerr1       0.03 | imkmagerr2     -0.03 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   11.38 | imlpmagerr1      0.10 | imlpmagerr2    -0.10 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 ≥18.5 | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                  18.5 | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 18.09 | implnhmagerr1    0.21 | implnhmagerr2  -0.21 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 16.93 | implnkmagerr1    0.11 | implnkmagerr2  -0.11 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                15.28 | implnlpmagerr1   0.14 | implnlpmagerr2 -0.14 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
