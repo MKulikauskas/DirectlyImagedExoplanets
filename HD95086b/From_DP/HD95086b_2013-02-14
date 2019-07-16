@@ -40,9 +40,8 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imkmag                     6.79 | imkmagerr1           0.02 | imkmagerr2         -0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                    6.70 | imlpmagerr1          0.04 | imlpmagerr2        -0.04 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnkmag                 17.69 | implnkmagerr1        null | implnkmagerr2       null | implnkmaglim   1.2 |\ # "implnkmag", planet magnitude K-band [mag]
+imkmag                     6.79 | imkmagerr            0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                    6.70 | imlpmagerr           0.04 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
