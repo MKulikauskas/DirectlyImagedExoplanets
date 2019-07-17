@@ -17,7 +17,7 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag               11.62 | imdeltlpmagerr  0.170 | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imdeltlpmag               11.62 | imdeltlpmagerr   0.56 | imdeltlpmaglim     0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.461 | imangseperr1    0.024 | imangseperr2  -0.024 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2       -0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      170.4 | impaerr1          3.0 | impaerr2        -3.0 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -44,7 +44,7 @@ imjmag                     4.74 | imjmagerr        0.04 | imjmaglim        0 |\ 
 imhmag                     4.77 | imhmagerr        0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                     4.54 | imkmagerr        0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    4.54 | imlpmagerr       0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                16.16 | implnlpmagerr    0.27 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag                16.16 | implnlpmagerr    0.52 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -56,10 +56,9 @@ image		                     20 | imageerr1	          6 | imageerr2	        -6 | 
 # Model Columns
 #
 implstype			          T4.5-T6 |\ # "implstype", planet spectral type
-implmass                      7 | implmasserr1        5 | implmasserr2      -5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                      2 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    675 | impltemperr1       75 | impltemperr2     -75 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                 0.76 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		              0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
