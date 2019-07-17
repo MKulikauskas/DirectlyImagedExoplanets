@@ -17,7 +17,7 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                14.35 | imdeltjmagerr		0.398 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdeltjmag                14.35 | imdeltjmagerr		 0.63 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
 imangsep                  0.453 | imangseperr1    0.006 | imangseperr2  -0.006 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2       -0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      170.7 | impaerr1          1.0 | impaerr2        -1.0 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -44,7 +44,7 @@ imjmag                     4.74 | imjmagerr        0.04 | imjmaglim        0 |\ 
 imhmag                     4.77 | imhmagerr        0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                     4.54 | imkmagerr        0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    4.54 | imlpmagerr       0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 19.09 | implnjmagerr     0.40 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                 19.09 | implnjmagerr     0.63 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 #
 # Stellar Parameter Columns
 #
@@ -60,6 +60,56 @@ implmass                      7 | implmasserr1        5 | implmasserr2      -5 |
 impltemp                    675 | impltemperr1       75 | impltemperr2     -75 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 0.76 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes             Here, stellar luminosity is in L/Lʘ not Lʘ. |\ # "imnotes", #notes on table information
+#
+cntr                        TBD |  # counter
+
+
+imdelthmag                14.43 | imdelthmagerr	   0.38 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imangsep                  0.449 | imangseperr1    0.007 | imangseperr2  -0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                      13.2 | imseperr1         0.2 | imseperr2       -0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                      171.1 | impaerr1          0.9 | impaerr2        -0.9 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                     29.4 | imdisterr1        0.3 | imdisterr2      -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2014-12-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	       beta Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                      3 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                     4.74 | imjmagerr        0.04 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                     4.77 | imhmagerr        0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     4.54 | imkmagerr        0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                    4.54 | imlpmagerr       0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnhmag                 19.20 | implnhmagerr     0.46 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			              F0 IV |\ # "imstype", stellar host spectral type
+immass                     1.75 | immasserr1       0.05 | immasserr2     -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                       7.1 | imlumerr1           1 | imlumerr2         -1 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                     20 | imageerr1	          6 | imageerr2	        -6 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype			          T4.5-T6 |\ # "implstype", planet spectral type
+implmass                      2 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    675 | impltemperr1       75 | impltemperr2     -75 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodeldef		              0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
