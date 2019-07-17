@@ -47,7 +47,7 @@ implnhmag                    14.69 | implnhmagerr1        0.10 | implnhmaglim   
 #
 # Stellar Parameter Columns
 #
-image		                   30 | imageerr1	             10 | imageerr2	           -10 | imagelim	        0 |\ # "image", stellar age [My]
+image		                       ∼30 | imageerr1	          null | imageerr2	    null| imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
