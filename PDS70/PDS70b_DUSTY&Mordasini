@@ -1,4 +1,4 @@
-# USER:            christia
+# USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        PDS70b_DUSTY&Mordasini.dat
 # DATE:            2019-07-17
@@ -17,9 +17,9 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdelthmag                    askT | imdeltmagerr1	askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
-imdeltkmag                    askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
-imdeltlpmag                   askT | imdeltmagerr1  askT | imdeltmagerr2   askT | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imdelthmag                    askT | imdeltmagerr	    | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imdeltkmag                    askT | imdeltmagerr      | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imdeltlpmag                   askT | imdeltmagerr      | imdeltmaglim    0 |\	# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                     0.195 | imangseperr1       | imangseperr2        | imangseplim     0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          22 | imseperr1          | imseperr2           | imseplim        0 |\  # "imsep", projected star-planet separation [AU]
 impa                           155 | impaerr1          0 | impaerr2           0 | impalim         0 |\  # "impa", star-planet position angle [deg] 
@@ -42,13 +42,13 @@ glat                  	     TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                   9.553 | imjmagerr1      0.024 | imjmagerr2     0.024 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                   8.823 | imhmagerr1       0.04 | imhmagerr2      0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                   8.542 | imkmagerr1      0.023 | imkmagerr2     0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                  7.913 | imlpmagerr1      0.03 | imlpmagerr2     0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnhmag                 askT | implnhmagerr1    askT | implnhmagerr2   askT | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 askT | implnkmagerr1    askT | implnkmagerr2   askT | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                askT | implnlpmagerr1   askT | implnlpmagerr2  askT | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                   9.553 | imjmagerr      0.024 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   8.823 | imhmagerr       0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   8.542 | imkmagerr      0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                  7.913 | imlpmagerr      0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnhmag                 askT | implnhmagerr    askT | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 askT | implnkmagerr    askT | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                askT | implnlpmagerr   askT | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
