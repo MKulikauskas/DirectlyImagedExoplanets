@@ -54,12 +54,12 @@ implnlpmag                15.28 | implnlpmagerr    0.14 | implnlpmaglim    0 |\ 
 # Stellar Parameter Columns
 #
 imstype			           M8.5 ± 1 |\ # "imstype", stellar host spectral type
-image		                      8 | imageerr1	          4 | imageerr2	        -3 | imagelim	        0 |\ # "image", stellar age [My]
+image		                   ∼7.5 | imageerr1	        2.5 | imageerr2	      -2.5 | imagelim	        0 |\ # "image", stellar age [My]
 # 
 # Model Columns
 #
 implstype			          L5-L9.5 |\ # "implstype", planet spectral type
-implmass                   ∼7.5 | implmasserr1      2.5 | implmasserr2    -2.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                   6.5 | implmasserr1      3.5 | implmasserr2    -3.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   1300 | impltemperr1      300 | impltemperr2    -300 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		            Non-gray model, Burrows et al. (1997) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
