@@ -43,14 +43,14 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    9.91  | imjmagerr1        | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    9.02  | imhmagerr1        | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    8.67  | imkmagerr1        | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   8.42  | imlpmagerr1       | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                16.91  | implnjmagerr1   0.11  | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                15.88  | implnhmagerr1   0.05  | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                15.01  | implnkmagerr1    0.06 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag               14.06  | implnlpmagerr1  0.06  | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                    9.91  | imjmagerr        | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    9.02  | imhmagerr        | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    8.67  | imkmagerr        | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                   8.42  | imlpmagerr       | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                16.91  | implnjmagerr   0.11  | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                15.88  | implnhmagerr   0.05  | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                15.01  | implnkmagerr    0.06 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag               14.06  | implnlpmagerr  0.06  | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
