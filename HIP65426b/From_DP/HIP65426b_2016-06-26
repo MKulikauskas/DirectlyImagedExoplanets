@@ -39,9 +39,9 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                   6.826 | imjmagerr1      0.019 | imjmagerr2     -0.019 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                   6.853 | imhmagerr1      0.049 | imhmagerr2     -0.049 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                   6.771 | imkmagerr1      0.018 | imkmagerr2     -0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imjmag                   6.826 | imjmagerr       0.019 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   6.853 | imhmagerr       0.049 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   6.771 | imkmagerr       0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 # 
 # Stellar Parameter Columns
 #
