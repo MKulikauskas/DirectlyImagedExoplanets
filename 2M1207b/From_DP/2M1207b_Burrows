@@ -22,12 +22,12 @@ imdelthmag                 5.70 | imdelthmagerr		            0.212 | imdelthmagl
 imdeltkmag                 4.98 | imdeltkmagerr		            0.114 | imdeltkmaglim                       0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                3.90 | imdeltlpmagerr		          0.172 | imdeltlpmaglim                      0 |\ # "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.778 | imangseperr1                 null | imangseperr2                     null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                        46 | imseperr1                       5 | imseperr2                          -5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
+imsep                       ∼55 | imseperr1                    null | imseperr2                        null | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
 impa                      125.8 | impaerr1                     null | impaerr2                         null | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                      ∼70 | imdisterr1                   null | imdisterr2                       null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            VLT-UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NACO |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	           2004-04-27, 2004-06-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	              2004-04-27, 2004-06-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -54,13 +54,12 @@ implnlpmag                15.28 | implnlpmagerr    0.14 | implnlpmaglim    0 |\ 
 # Stellar Parameter Columns
 #
 imstype			           M8.5 ± 1 |\ # "imstype", stellar host spectral type
-immass                    0.024 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		                      8 | imageerr1	          4 | imageerr2	        -3 | imagelim	        0 |\ # "image", stellar age [My]
 # 
 # Model Columns
 #
 implstype			          L5-L9.5 |\ # "implstype", planet spectral type
-implmass                    6.5 | implmasserr1      3.5 | implmasserr2    -3.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                   ∼7.5 | implmasserr1      2.5 | implmasserr2    -2.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   1300 | impltemperr1      300 | impltemperr2    -300 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		            Non-gray model, Burrows et al. (1997) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
