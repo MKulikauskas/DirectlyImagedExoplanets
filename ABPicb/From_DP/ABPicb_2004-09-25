@@ -20,7 +20,7 @@ dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 imdelthmag                 7.60 | imdelthmagerr                0.104 | imdelthmaglim                    0 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imangsep                   5.45 | imangseperr1                 0.014 | imangseperr2                -0.014 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                       7.9 | imseperr1                      1.8 | imseperr2                     -1.7 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-impa                     175.10 | impaerr1                      0.20 | impaerr2                     -0.20 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+impa                     175.30 | impaerr1                      0.20 | impaerr2                     -0.20 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
@@ -46,7 +46,7 @@ implnhmag                    14.69 | implnhmagerr         0.10 | implnhmaglim   
 #
 # Stellar Parameter Columns
 #
-image		                   30 | imageerr1	             10 | imageerr2	           -10 | imagelim	        0 |\ # "image", stellar age [My]
+image		                       ∼30 | imageerr1	          null | imageerr2	   null | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
