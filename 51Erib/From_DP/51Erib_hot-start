@@ -61,6 +61,7 @@ image		                     20 | imageerr1	          6 | imageerr2	        -6 | 
 implstype			          T4.5-T6 |\ # "implstype", planet spectral type
 implmass                     ~2 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    675 | impltemperr1       75 | impltemperr2     -75 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                    1 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          Hot-start, Macintosh et al. (2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
