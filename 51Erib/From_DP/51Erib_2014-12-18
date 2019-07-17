@@ -17,7 +17,7 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdelthmag                14.43 | imdelthmagerr	  0.194 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdelthmag                14.43 | imdelthmagerr	   0.38 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imangsep                  0.449 | imangseperr1    0.007 | imangseperr2  -0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      13.2 | imseperr1         0.2 | imseperr2       -0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      171.1 | impaerr1          0.9 | impaerr2        -0.9 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -44,7 +44,7 @@ imjmag                     4.74 | imjmagerr        0.04 | imjmaglim        0 |\ 
 imhmag                     4.77 | imhmagerr        0.08 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                     4.54 | imkmagerr        0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    4.54 | imlpmagerr       0.21 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnhmag                 19.20 | implnhmagerr     0.21 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnhmag                 19.20 | implnhmagerr     0.46 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 #
 # Stellar Parameter Columns
 #
