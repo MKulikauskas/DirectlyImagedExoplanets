@@ -22,7 +22,7 @@ imdelthmag                 5.70 | imdelthmagerr		            0.212 | imdelthmagl
 imdeltkmag                 4.98 | imdeltkmagerr		            0.114 | imdeltkmaglim                       0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                3.90 | imdeltlpmagerr		          0.172 | imdeltlpmaglim                      0 |\ # "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  0.778 | imangseperr1                 null | imangseperr2                     null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                        46 | imseperr1                       5 | imseperr2                          -5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imsep                       ∼55 | imseperr1                    null | imseperr2                        null | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
 impa                      125.8 | impaerr1                     null | impaerr2                         null | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                      ∼70 | imdisterr1                   null | imdisterr2                       null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            VLT-UT4 |\ # "imtelescope", Telescope used in observations ##added this
@@ -54,7 +54,6 @@ implnlpmag                15.28 | implnlpmagerr    0.14 | implnlpmaglim    0 |\ 
 # Stellar Parameter Columns
 #
 imstype			           M8.5 ± 1 |\ # "imstype", stellar host spectral type
-immass                    0.024 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		                      8 | imageerr1	          4 | imageerr2	        -3 | imagelim	        0 |\ # "image", stellar age [My]
 # 
 # Model Columns
