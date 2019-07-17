@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Bryan_et_al_2016_2012.dat
-# DATE:            2019-07-15
+# DATE:            2019-07-17
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -17,13 +17,8 @@ dec_str                      -24:32:43.7  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag               null  | imdeltjmagerr		       | imdeltjmaglim                 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag               null  | imdelthmagerr		       | imdelthmaglim                 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag               null  | imdeltkmagerr	         | imdeltkmaglim                 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag              null  | imdeltlpmagerr		       | imdeltlpmaglim                |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  1.1720 | imangseperr1      0.0012 | imangseperr2     -0.0012 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     140.64 | imseperr1              10 | imseperr2              -10 | imseplim          0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                 null  | imtrueseperr1           | imtrueseperr2           | imtrueseplim       |\  # "imtruesep", true star-planet separation [AU] 
 impa                     270.03 | impaerr1           0.10 | impaerr2          -0.10 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     120  | imdisterr1           10 | imdisterr2          -10 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             null  |\ # "imtelescope", Telescope used in observations ##added this
@@ -44,20 +39,12 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                null | imjmagerr1        | imjmagerr2       | imjmaglim         |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                null | imhmagerr1        | imhmagerr2       | imhmaglim         |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                8.67 | imkmagerr1       0.02 | imkmagerr2      -0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag               null | imlpmagerr1       | imlpmagerr2      | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag             null | implnjmagerr1     | implnjmagerr2    | implnjmaglim      |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag             null | implnhmagerr1     | implnhmagerr2    | implnhmaglim      |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag             null | implnkmagerr1     | implnkmagerr2    | implnkmaglim      |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag            null | implnlpmagerr1    | implnlpmagerr2   | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
 imstype			             M1 |\ # "imstype", stellar host spectral type
 immass                   10 | immasserr1       4 | immasserr2      -4 | immasslim      0 |\ # "immass", stellar host [solar mass]
-imlum                  null | imlumerr1          | imlumerr2          | imlumlim         |\ # "imlum", stellar host [solar luminosity]
 image		                  7 | imageerr1	       3 | imageerr2	     -2 | imagelim	     0 |\ # "image", stellar age [My]
 #
 # Model Columns
