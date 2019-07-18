@@ -64,4 +64,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
+imnotes                           Filter used was H2, imdelthmag is in H2-band; both H2 and H3 were given in the paper  |\ # "imnotes"
+#
 cntr                        TBD |  # counter
