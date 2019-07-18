@@ -27,8 +27,8 @@ imtruesep                          130 | imtrueseperr1      10 | imtrueseperr2  
 impa                              null | impaerr1         null | impaerr2        null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                     HST, Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument                     ACS/HRC, NIRC2, NIRI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                     2004-10-25, 2004-10-26, 2005-07-17, 2005-07-27, 2005-07-28, 2005-10-21, 2005-10-22, 2006-07-14, 2006-07-15, 2006-07-16, 2006-07-17, 2006-07-18, 2006-07-19, 2006-07-20, 2008-09-17, 2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+iminstrument                       ACS/HRC, NIRC2, NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                         2004-10-25, 2004-10-26, 2005-07-17, 2005-07-21, 2005-07-27, 2005-07-28, 2005-10-21, 2005-10-22, 2006-07-14, 2006-07-15, 2006-07-16, 2006-07-17, 2006-07-18, 2006-07-19, 2006-07-20, 2008-09-17, 2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
