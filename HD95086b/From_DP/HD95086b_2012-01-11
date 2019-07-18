@@ -47,7 +47,7 @@ implnlpmag                16.49 | implnlpmagerr        0.50 | implnlpmaglim    0
 # Stellar Parameter Columns
 #
 imstype			             A8 III |\ # "imstype", stellar host spectral type
-immass                     ≃1.6 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                      1.6 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		                   13.5 | imageerr1	        3.5 | imageerr2	      -3.5 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
