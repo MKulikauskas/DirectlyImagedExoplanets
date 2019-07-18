@@ -1,1 +1,65 @@
-
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Keppler_et_al_2018_2016-06-01.dat
+# DATE:            2019-07-18
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink                   2018A&A...617A..44K  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                        PDS 70 b |\ # planet name
+ra_str                       14:08:10.16 |\ # RA [sexagesimal]
+dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltlpmag                   6.84 | imdeltmagerr     0.62 | imdeltmaglim       0 |\	# "imdeltmag", planet-host magnitude difference [mag]
+imangsep                     0.1896 | imangseperr1      0.0263 | imangseperr2       -0.0263 | imangseplim     0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          > | imseperr1          | imseperr2           | imseplim        0 |\  # "imsep", projected star-planet separation [AU]
+impa                           150.6 | impaerr1          7.1 | impaerr2           -7.1 | impalim         0 |\  # "impa", star-planet position angle [deg] 
+imdist                      113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
+imtelescope	               VLT  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.              NaCo |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                 2016-06-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	             Sco-Cen |\ # "imcluster", name of associated cluster
+imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		       0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			       0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                       1 |\ # "ns", number of stars constituting the host system
+ra                           TBD |\ # RA [decimal]
+dec                          TBD |\ # Dec [decimal]
+glon                         TBD |\ # "l" [decimal]
+glat                  	     TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                   9.553 | imjmagerr      0.024 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   8.823 | imhmagerr       0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   8.542 | imkmagerr      0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                  7.913 | imlpmagerr      0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnlpmag                 | implnlpmagerr    | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			           K7 |\ # "imstype", stellar host spectral type
+immass               0.76 | immasserr1         0.02 | immasserr2        -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                0.35 | imlumerr1          0.09 | imlumerr2         -0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		              5.4 | imageerr1	             | imageerr2	            | imagelim	        0 |\ # "image", stellar age [My]
+# 
+# Model Columns
+#
+implstype			             L |\ # "implstype", planet spectral type
+implmass                   7 | implmasserr1         2 | implmasserr2        -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		              DUSTY, Chabrier et al. 2000, 'hottest' and 'hot' tracks, Mordasini et al. 2017|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
