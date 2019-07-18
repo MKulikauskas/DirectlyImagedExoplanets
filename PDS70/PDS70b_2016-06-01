@@ -55,11 +55,12 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 # 
 # Model Columns
 #
-implstype			             L |\ # "implstype", planet spectral type
-implmass                   7 | implmasserr1         2 | implmasserr2        -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-immodel		              DUSTY, Chabrier et al. 2000, 'hottest' and 'hot' tracks, Mordasini et al. 2017|\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                 4.5 | implmasserr1       0.5 | implmasserr2      0.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		              COND, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes                    COND model is not specific to this particular date |\ # "imnotes"
 #
 cntr                        TBD |  # counter
