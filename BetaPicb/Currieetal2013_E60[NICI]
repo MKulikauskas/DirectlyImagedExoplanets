@@ -18,10 +18,10 @@ dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltmag                       null  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                        null  | imangseperr1         0.010 | imangseperr2       0.010  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                        null  | imangseperr1         0.010 | imangseperr2       -0.010  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
 imsep                           null  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
-imtruesep                       null  | imtrueseperr1        0.4 | imtrueseperr2       0.6 | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                            null  | impaerr1               1.3 | impaerr2           1.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtruesep                       null  | imtrueseperr1        0.4 | imtrueseperr2       -0.6 | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                            null  | impaerr1               1.3 | impaerr2           -1.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                          null  | imdisterr1              | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
 imtelescope	                   Gemini  |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.                  NICI  |\ # "iminstrument", Instrument used in observations ##added this
@@ -56,8 +56,8 @@ image		                   12 | imageerr1	           8 | imageerr2	        4 | im
 # Model Columns
 #
 implstype	              L2-L5	|\ # "implstype", planet spectral type
-implmass               > null  | implmasserr1         0.8 | implmasserr2        0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                1400  | impltemperr1         400 | impltemperr2        400 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implmass               > null  | implmasserr1         0.8 | implmasserr2        -0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                1400  | impltemperr1         400 | impltemperr2        -400 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius              1.79  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
 immodel		               E60 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
