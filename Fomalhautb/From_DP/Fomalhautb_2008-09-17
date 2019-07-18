@@ -26,13 +26,13 @@ imsep                            97.64 | imseperr1        null | imseperr2      
 imtruesep                         ≈115 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                              null | impaerr1         null | impaerr2        null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	                   Keck II |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                    NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	                  Gemini N |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                      NIRI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                  2008-09-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			       0 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			       ? |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
