@@ -49,7 +49,7 @@ imhmag                     null | imhmagerr1       null | imhmagerr2      null |
 imkmag                     null | imkmagerr1       null | imkmagerr2      null | imkmaglim     null |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    null | imlpmagerr1      null | imlpmagerr2     null | imlpmaglim    null |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                  null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                  null | implnhmagerr1    null | implnhmagerr2   null | implnhmaglim  null |\ # "implnhmag", planet magnitude H-band [mag]
+implnhmag                  20.6 | implnhmagerr1    null | implnhmagerr2   null | implnhmaglim    -1 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                 null | implnlpmagerr1   null | implnlpmagerr2  null | implnlpmaglim null |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
