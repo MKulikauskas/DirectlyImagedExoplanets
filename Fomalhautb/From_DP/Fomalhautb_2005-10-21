@@ -71,6 +71,6 @@ immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes             Here, the source was not detected. |\ # "imnotes", #notes on table information
+imnotes               Here, planet H is in CH4S (1.592 μm). |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
