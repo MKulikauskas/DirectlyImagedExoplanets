@@ -44,14 +44,14 @@ imjmag                   9.553 | imjmagerr      0.024 | imjmaglim        0 |\ # 
 imhmag                   8.823 | imhmagerr       0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   8.542 | imkmagerr      0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                  7.913 | imlpmagerr      0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                 | implnlpmagerr    | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag              14.503 | implnlpmagerr   0.419 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			     |\ # "imstype", stellar host spectral type
-immass                      | immasserr1           | immasserr2         | immasslim         |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim          |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	   |\ # "image", stellar age [My]
+imstype			           K7 |\ # "imstype", stellar host spectral type
+immass               0.76 | immasserr1         0.02 | immasserr2        -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                0.35 | imlumerr1          0.09 | imlumerr2         -0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		              5.4 | imageerr1	            1 | imageerr2	           -1 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
