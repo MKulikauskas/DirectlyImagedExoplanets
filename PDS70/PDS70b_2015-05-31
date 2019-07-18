@@ -48,10 +48,10 @@ implnhmag                  | implnhmagerr     | implnhmaglim     0 |\ # "implnhm
 #
 # Stellar Parameter Columns
 #
-imstype			     |\ # "imstype", stellar host spectral type
-immass                      | immasserr1           | immasserr2         | immasslim         |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim          |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	   |\ # "image", stellar age [My]
+imstype			           K7 |\ # "imstype", stellar host spectral type
+immass               0.76 | immasserr1         0.02 | immasserr2        -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                0.35 | imlumerr1          0.09 | imlumerr2         -0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		              5.4 | imageerr1	            1 | imageerr2	           -1 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
