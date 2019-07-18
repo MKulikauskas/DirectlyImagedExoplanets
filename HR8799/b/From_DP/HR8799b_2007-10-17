@@ -1,7 +1,7 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        HR8799b_2007-10-17.dat
-# DATE:            2019-07-01
+# DATE:            2019-07-18
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -41,14 +41,14 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    5.383 | imjmagerr1      0.027 | imjmagerr2     0.027 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    5.280 | imhmagerr1      0.018 | imhmagerr2     0.018 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    5.240 | imkmagerr1      0.018 | imkmagerr2     0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   5.220 | imlpmagerr1     0.018 | imlpmagerr2    0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 16.30 | implnjmagerr1    0.16 | implnjmagerr2   0.16 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 14.87 | implnhmagerr1    0.17 | implnhmagerr2   0.17 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 14.05 | implnkmagerr1    0.08 | implnkmagerr2   0.08 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                12.66 | implnlpmagerr1   0.11 | implnlpmagerr2  0.11 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                    5.383 | imjmagerr      0.027 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    5.280 | imhmagerr      0.018 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    5.240 | imkmagerr      0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                   5.220 | imlpmagerr     0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                 16.30 | implnjmagerr    0.16 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 14.87 | implnhmagerr    0.17 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 14.05 | implnkmagerr    0.08 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                12.66 | implnlpmagerr   0.11 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
