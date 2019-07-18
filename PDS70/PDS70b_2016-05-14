@@ -17,10 +17,7 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                 | imdeltjmagerr		       | imdeltjmaglim                 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                 | imdelthmagerr		       | imdelthmaglim                 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                 | imdeltkmagerr		       | imdeltkmaglim                 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag                | imdeltlpmagerr		       | imdeltlpmaglim                |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                        | imangseperr1          | imangseperr2         | imangseplim       |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                           | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
 imtruesep                       | imtrueseperr1         | imtrueseperr2        | imtrueseplim      |\  # "imtruesep", true star-planet separation [AU] 
@@ -70,5 +67,7 @@ immodel		          	|\ # "immodel", description of model ##Reference that the mo
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes              Filter used was K1, imdeltkmag is in K1-band; Both K1 and K2 bands were listed in the paper  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
