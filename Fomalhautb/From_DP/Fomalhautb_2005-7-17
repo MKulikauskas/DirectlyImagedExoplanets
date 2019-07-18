@@ -18,7 +18,7 @@ dec_str               -29:37:20.1 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltjmag                        null | imdeltjmagerr    null | imdeltjmaglim   null |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                        22.9 | imdelthmagerr	  null | imdelthmaglim     -1 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdelthmag                        null | imdelthmagerr	  null | imdelthmaglim   null |\			# "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                        null | imdeltkmagerr		null | imdeltkmaglim   null |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                       null | imdeltlpmagerr   null | imdeltlpmaglim  null |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                          12.7 | imangseperr1     null | imangseperr2    null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
@@ -49,7 +49,7 @@ imhmag                     null | imhmagerr1       null | imhmagerr2      null |
 imkmag                     null | imkmagerr1       null | imkmagerr2      null | imkmaglim     null |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    null | imlpmagerr1      null | imlpmagerr2     null | imlpmaglim    null |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                  null | implnjmagerr1    null | implnjmagerr2   null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                  22.9 | implnhmagerr1    null | implnhmagerr2   null | implnhmaglim     1 |\ # "implnhmag", planet magnitude H-band [mag]
+implnhmag                  22.9 | implnhmagerr1    null | implnhmagerr2   null | implnhmaglim    -1 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                  null | implnkmagerr1    null | implnkmagerr2   null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                 null | implnlpmagerr1   null | implnlpmagerr2  null | implnlpmaglim null |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
@@ -57,7 +57,7 @@ implnlpmag                 null | implnlpmagerr1   null | implnlpmagerr2  null |
 #
 imstype			                A3V |\ # "imstype", stellar host spectral type
 immass                     null | immasserr1       null | immasserr2      null | immasslim     null |\ # "immass", stellar host [solar mass]
-imlum                3.4 × 10−7 | imlumerr1        null | imlumerr2       null | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                      null | imlumerr1        null | imlumerr2       null | imlumlim      null |\ # "imlum", stellar host [solar luminosity]
 image		                    200 | imageerr1	        100 | imageerr2	      -100 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
@@ -72,4 +72,3 @@ immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
 # Internal Counter
 #
 cntr                        TBD |  # counter
-
