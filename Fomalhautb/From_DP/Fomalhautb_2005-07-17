@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Fomalhautb_2005-7-17
+# FILENAME:        Fomalhautb_2005-07-17
 # DATE:            2019-07-16
 #                                    
 # Addition of directing values
@@ -27,8 +27,8 @@ imtruesep                         ≈115 | imtrueseperr1    null | imtrueseperr2
 impa                              null | impaerr1         null | impaerr2        null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                   Keck II |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                    NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	              2005-7-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+iminstrument                     NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                  2005-07-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
