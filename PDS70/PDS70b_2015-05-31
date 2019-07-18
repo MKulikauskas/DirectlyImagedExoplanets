@@ -55,15 +55,12 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 #
 # Model Columns
 #
-implstype		               	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim       |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+implmass                   7 | implmasserr1         2 | implmasserr2        -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		             'hottest' and 'hot' tracks, Mordasini et al. 2017 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                           Filter used was H2, imdelthmag is in H2-band; both H2 and H3 were given in the paper  |\ # "imnotes"
+imnotes              Filter used was H2, imdelthmag is in H2-band; both H2 and H3 were given in the paper; 'hottest' and 'hot' Mordasini models are not specific to this particular date  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
