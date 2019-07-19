@@ -36,8 +36,6 @@ dec                         TBD |\ # Dec [decimal]
 glon                        TBD |\ # "l" [decimal]
 glat                  	    TBD |\ # "b" [decimal]
 #
-# Photometry Columns
-#
 # Stellar Parameter Columns
 #
 imstype			                A3V |\ # "imstype", stellar host spectral type
