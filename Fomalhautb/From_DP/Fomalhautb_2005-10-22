@@ -6,7 +6,7 @@
 # Addition of directing values
 #                                    
 objectid                    TBD   |\ # objectID for object
-imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
+imreflink     2008Sci...322.1345K |\ # "imreflink, ADS bibcode
 imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
