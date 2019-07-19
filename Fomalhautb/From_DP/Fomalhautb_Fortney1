@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Fomalhautb_Kalas3
+# FILENAME:        Fomalhautb_Fortney1
 # DATE:            2019-07-16
 #                                    
 # Addition of directing values
@@ -66,7 +66,7 @@ implstype		               null |\ # "implstype", planet spectral type
 implmass                    2.6 | implmasserr1      0.9 | implmasserr2    -0.9 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    400 | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		            Kalas et al. (2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		            Fortney et al. (2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
