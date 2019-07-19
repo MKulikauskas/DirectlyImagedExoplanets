@@ -43,14 +43,14 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 imkmag                     6.79 | imkmagerr            0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    6.70 | imlpmagerr           0.04 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnhmag                 ≃18.9 | implnhmagerr         null | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 ≃18.5 | implnkmagerr         null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnhmag                  18.9 | implnhmagerr         null | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                  18.5 | implnkmagerr         null | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                16.49 | implnlpmagerr        null | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
 imstype			             A8 III |\ # "imstype", stellar host spectral type
-immass                     ≃1.6 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                      1.6 | immasserr1       null | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		                   13.5 | imageerr1	        3.5 | imageerr2	      -3.5 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
