@@ -1,6 +1,6 @@
 # USER:            christia
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Fomalhautb_Fortney1
+# FILENAME:        Fomalhautb_Fortney2
 # DATE:            2019-07-16
 #                                    
 # Addition of directing values
@@ -23,7 +23,7 @@ imdeltkmag                        null | imdeltkmagerr		null | imdeltkmaglim   n
 imdeltlpmag                       null | imdeltlpmagerr   null | imdeltlpmaglim  null |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                          12.7 | imangseperr1     null | imangseperr2    null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                            97.64 | imseperr1        null | imseperr2       null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                          130 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim      -1 |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                         ≈115 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                              null | impaerr1         null | impaerr2        null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                     HST, Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
@@ -58,13 +58,13 @@ implnlpmag                 16.6 | implnlpmagerr1   null | implnlpmagerr2  null |
 imstype			                A3V |\ # "imstype", stellar host spectral type
 immass                     null | immasserr1       null | immasserr2      null | immasslim     null |\ # "immass", stellar host [solar mass]
 imlum                      null | imlumerr1        null | imlumerr2       null | imlumlim      null |\ # "imlum", stellar host [solar luminosity]
-image		                    200 | imageerr1	       null | imageerr2	      null | imagelim	        0 |\ # "image", stellar age [My]
+image		                    200 | imageerr1	        100 | imageerr2	      -100 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		               null |\ # "implstype", planet spectral type
-implmass                    2.5 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    400 | impltemperr1     null | impltemperr2    null | impltemplim      1 |\ # "impltemp", planet temp [K]
+implmass                    0.5 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    450 | impltemperr1     null | impltemperr2    null | impltemplim      1 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            Fortney et al. (2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
