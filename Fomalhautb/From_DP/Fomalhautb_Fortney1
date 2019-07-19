@@ -23,7 +23,7 @@ imdeltkmag                        null | imdeltkmagerr		null | imdeltkmaglim   n
 imdeltlpmag                       null | imdeltlpmagerr   null | imdeltlpmaglim  null |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                          12.7 | imangseperr1     null | imangseperr2    null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                            97.64 | imseperr1        null | imseperr2       null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                          130 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim      -1 |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                         ≈115 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                              null | impaerr1         null | impaerr2        null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                     HST, Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
