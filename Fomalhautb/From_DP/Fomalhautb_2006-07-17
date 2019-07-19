@@ -1,7 +1,7 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Fomalhautb_2006-07-17
-# DATE:            2019-07-16
+# DATE:            2019-07-19
 #                                    
 # Addition of directing values
 #                                    
@@ -19,7 +19,7 @@ dec_str               -29:37:20.1 |\ # Dec [sexagesimal]
 #
 imangsep                          12.7 | imangseperr1     null | imangseperr2    null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                            97.64 | imseperr1        null | imseperr2       null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                         ≈115 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
+imtruesep                          115 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                       HST |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.                  ACS/HRC |\ # "iminstrument", Instrument used in observations ##added this
