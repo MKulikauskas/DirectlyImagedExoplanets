@@ -1,4 +1,4 @@
-# USER:            christia
+# USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Fomalhautb_2006-07-15
 # DATE:            2019-07-16
@@ -35,8 +35,6 @@ ra                          TBD |\ # RA [decimal]
 dec                         TBD |\ # Dec [decimal]
 glon                        TBD |\ # "l" [decimal]
 glat                  	    TBD |\ # "b" [decimal]
-#
-# Photometry Columns
 #
 # Stellar Parameter Columns
 #
