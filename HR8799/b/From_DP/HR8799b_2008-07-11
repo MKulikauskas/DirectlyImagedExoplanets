@@ -22,9 +22,9 @@ imdelthmag                12.57 | imdelthmagerr    0.416 | imdelthmaglim        
 imdeltkmag                 null | imdeltkmagerr     null | imdeltkmaglim      null |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                null | imdeltlpmagerr    null | imdeltlpmaglim     null |\	# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  1.727 | imangseperr     0.0057 | imangseperr2    -0.0057 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     68.04 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imsep                     68.05 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1     null | imtrueseperr2      null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
-impa                       null | impaerr1          null | impaerr2           null | impalim         null |\  # "impa", star-planet position angle [deg] 
+impa                      62.22 | impaerr1          null | impaerr2           null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
