@@ -17,10 +17,11 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                 null | imdeltjmagerr         null | imdeltjmaglim         null |\ # "imdeltjmag", planet-host magnitude difference [mag]
+imdeltjmag                13.90 | imdeltjmagerr        0.405 | imdeltjmaglim            0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag                 null | imdelthmagerr         null | imdelthmaglim         null |\ # "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                11.79 | imdeltkmagerr        0.289 | imdeltkmaglim            0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag                null | imdeltlpmagerr        null | imdeltlpmaglim        null |\	# "imdeltlpmag", planet-host magnitude difference [mag]
+imdeltlpmag               10.42 | imdeltlpmagerr       0.336 | imdeltlpmaglim           0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
+
 imangsep                   1.722, 1.720, 1.729 | imangseperr           0.0042 | imangseperr2           -0.0042 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      67.85, 67.77, 68.12 | imseperr1                1.0 | imseperr2                 -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1         null | imtrueseperr2         null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
@@ -48,10 +49,10 @@ imjmag                    5.383 | imjmagerr      0.027 | imjmaglim        0 |\ #
 imhmag                    5.280 | imhmagerr      0.018 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                    5.240 | imkmagerr      0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   5.220 | imlpmagerr     0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                  null | implnjmagerr    null | implnjmaglim  null |\ # "implnjmag", planet magnitude J-band [mag] 
+implnjmag                 19.28 | implnjmagerr   0.404 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                  null | implnhmagerr    null | implnhmaglim  null |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 17.03 | implnkmagerr   0.288 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                 null | implnlpmagerr   null | implnlpmaglim null |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag                15.64 | implnlpmagerr  0.336 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
