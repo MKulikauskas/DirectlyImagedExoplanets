@@ -20,8 +20,8 @@ dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
 imangsep                       0.448  | imangseperr1         0.005 | imangseperr2       -0.005  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
 impa                            211.8 | impaerr1               0.6 | impaerr2           -0.6  | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imtelescope	              Gemini-South |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                   NICI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                       2012-03-29 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+iminstrument                   NICI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2012-03-29 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
 imdisk 	                      1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona  		             null |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -50,5 +50,7 @@ immodel		               MCMC |\ # "immodel", description of model ##Reference th
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes            imangsep and impa are in the Kcont filter. The CH4S(1%) filter is also available for this date, but it is not included in this table. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
