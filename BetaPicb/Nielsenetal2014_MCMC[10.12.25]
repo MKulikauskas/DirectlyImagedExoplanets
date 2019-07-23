@@ -24,7 +24,7 @@ imtruesep                       null  | imtrueseperr1         | imtrueseperr2   
 impa                            212.9 | impaerr1               1.4 | impaerr2           -1.4  | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                          null  | imdisterr1              | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
 imtelescope	              Gemini-South |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                   Gemini/NICI |\ # "iminstrument", Instrument used in observations ##added this
+iminstrument.                   NICI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                       2010-12-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
 imdisk 	                      1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
