@@ -51,4 +51,6 @@ immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
+imnotes              imangsep and impa are in the CH4S (4%) filter. CH4L (4%) filter was also available for this date but is not included in this chart. |\ # "imnotes"
+#
 cntr                        TBD |  # counter
