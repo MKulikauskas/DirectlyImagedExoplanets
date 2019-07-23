@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Currie_et_al_2013_model.dat
-# DATE:            2019-07-18
+# DATE:            2019-07-23
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -17,7 +17,6 @@ dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltmag                       null  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                        null  | imangseperr1         0.010 | imangseperr2       -0.010  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
 imsep                           null  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
 imtruesep                       null  | imtrueseperr1        0.4 | imtrueseperr2       -0.6 | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
@@ -53,10 +52,10 @@ image		                   12 | imageerr1	           8 | imageerr2	        -4 | i
 # Model Columns
 #
 implstype	              L2-L5	|\ # "implstype", planet spectral type
-implmass                null  | implmasserr1         0.8 | implmasserr2        -0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                null  | impltemperr1         150 | impltemperr2        -150 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius              null  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
-immodel		                |\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                null  | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
+impltemp                1350  | impltemperr1         350 | impltemperr2        -350 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius              1.96  | implradiuserr1        | implradiuserr2       | implradiuslim     0|\ # "implradius", planet radius [Jupiter radii]
+immodel		               AE60 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
