@@ -1,0 +1,57 @@
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Currie_et_al_2013_model.dat
+# DATE:            2019-07-23
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink               2013ApJ...776...15C   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                        Beta Pic b  |\ # planet name
+ra_str                    05:47:17.09  |\ # RA [sexagesimal]
+dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imtelescope	                  > Gemini  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.                 > NICI  |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                 > 2013-01-09  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
+imdisk 	                     1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona  		              > 1  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu  			                 0  |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                     1 |\ # "ns", number of stars constituting the host system
+ra                         TBD |\ # RA [decimal]
+dec                        TBD |\ # Dec [decimal]
+glon                       TBD |\ # "l" [decimal]
+glat                  	   TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+                         >
+implnhmag                > 13.25 | implnhmagerr    0.18 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                > 12.47 | implnkmagerr    0.13 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+image		                   12 | imageerr1	           8 | imageerr2	        -4 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype	              L2-L5	|\ # "implstype", planet spectral type
+implmass                null  | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
+impltemp               > 1400  | impltemperr1         400 | impltemperr2        -400 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius             > 1.79  | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		             >  A60, Burrows et al. 2006, Currie et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
