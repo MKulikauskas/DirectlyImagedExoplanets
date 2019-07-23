@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Currie_et_al_2013_model.dat
-# DATE:            2019-07-18
+# DATE:            2019-07-23
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -27,9 +27,9 @@ imtelescope	                   Gemini  |\ # "imtelescope", Telescope used in obs
 iminstrument.                  NICI  |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                  2013-01-09  |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
-imdisk 	                     null  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 	                     1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona  		               1  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu  			                  0 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu  			                 0  |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -41,11 +41,6 @@ glat                  	   TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                     | imjmagerr        | imjmaglim         |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                     | imhmagerr        | imhmaglim         |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                     | imkmagerr        | imkmaglim         |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                  | implnjmagerr     | implnjmaglim      |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 13.25 | implnhmagerr    0.18 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 12.47 | implnkmagerr    0.13 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
@@ -56,10 +51,10 @@ image		                   12 | imageerr1	           8 | imageerr2	        4 | im
 # Model Columns
 #
 implstype	              L2-L5	|\ # "implstype", planet spectral type
-implmass               > null  | implmasserr1         0.8 | implmasserr2        -0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                null  | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
 impltemp                1400  | impltemperr1         400 | impltemperr2        -400 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius              1.79  | implradiuserr1        | implradiuserr2       | implradiuslim     |\ # "implradius", planet radius [Jupiter radii]
-immodel		               E60 |\ # "immodel", description of model ##Reference that the model is drawn from.
+implradius              1.79  | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		               E60, Burrows et al. 2006 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
