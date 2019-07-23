@@ -1,7 +1,7 @@
-# USER:            christia
+# USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        Wang_et_al_2016_model.dat
-# DATE:            2019-06-28
+# DATE:            2019-07-23
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -18,10 +18,10 @@ dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltmag                         null  | imdeltmagerr		| imdeltmaglim        |\			# "imdeltmag", planet-host magnitude difference [mag]
-imangsep                        null | imangseperr1         0.010 | imangseperr2       0.010  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                        null | imangseperr1         0.010 | imangseperr2       -0.010  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
 imsep                           null  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
 imtruesep                       null | imtrueseperr1        | imtrueseperr2       | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                            213.0 | impaerr1               0.2 | impaerr2           0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+impa                            213.0 | impaerr1               0.2 | impaerr2           -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                          null  | imdisterr1              | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
 imtelescope	                   null  |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.                  GPI  |\ # "iminstrument", Instrument used in observations ##added this
@@ -41,14 +41,14 @@ glat                  	   TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                     | imjmagerr1        | imjmagerr2       | imjmaglim         |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                     | imhmagerr1        | imhmagerr2       | imhmaglim         |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                     | imkmagerr1        | imkmagerr2       | imkmaglim         |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                    | imlpmagerr1       | imlpmagerr2      | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                  | implnjmagerr1     | implnjmagerr2    | implnjmaglim      |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                  | implnhmagerr1     | implnhmagerr2    | implnhmaglim      |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                  | implnkmagerr1     | implnkmagerr2    | implnkmaglim      |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                 | implnlpmagerr1    | implnlpmagerr2   | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                     | imjmagerr        | imjmaglim         |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                     | imhmagerr        | imhmaglim         |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                     | imkmagerr        | imkmaglim         |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                  | implnjmagerr     | implnjmaglim      |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                  | implnhmagerr     | implnhmaglim      |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                  | implnkmagerr     | implnkmaglim      |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -60,9 +60,9 @@ image		                  null  | imageerr1	            | imageerr2	         | im
 # Model Columns
 #
 implstype	              null	|\ # "implstype", planet spectral type
-implmass                12.7  | implmasserr1         0.3 | implmasserr2        0.3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                12.7  | implmasserr1         0.3 | implmasserr2        -0.3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                null  | impltemperr1          | impltemperr2         | impltemplim       |\ # "impltemp", planet temp [K]
-implradius              1.165  | implradiuserr1       0.013 | implradiuserr2      0.016 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implradius              1.165  | implradiuserr1       0.013 | implradiuserr2      -0.016 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		              MCMC (Markov-chain Monte Carlo)  |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
