@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Currie_et_al_2013_model.dat
+# FILENAME:        Currie_et_al_2013_AE60.dat
 # DATE:            2019-07-23
 #                                    
 # Addition of direct imaging values
@@ -17,18 +17,13 @@ dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imangsep                        null  | imangseperr1         0.010 | imangseperr2       -0.010  | imangseplim       0|\  # "imangsep", star-planet angular separation [arcsec]
-imsep                           null  | imseperr1             | imseperr2            | imseplim          |\  # "imsep", projected star-planet separation [AU]
-imtruesep                       null  | imtrueseperr1        0.4 | imtrueseperr2       -0.6 | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
-impa                            null  | impaerr1               1.3 | impaerr2           -1.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                          null  | imdisterr1              | imdisterr2           | imdistlim         |\  # "imdist", distance to star [pc]
-imtelescope	                   null  |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                    |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                       |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	                    VLT  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.                  NaCo  |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                 2011-12-16  |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
-imdisk 	                     null  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona  		                 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu  			                   |\ # "imifu", IFU used (1=yes, 0=no)
+imdisk 	                    1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona  		              0   |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu  			                0   |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -40,13 +35,10 @@ glat                  	   TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-
+implnjmag                 14.11 | implnjmagerr    0.21 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 #
 # Stellar Parameter Columns
 #
-imstype			               null |\ # "imstype", stellar host spectral type
-immass                     null | immasserr1        0.05  | immasserr2      -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                      null | imlumerr1               | imlumerr2            | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                   12 | imageerr1	           8 | imageerr2	        -4 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
@@ -55,7 +47,7 @@ implstype	              L2-L5	|\ # "implstype", planet spectral type
 implmass                null  | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
 impltemp                1350  | impltemperr1         350 | impltemperr2        -350 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius              1.96  | implradiuserr1        | implradiuserr2       | implradiuslim     0|\ # "implradius", planet radius [Jupiter radii]
-immodel		               AE60 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		               AE60, Madhusudhan et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
