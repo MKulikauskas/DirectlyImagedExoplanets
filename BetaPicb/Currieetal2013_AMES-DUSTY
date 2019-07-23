@@ -17,12 +17,12 @@ dec_str                   -51:03:59.4  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imtelescope	                  > Gemini  |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                 > NICI  |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                 > 2013-01-09  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	                   VLT  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.                 NaCo  |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                  2012-12-16  |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
 imdisk 	                     1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona  		              > 1  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona  		               >  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu  			                 0  |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -35,9 +35,7 @@ glat                  	   TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-                         >
-implnhmag                > 13.25 | implnhmagerr    0.18 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                > 12.47 | implnkmagerr    0.13 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                11.24 | implnlpmagerr   0.08 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
