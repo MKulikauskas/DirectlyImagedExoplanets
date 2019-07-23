@@ -45,8 +45,8 @@ image		                   12 | imageerr1	           8 | imageerr2	        -4 | i
 #
 implstype	              L2-L5	|\ # "implstype", planet spectral type
 implmass                null  | implmasserr1          | implmasserr2         | implmasslim       |\ # "implmass", planet mass [Jupiter mass]
-impltemp               > 1400  | impltemperr1         400 | impltemperr2        -400 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius             > 1.79  | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                1350  | impltemperr1         350 | impltemperr2        -350 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius              2.05  | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		               A60, Burrows et al. 2006, Currie et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0  |\ # "immodeldef" (1=yes, 0=no)
 #
