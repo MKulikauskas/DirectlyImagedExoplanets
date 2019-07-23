@@ -23,8 +23,8 @@ imsep                           null  | imseperr1             | imseperr2       
 imtruesep                       null  | imtrueseperr1         | imtrueseperr2        | imtrueseplim      |\  # "imtruesep", true star-planet separation [AU] 
 impa                            211.9 | impaerr1               1.2 | impaerr2           -1.2  | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                          null  | imdisterr1              | imdisterr2           |imdistlim         |\  # "imdist", distance to star [pc]
-imtelescope	              null |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                   Magellan/MagAO+Clio2 |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	              Magellan |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.                   MagAO+Clio2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                       2012-12-02 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                  β Pictoris |\ # "imcluster", name of associated cluster
 imdisk 	                      1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
