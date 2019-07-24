@@ -1,6 +1,6 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HR8799d_2007-10-17.dat
+# FILENAME:        HR8799d_Baraffe.dat
 # DATE:            2019-07-22
 #                                    
 # Addition of direct imaging values
@@ -28,7 +28,7 @@ impa                       null | impaerr1          null | impaerr2           nu
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	           Gemini N |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NIRI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	      2007-10-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	                 2007-10-17, 2008-07-11, 2008-08-12, 2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            null |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
