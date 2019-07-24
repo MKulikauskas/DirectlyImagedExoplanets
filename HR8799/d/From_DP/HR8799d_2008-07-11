@@ -1,6 +1,6 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HR8799c_2004-07-14.dat
+# FILENAME:        HR8799d_2008-07-11.dat
 # DATE:            2019-07-22
 #                                    
 # Addition of direct imaging values
@@ -11,7 +11,7 @@ imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
 #
-plntname                HR 8799 b |\ # planet name
+plntname                HR 8799 d |\ # planet name
 ra_str                23:07:28.72 |\ # RA [sexagesimal]
 dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
@@ -28,7 +28,7 @@ impa                            | impaerr1          null | impaerr2           nu
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	      2004-07-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	      2008-07-11 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            null |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
