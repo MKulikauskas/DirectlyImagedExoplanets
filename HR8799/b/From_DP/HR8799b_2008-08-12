@@ -19,12 +19,12 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 imdeltjmag                13.90 | imdeltjmagerr    0.405 | imdeltjmaglim         0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag                12.57 | imdelthmagerr    0.416 | imdelthmaglim         0 |\ # "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                 null | imdeltkmagerr     null | imdeltkmaglim      null |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltkmag                   K' | imdeltkmagerr     null | imdeltkmaglim      null |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               10.42 | imdeltlpmagerr   0.336 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  1.723, 1.725, 1.725, 1.728 | imangseperr      0.0028 | imangseperr2     -0.0028 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     67.89, 67.97, 67.97, 68.08 | imseperr1           1.0 | imseperr2           -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imangsep    1.723, 1.725, K', 1.728 | imangseperr     0.0028 | imangseperr2    -0.0028 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep       67.89, 67.97, K', 68.08 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1     null | imtrueseperr2      null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
-impa                       62.30, 62.26, 62.29, 62.35 | impaerr1           null | impaerr2            null | impalim             0 |\  # "impa", star-planet position angle [deg] 
+impa        62.30, 62.26, K', 62.35 | impaerr1           null | impaerr2            null | impalim             0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
@@ -50,7 +50,7 @@ imkmag                    5.240 | imkmagerr      0.018 | imkmaglim        0 |\ #
 imlpmag                   5.220 | imlpmagerr     0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                 19.28 | implnjmagerr   0.404 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 17.85 | implnhmagerr   0.416 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                  null | implnkmagerr    null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
+implnkmag                    K' | implnkmagerr    null | implnkmaglim  null |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                15.64 | implnlpmagerr  0.336 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
