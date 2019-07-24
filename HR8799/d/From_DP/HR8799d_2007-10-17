@@ -1,6 +1,6 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HR8799c_2004-07-14.dat
+# FILENAME:        HR8799d_2007-10-17.dat
 # DATE:            2019-07-22
 #                                    
 # Addition of direct imaging values
@@ -11,7 +11,7 @@ imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
 #
-plntname                HR 8799 b |\ # planet name
+plntname                HR 8799 d |\ # planet name
 ra_str                23:07:28.72 |\ # RA [sexagesimal]
 dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
