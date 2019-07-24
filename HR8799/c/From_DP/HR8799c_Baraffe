@@ -49,7 +49,7 @@ imhmag                    5.280 | imhmagerr      0.018 | imhmaglim        0 |\ #
 imkmag                    5.240 | imkmagerr      0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   5.220 | imlpmagerr     0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                 17.63 | implnjmagerr   0.240 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                  null | implnhmagerr    null | implnhmaglim  null |\ # "implnhmag", planet magnitude H-band [mag]
+implnhmag                 16.91 | implnhmagerr   0.240 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 16.11 | implnkmagerr   0.113 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                14.72 | implnlpmagerr  0.127 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
