@@ -1,7 +1,7 @@
-# USER:            christia
+# USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HR8799e_PHOENIX
-# DATE:            2019-06-**
+# FILENAME:        HR8799e_2009-7-31
+# DATE:            2019-07-25
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -18,15 +18,14 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltmag                  null | imdeltmagerr		 null | imdeltmaglim    null |\			# "imdeltmag", planet-host magnitude difference [mag]
-imflxratio                 null | imflxratioerr1   null | imflxratioerr2  null | imflxratiolim      0 |\ 	# "imflxratio", planet/host flux ratio
-imangsep                  0.368 | imangseperr1    0.009 | imangseperr2   0.009 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                  0.368 | imangseperr1    0.003 | imangseperr2  -0.003 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      14.5 | imseperr1         0.5 | imseperr2        0.5 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                  null | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 impa                       null | impaerr1         null | impaerr2        null | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1        1.1 | imdisterr2       1.1 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument            400 mas diameter mask |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	              2009-7-31, 2009-8-1, 2009-11-1, 2010-7-13, 2010-7-21, 2010-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	              2009-7-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	           null |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
