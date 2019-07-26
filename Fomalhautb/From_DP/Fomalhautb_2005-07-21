@@ -38,7 +38,7 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-implnhmag                  22.9 | implnhmagerr1    null | implnhmagerr2   null | implnhmaglim    -1 |\ # "implnhmag", planet magnitude H-band [mag]
+implnhmag                  22.9 | implnhmagerr     null | implnhmaglim    -1 |\ # "implnhmag", planet magnitude H-band [mag]
 #
 # Stellar Parameter Columns
 #
