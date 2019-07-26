@@ -17,7 +17,7 @@ dec_str               -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                14.35 | imdeltjmagerr		 0.63 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdeltjmag                14.35 | imdeltjmagerr		0.404 | imdeltjmaglim      0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
 imsep                      13.2 | imseperr1         0.2 | imseperr2       -0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imdist                     29.4 | imdisterr1        0.3 | imdisterr2      -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
