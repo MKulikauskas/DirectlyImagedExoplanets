@@ -17,9 +17,9 @@ dec_str               -58:03:15.5 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                 9.79 | imdeltjmagerr                0.083 | imdeltjmaglim                    0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                 8.48 | imdelthmagerr                0.083 | imdelthmaglim                    0 |\ # "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                 7.39 | imdeltkmagerr                0.083 | imdeltkmaglim                    0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltjmag                 9.79 | imdeltjmagerr                 null | imdeltjmaglim                    0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                 8.48 | imdelthmagerr                 null | imdelthmaglim                    0 |\ # "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                 7.39 | imdeltkmagerr                 null | imdeltkmaglim                    0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdist                     47.3 | imdisterr1                     1.8 | imdisterr2                    -1.7 | imdistlim                        0 |\  # "imdist", distance to star [pc]
 imtelescope	          VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
