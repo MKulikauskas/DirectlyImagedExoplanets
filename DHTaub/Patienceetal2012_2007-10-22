@@ -1,2 +1,5 @@
 imhmag                    8.82 | imhmagerr       0.03 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                    8.18 | imkmagerr       0.03 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+
+imdelthmag                6.14 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                6.01 | imdeltkmagerr		      0.04 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
