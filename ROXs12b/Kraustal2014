@@ -1,1 +1,69 @@
-:O
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        ROXs12b_Kraus2014.dat
+# DATE:            2019-07-30
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink             2014ApJ...781...20K  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                       ROXs 12 b  |\ # planet name
+ra_str                         16:26:27.76   |\ # RA [sexagesimal]
+dec_str                        -25:27:24.7   |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltjmag                5.62 | imdeltjmagerr		      0.02 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                5.44 | imdelthmagerr		      0.01 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                5.06 | imdeltkmagerr		      0.01 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag               4.12 | imdeltlpmagerr		      0.01 | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep                       1.781 | imangseperr1         0.002 | imangseperr2        -0.002 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          210 | imseperr1            20 | imseperr2           -20 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           9.08 | impaerr1             0.06 | impaerr2            -0.06 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                         120 | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	              Keck-II 10m |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imcluster	               Oph  |\ # "imcluster", name of associated cluster
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                   11.02 | imjmagerr        | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    9.93 | imhmagerr        | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    9.26 | imkmagerr        | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                   8.43 | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                 16.64 | implnjmagerr    0.07 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 15.37 | implnhmagerr    0.08 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 14.32 | implnkmagerr    0.06 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                12.55 | implnlpmagerr   0.09 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			    M0 |\ # "imstype", stellar host spectral type
+immass                     0.87 | immasserr1          0.08 | immasserr2        -0.08 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             7.6 | imageerr1	       4.1 | imageerr2	     -2.5 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass                    16 | implmasserr1         4 | implmasserr2        -4 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          Absolute K-band values, Kraus et al. 2014	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes          imangsep and impa are both in K-Band. H, J, and L band values were also listed, but are not included due to insignificance; A second K-band measurement is listed, but is not included in this table (listed on page 7).  |\ # "imnotes"
+#
+cntr                        TBD |  # counter
