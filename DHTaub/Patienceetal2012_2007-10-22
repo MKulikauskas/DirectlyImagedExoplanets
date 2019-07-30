@@ -1,8 +1,67 @@
-imhmag                    8.82 | imhmagerr       0.03 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    8.18 | imkmagerr       0.03 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        DHTaub_Patienceetal2012.dat
+# DATE:            2019-07-30
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink          2012A&A...540A..85P   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                           DH Tau b  |\ # planet name
+ra_str                           04:29:41.56 |\ # RA [sexagesimal]
+dec_str                          +26:32:58.3 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
 imdelthmag                6.14 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                6.01 | imdeltkmagerr		      0.04 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-
+imangsep                       2.3 | imangseperr1          | imangseperr2         | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          330 | imseperr1             | imseperr2            | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imdist                         140 | imdisterr1           15 | imdisterr2          -15 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	                 VLT |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             SINFONI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                2007-12-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                Taurus SFR |\ # "imcluster", name of associated cluster
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			           1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imhmag                    8.82 | imhmagerr       0.03 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    8.18 | imkmagerr       0.03 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 implnhmag                 14.96 | implnhmagerr    0.04 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 14.19 | implnkmagerr    0.02 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			       M0.5 |\ # "imstype", stellar host spectral type
+immass             0.33 | immasserr1           | immasserr2         | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		              2 | imageerr1	      1 | imageerr2	     -1 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               L2	|\ # "implstype", planet spectral type
+implmass                   11 | implmasserr1         10 | implmasserr2        -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    2700 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  0.27 | implradiuserr1       0.07 | implradiuserr2      -0.07 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          	Luhman er al. 2006, Itoh et al. 2005 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                |\ # "imnotes"
+#
+cntr                        TBD |  # counter
