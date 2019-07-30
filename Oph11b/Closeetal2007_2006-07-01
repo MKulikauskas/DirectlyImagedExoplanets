@@ -1,0 +1,67 @@
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Oph11b_Closeetal2007.dat
+# DATE:            2019-07-30
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink               2007ApJ...660.1492C  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                         Oph 11 b |\ # planet name
+ra_str                           16:22:25.21 |\ # RA [sexagesimal]
+dec_str                          -24:05:13.9 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltjmag                0.82 | imdeltjmagerr		      0.03 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                0.69 | imdelthmagerr		      0.03 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                0.52 | imdeltkmagerr		      0.03 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                       1.943 | imangseperr1         0.022 | imangseperr2        -0.022 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          242.875 | imseperr1            25 | imseperr2           -25 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           176.2 | impaerr1             0.5 | impaerr2            -0.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                         125 | imdisterr1           25 | imdisterr2          -25 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	              Gemini |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2006-07-01  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	               Oph/Upper Soc |\ # "imcluster", name of associated cluster
+imdisk 		                1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                    15.04 | imjmagerr       0.05 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    14.19 | imhmagerr       0.07 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    13.92 | imkmagerr       0.07 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                 15.86 | implnjmagerr    0.05 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 14.88 | implnhmagerr    0.05 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 14.44 | implnkmagerr    0.44 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+implstype		               M9.5 (plus or minus 0.5)	|\ # "implstype", planet spectral type
+implmass                    14 | implmasserr1         6 | implmasserr2        -5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    2175 | impltemperr1         175 | impltemperr2        -175 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          DUSTY, Chabrier et al. 2000	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes            The imjmag, imhmag, and imkmag refer to Oph 11 A, not necessarily a star. The system is possibly a Brown Dwarf Binary; The imkmag, implnkmag, and imdeltkmag values are in Ks-band. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
