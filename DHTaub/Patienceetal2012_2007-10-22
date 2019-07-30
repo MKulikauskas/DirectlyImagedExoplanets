@@ -3,3 +3,6 @@ imkmag                    8.18 | imkmagerr       0.03 | imkmaglim        0 |\ # 
 
 imdelthmag                6.14 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                6.01 | imdeltkmagerr		      0.04 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+
+implnhmag                 14.96 | implnhmagerr    0.04 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 14.19 | implnkmagerr    0.02 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
