@@ -65,6 +65,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               The immodel column is what the paper generalizes as a final value. They combined the individual models.  |\ # "imnotes"
+imnotes                |\ # "imnotes"
 #
 cntr                        TBD |  # counter
