@@ -62,6 +62,6 @@ immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                    Here, stellar L' is at 3.4 μm. |\ # "imnotes", #notes on table information
+imnotes                    Here, L' is at 3.4 μm. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
