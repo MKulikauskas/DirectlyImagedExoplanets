@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Keppler_et_al_2018_2012-03-31.dat
+# FILENAME:        PDS70b_2012-03-31.dat
 # DATE:            2019-07-18
 #                                    
 # Addition of direct imaging values
@@ -22,10 +22,10 @@ imangsep                   0.1919 | imangseperr1         0.0214 | imangseperr2  
 imsep                      21.7672 | imseperr1            0.5204 | imseperr2           -0.5204 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                        162.2 | impaerr1             3.7 | impaerr2            -3.7 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                   113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
-imtelescope	             Gemini |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	           Gemini S |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument.              NICI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	           2012-03-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	         Sco-Cen |\ # "imcluster", name of associated cluster
+imcluster	           Upper Centaurus-Lupus |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		             0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			             0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -44,7 +44,7 @@ imjmag                   9.553 | imjmagerr      0.024 | imjmaglim        0 |\ # 
 imhmag                   8.823 | imhmagerr       0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   8.542 | imkmagerr      0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                  7.913 | imlpmagerr      0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag              14.503 | implnlpmagerr   0.419 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+implnlpmag              14.503 | implnlpmagerr  0.419 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
