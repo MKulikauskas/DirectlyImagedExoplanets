@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Keppler_et_al_2018_2015-05-31.dat
+# FILENAME:        PDS70b_2015-05-31.dat
 # DATE:            2019-07-18
 #                                    
 # Addition of direct imaging values
@@ -22,10 +22,10 @@ imangsep                0.1995 | imangseperr1         0.0069 | imangseperr2     
 imsep                         21.8126  | imseperr1            0.5200 | imseperr2           -0.5200 | imseplim          0|\  # "imsep", projected star-planet separation [AU]
 impa                        153.4 | impaerr1             1.8 | impaerr2            -1.8 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                      113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
-imtelescope	              VLT |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.             SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                2015-05-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	            Sco-Cen  |\ # "imcluster", name of associated cluster
+imtelescope	               VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.         SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2015-05-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	              Upper Centaurus-Lupus |\ # "imcluster", name of associated cluster
 imdisk 		                   1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -61,6 +61,6 @@ immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes              Filter used was H2, imdelthmag is in H2-band; both H2 and H3 were given in the paper; 'hottest' and 'hot' Mordasini models are not specific to this particular date  |\ # "imnotes"
+imnotes              Here, filter used was H2. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
