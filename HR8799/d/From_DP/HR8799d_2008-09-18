@@ -18,18 +18,14 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltjmag                12.86 | imdeltjmagerr    0.659 | imdeltjmaglim         0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                 null | imdelthmagerr     null | imdelthmaglim      null |\ # "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                10.85 | imdeltkmagerr    0.351 | imdeltkmaglim         0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                9.32 | imdeltlpmagerr   0.404 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                   0.63 | imangseperr       null | imangseperr2       null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     24.82 | imseperr1         null | imseperr2          null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1     null | imtrueseperr2      null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
-impa                       null | impaerr1          null | impaerr2           null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	           Gemini N |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NIRI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	      2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	            null |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -49,7 +45,6 @@ imhmag                    5.280 | imhmagerr      0.018 | imhmaglim        0 |\ #
 imkmag                    5.240 | imkmagerr      0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                   5.220 | imlpmagerr     0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnjmag                 18.24 | implnjmagerr   0.658 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                  null | implnhmagerr    null | implnhmaglim  null |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 16.09 | implnkmagerr   0.351 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                14.54 | implnlpmagerr  0.404 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
@@ -66,8 +61,7 @@ implstype			L |\ # "implstype", planet spectral type
 implmass                     10 | implmasserr1        3 | implmasserr2      -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   1090 | impltemperr1       10 | impltemperr2     -90 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1    0.1 | implradiuserr2  -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		        null |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
