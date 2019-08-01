@@ -51,15 +51,15 @@ implnkmag                 11.826 | implnkmagerr    0.031 | implnkmaglim     0 |\
 #
 # Stellar Parameter Columns
 #
-immass                     0.04 | immasserr1          0.05 | immasserr2        -0.0 | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                     0.04 | immasserr1          0.05 | immasserr2        -0.03 | immasslim        0 |\ # "immass", stellar host [solar mass]
 #
 # Model Columns
 #
 implstype		               M8.5+L2	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                    0.07 | implmasserr1         0.03 | implmasserr2        -0.05 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          Close et al. 2003	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          TUCSON, Burrows et al. 1997	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
