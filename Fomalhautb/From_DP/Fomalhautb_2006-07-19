@@ -49,6 +49,6 @@ immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes             Here, information was collected in F606W and F814W (V). |\ # "imnotes", #notes on table information
+imnotes             Here, data was collected in F606W and F814W (V). |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
