@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        Keppler_et_al_2018_2016-05-14.dat
+# FILENAME:        PDS70b_2016-05-14.dat
 # DATE:            2019-07-18
 #                                    
 # Addition of direct imaging values
@@ -22,12 +22,12 @@ imangsep                       0.1932 | imangseperr1         0.0083 | imangseper
 imsep                        21.9147  | imseperr1            0.5201 | imseperr2           -0.5201 | imseplim          0 |\  # "imsep", projected star-planet separation [AU]
 impa                            151.5 | impaerr1             1.6 | impaerr2            -1.6 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                      113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
-imtelescope	              VLT |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.             SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                2016-05-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                Sco-Cen |\ # "imcluster", name of associated cluster
+imtelescope	               VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument.         SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2016-05-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                UCL |\ # "imcluster", name of associated cluster
 imdisk 		                1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -55,12 +55,7 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 #
 # Model Columns
 #
-implmass                  13 | implmasserr1         1 | implmasserr2        -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-immodel		              'warm' track, Mordasini et al. 2017 |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
-#
 # Internal Counter
 #
-imnotes              Filter used was K1, imdeltkmag is in K1-band; Both K1 and K2 bands were listed in the paper; 'warm' Mordasini model is not specific to this particular date  |\ # "imnotes"
-#
+imnotes              Here, filter used was K1.
 cntr                        TBD |  # counter
