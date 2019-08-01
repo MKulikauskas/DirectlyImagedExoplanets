@@ -17,7 +17,7 @@ dec_str               -68:40:02.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                9.79 | imdeltlpmagerr              0.73 | imdeltlpmaglim                 0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imdeltlpmag                9.79 | imdeltlpmagerr              0.40 | imdeltlpmaglim                 0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                  623.9 | imangseperr1                 7.4 | imangseperr2                -7.4 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      56.4 | imseperr1                    0.7 | imseperr2                   -0.7 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 impa                      151.8 | impaerr1                     0.8 | impaerr2                    -0.8 | impalim            0 |\  # "impa", star-planet position angle [deg] 
@@ -62,6 +62,6 @@ immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                    Here, L' is at 3.4 μm. |\ # "imnotes", #notes on table information
+imnotes                    Here, stellar L' is at 3.4 μm. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
