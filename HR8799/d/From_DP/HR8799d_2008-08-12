@@ -19,17 +19,14 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 imdeltjmag                12.86 | imdeltjmagerr    0.659 | imdeltjmaglim         0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag                11.56 | imdelthmagerr    0.472 | imdelthmaglim         0 |\ # "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                 null | imdeltkmagerr     null | imdeltkmaglim      null |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                9.32 | imdeltlpmagerr   0.404 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep              (K') 0.63 | imangseperr       null | imangseperr2       null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                (K') 24.82 | imseperr1         null | imseperr2          null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1     null | imtrueseperr2      null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
+imsep                (K') 24.82 | imseperr1         null | imseperr2          null | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
 impa                  (K') null | impaerr1          null | impaerr2           null | impalim         null |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	      2008-08-12 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	            null |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -66,7 +63,6 @@ implstype			L |\ # "implstype", planet spectral type
 implmass                     10 | implmasserr1        3 | implmasserr2      -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                   1090 | impltemperr1       10 | impltemperr2     -90 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1    0.1 | implradiuserr2  -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		        null |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
