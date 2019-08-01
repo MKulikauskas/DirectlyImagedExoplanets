@@ -23,13 +23,11 @@ imdeltkmag                   K' | imdeltkmagerr     null | imdeltkmaglim      nu
 imdeltlpmag               10.42 | imdeltlpmagerr   0.115 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep    1.723, 1.725, K', 1.728 | imangseperr     0.0028 | imangseperr2    -0.0028 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep       67.89, 67.97, K', 68.08 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-imtruesep                  null | imtrueseperr1     null | imtrueseperr2      null | imtrueseplim    null |\  # "imtruesep", true star-planet separation [AU] 
 impa        62.30, 62.26, K', 62.35 | impaerr1           null | impaerr2            null | impalim             0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	      2008-08-12 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	            null |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -66,8 +64,7 @@ implstype			L |\ # "implstype", planet spectral type
 implmass                      7 | implmasserr1        4 | implmasserr2      -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    870 | impltemperr1       30 | impltemperr2     -70 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1    0.1 | implradiuserr2  -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		        null |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
