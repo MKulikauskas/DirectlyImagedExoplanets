@@ -17,7 +17,7 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdelthmag                 CH4S | imdelthmagerr     null | imdelthmaglim      null |\ # "imdelthmag", planet-host magnitude difference [mag]
+imdelthmag                12.88 | imdelthmagerr    0.180 | imdelthmaglim         0 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imangsep                   CH4S | imangseperr       null | imangseperr2       null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      CH4S | imseperr1         null | imseperr2          null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 impa                       CH4S | impaerr1          null | impaerr2           null | impalim         null |\  # "impa", star-planet position angle [deg] 
