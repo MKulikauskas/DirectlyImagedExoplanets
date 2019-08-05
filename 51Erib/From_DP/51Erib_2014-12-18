@@ -62,6 +62,6 @@ immodeldef		              0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes             Here, stellar luminosity is in L/Lʘ not Lʘ. |\ # "imnotes", #notes on table information
+imnotes                 Here, stellar luminosity is in L/Lʘ not Lʘ. Here, planet K mag. is in Ks. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
