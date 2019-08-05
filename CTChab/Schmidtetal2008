@@ -12,8 +12,8 @@ imrefid			                TBD   |\ # refid for paper
 # Default Columns
 #
 plntname                         CT Cha b |\ # planet name
-ra_str                            |\ # RA [sexagesimal]
-dec_str                           |\ # Dec [sexagesimal]
+ra_str                           11:04:09.09 |\ # RA [sexagesimal]
+dec_str                          -76:27:19.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
