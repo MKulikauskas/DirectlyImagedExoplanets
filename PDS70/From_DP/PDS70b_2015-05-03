@@ -57,6 +57,6 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 #
 # Internal Counter
 #
-imnotes                     Here, imdelthmag is in H2.  |\ # "imnotes"
+imnotes                     Here, delta H mag. is in H2.  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
