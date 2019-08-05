@@ -17,7 +17,6 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdelthmag                12.88 | imdelthmagerr    0.180 | imdelthmaglim         0 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imangsep           (CH4S) 1.713 | imangseperr     0.0071 | imangseperr2    -0.0071 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep              (CH4S) 67.49 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 impa               (CH4S) 61.97 | impaerr1          null | impaerr2           null | impalim            0 |\  # "impa", star-planet position angle [deg] 
@@ -59,6 +58,8 @@ implmass                      7 | implmasserr1        4 | implmasserr2      -2 |
 impltemp                    870 | impltemperr1       30 | impltemperr2     -70 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1    0.1 | implradiuserr2  -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
+#
+imnotes                       Here, planet H mag is in CH4S. |\ # "imnotes", #notes on table information
 #
 # Internal Counter
 #
