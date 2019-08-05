@@ -61,6 +61,6 @@ immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes              Here, filter used was H2. |\ # "imnotes"
+imnotes                Here, planet H mag. is in H2. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
