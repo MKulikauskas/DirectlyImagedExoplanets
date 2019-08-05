@@ -53,6 +53,6 @@ immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Here, planet H mag is in CH4S (1.592 μm). |\ # "imnotes", #notes on table information
+imnotes               Here, planet H mag is in CH4S. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
