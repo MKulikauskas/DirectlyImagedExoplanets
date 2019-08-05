@@ -1,0 +1,69 @@
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        CHXR73b_Luhmanetal2006.dat
+# DATE:            2019-08-05
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink              2006ApJ...649..894L  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                           CHXR 73 b |\ # planet name
+ra_str                           11:06:28.77 |\ # RA [sexagesimal]
+dec_str                          -77:37:33.2 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltjmag                5.2 | imdeltjmagerr		       | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                5.2 | imdelthmagerr		       | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                4.7 | imdeltkmagerr		       | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                        1.30 | imangseperr1         0.03 | imangseperr2        -0.03 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                            210 | imseperr1             | imseperr2            | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           234.9 | impaerr1             1 | impaerr2            -1 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                        161.54 | imdisterr1           0.03 | imdisterr2          -0.03 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	              Magellan I |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                   PANIC |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                2005-04-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                Chamaeleon I |\ # "imcluster", name of associated cluster
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                    12.7 | imjmagerr       0.3 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    11.3 | imhmagerr       0.3 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    10.8 | imkmagerr       0.25 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                 17.9 | implnjmagerr    0.3 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 16.5 | implnhmagerr    0.3 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 15.5 | implnkmagerr    0.25 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			      M3.5 |\ # "imstype", stellar host spectral type
+immass            0.35 | immasserr1           | immasserr2         | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             2 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               M9.5	|\ # "implstype", planet spectral type
+implmass                    0.012 | implmasserr1         0.008 | implmasserr2        -0.005 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          	Chabrier et al. (2000), Burrows et al. (1997)|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes               paper does not exclusively choose one model for modeled data. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
