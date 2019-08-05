@@ -17,7 +17,6 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdelthmag                9.35 | imdelthmagerr		      0.18 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imangsep                0.1923 | imangseperr1         0.0042 | imangseperr2        -0.0042 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                       22.6293  | imseperr1            0.5200 | imseperr2           -0.5200 | imseplim          0|\  # "imsep", projected star-planet separation [AU]
 impa                           154.5 | impaerr1             1.2 | impaerr2            -1.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -57,6 +56,6 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 #
 # Internal Counter
 #
-imnotes                     Here, delta H mag. is in H2.  |\ # "imnotes"
+imnotes               Here, planet H mag. is in H2. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
