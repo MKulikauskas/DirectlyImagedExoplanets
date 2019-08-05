@@ -52,16 +52,16 @@ implnkmag                 22.83 | implnkmagerr    0.30 | implnkmaglim     0 |\ #
 # Stellar Parameter Columns
 #
 imstype			            T9.5 |\ # "imstype", stellar host spectral type
-immass                     12.1 | immasserr1          1.9 | immasserr2        -1.9 | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                     11.1 | immasserr1          0.7 | immasserr2        -0.7 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                  -6.02 | imlumerr1           0.14 | imlumerr2         -0.14 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             1000 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		               >T10	|\ # "implstype", planet spectral type
-implmass                    5.8 | implmasserr1         1.3 | implmasserr2        -1.3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    360 | impltemperr1         40 | impltemperr2        -40 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		          Lyon/COND, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                    7.6 | implmasserr1         0.6 | implmasserr2        -0.6 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    386 | impltemperr1         15 | impltemperr2        -15 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          Burrows et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
