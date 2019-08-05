@@ -22,7 +22,7 @@ imsep                            97.64 | imseperr1        null | imseperr2      
 imtruesep                          115 | imtrueseperr1    null | imtrueseperr2   null | imtrueseplim       0 |\  # "imtruesep", true star-planet separation [AU] 
 imdist                           7.688 | imdisterr1       null | imdisterr2      null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	                       HST |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.                  ACS/HRC |\ # "iminstrument", Instrument used in observations ##added this
+iminstrument                   ACS/HRC |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                  2004-10-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
