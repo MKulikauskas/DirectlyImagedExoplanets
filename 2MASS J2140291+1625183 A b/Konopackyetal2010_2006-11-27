@@ -1,7 +1,7 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        2MASSJ2140291+1625183Ab_Konopackyetal2010.dat
-# DATE:            2019-07-30
+# DATE:            2019-08-05
 #                                    
 # Addition of direct imaging values
 #                                    
@@ -50,16 +50,6 @@ implnhmag                  | implnhmagerr     | implnhmaglim     0 |\ # "implnhm
 implnkmag                 11.826 | implnkmagerr    0.031 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
-#
-immass                     0.04 | immasserr1          0.05 | immasserr2        -0.03 | immasslim        0 |\ # "immass", stellar host [solar mass]
-#
-# Model Columns
-#
-impltemp                    2075 | impltemperr1         70 | impltemperr2        -70 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                  0.92 | implradiuserr1       0.39 | implradiuserr2      -0.36 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          Optical from Bouy et al. 2003, NIR from Konopacky et al. 2010	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
-#
 # Internal Counter
 #
 imnotes                |\ # "imnotes"
