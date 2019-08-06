@@ -17,12 +17,12 @@ dec_str                          -21:58:49.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                 | imdeltjmagerr		       | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                 | imdelthmagerr		       | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                 | imdeltkmagerr		       | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imangsep                       4.529 | imangseperr1         0.006 | imangseperr2        -0.006 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imdeltjmag                8.13 | imdeltjmagerr		      0.05 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                7.44 | imdelthmagerr		      0.03 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                7.27 | imdeltkmagerr		      0.03 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                       4.533 | imangseperr1         0.006 | imangseperr2        -0.006 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          710 | imseperr1            60 | imseperr2           -60 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           140.32 | impaerr1             0.10 | impaerr2            -0.10 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+impa                           140.35 | impaerr1             0.10 | impaerr2            -0.10 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                         156.7 | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	              Gemini North |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRI |\ # "iminstrument", Instrument used in observations ##added this
@@ -42,12 +42,12 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                     | imjmagerr        | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                     | imhmagerr        | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                     | imkmagerr        | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-implnjmag                  | implnjmagerr     | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                  | implnhmagerr     | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                  | implnkmagerr     | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+imjmag                    6.928 | imjmagerr       0.021 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    6.946 | imhmagerr       0.029 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    6.903 | imkmagerr       0.020 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                 15.06 | implnjmagerr    0.05 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 14.39 | implnhmagerr    0.04 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 14.17 | implnkmagerr    0.04 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -57,14 +57,12 @@ image		             5 | imageerr1	      1 | imageerr2	     -1 | imagelim	  0 |\ 
 #
 # Model Columns
 #
-implstype		               M7-M9	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    2800 | impltemperr1         200 | impltemperr2        -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		          Drift-Phoenixatmosphere models (Witte et al.2009; Helling et al.2008; Dehn et al.2007)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass            23.5 | implmasserr1         2.5 | implmasserr2        -2.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          Chabrier et al. 2000 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                |\ # "imnotes"
+imnotes               Model does not correspond to dates |\ # "imnotes"
 #
 cntr                        TBD |  # counter
