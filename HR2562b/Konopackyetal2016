@@ -1,19 +1,19 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        .dat
-# DATE:            2019-
+# FILENAME:        HR2562b_Konopacky2016.dat
+# DATE:            2019-08-06
 #                                    
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink                         |\ # "imreflink, ADS bibcode
+imreflink             2016ApJ...829L...4K |\ # "imreflink, ADS bibcode
 imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                          |\ # planet name
-ra_str                            |\ # RA [sexagesimal]
-dec_str                           |\ # Dec [sexagesimal]
+plntname                         HR 2562 b |\ # planet name
+ra_str                          06:50:01.02  |\ # RA [sexagesimal]
+dec_str                         -60:14:56.9  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
