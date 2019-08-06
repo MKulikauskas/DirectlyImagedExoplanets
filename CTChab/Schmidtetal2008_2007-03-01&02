@@ -1,0 +1,68 @@
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        CTChab_Schmidtetal2008.dat
+# DATE:            2019-08-06
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink              2008A&A...491..311S  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                         CT Cha b |\ # planet name
+ra_str                           11:04:09.09 |\ # RA [sexagesimal]
+dec_str                          -76:27:19.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltjmag                6.895 | imdeltjmagerr		      0.30 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdeltkmag                6.229 | imdeltkmagerr		      0.30 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                       2.670 | imangseperr1         0.038 | imangseperr2        -0.038 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          440 | imseperr1             | imseperr2            | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           300.68 | impaerr1             1.32 | impaerr2            -1.32 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                         165 | imdisterr1           30 | imdisterr2          -30 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	              VLT |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             NaCo |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                2007-03-01, 2007-03-02 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                Cha I |\ # "imcluster", name of associated cluster
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		    NAcO?  0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                    9.715 | imjmagerr       0.024 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imkmag                    8.661 | imkmagerr       0.021 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                 16.61 | implnjmagerr    0.30 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnkmag                 14.89 | implnkmagerr    0.30 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			    K7 |\ # "imstype", stellar host spectral type
+immass                     0.7 | immasserr1           | immasserr2         | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             2 | imageerr1	      2 | imageerr2	     -2 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               M8-L0	|\ # "implstype", planet spectral type
+implmass                    17 | implmasserr1         6 | implmasserr2        -6 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    2600 | impltemperr1         250 | impltemperr2        -250 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  2.20 | implradiuserr1      0.81 | implradiuserr2     -0.60 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		            DUSTY-Phoenix, Brott & Hauschild 2005, UCM, Tsuji 2005 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes               multiple mass estimates are listed in paper, but the author commits to the value given. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
