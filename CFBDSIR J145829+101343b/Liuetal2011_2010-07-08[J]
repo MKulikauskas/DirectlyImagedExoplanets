@@ -17,9 +17,7 @@ dec_str                          +10:13:43.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                1.80 | imdeltjmagerr		      0.35 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                2.33 | imdelthmagerr		      0.19 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                2.20 | imdeltkmagerr		      0.38 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltjmag                1.80 | imdeltjmagerr		      0.4 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
 imangsep                       0.110 | imangseperr1        0.011 | imangseperr2        -0.011 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          2.541 | imseperr1            2.4 | imseperr2           -2.4 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           308 | impaerr1             4 | impaerr2            -4 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -43,11 +41,7 @@ glat                  	    TBD |\ # "b" [decimal]
 # Photometry Columns
 #
 imjmag                    19.86 | imjmagerr       0.07 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    20.18 | imhmagerr       0.10 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    20.63 | imkmagerr       0.24 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 implnjmag                 21.66 | implnjmagerr    0.34 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 22.51 | implnhmagerr    0.16 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 22.83 | implnkmagerr    0.30 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
