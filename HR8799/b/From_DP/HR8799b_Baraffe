@@ -22,7 +22,7 @@ imdelthmag                12.57 | imdelthmagerr        0.180 | imdelthmaglim    
 imdeltkmag                11.79 | imdeltkmagerr        0.124 | imdeltkmaglim            0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               10.42 | imdeltlpmagerr       0.115 | imdeltlpmaglim           0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                   1.73 | imangseperr1             0 | imangseperr2             0 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imimsep                   68.16 | imseperr1                0 | imseperr2                0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+imimsep                      68 | imseperr1             null | imseperr2             null | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imdist                     39.4 | imdisterr1             1.0 | imdisterr2            -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	  Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument        NIRC2, NIRI |\ # "iminstrument", Instrument used in observations ##added this
