@@ -17,9 +17,9 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imangsep           (CH4S) 0.958 | imangseperr      Jform | imangseperr2      Jform | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep              (CH4S) 37.75 | imseperr1        Jform | imseperr2         Jform | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
-impa               (CH4S) 314.7 | impaerr1         Jform | impaerr2          Jform | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imangsep                  0.958 | imangseperr       null | imangseperr2       null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                     37.75 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
+impa                      314.7 | impaerr1          null | impaerr2           null | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
