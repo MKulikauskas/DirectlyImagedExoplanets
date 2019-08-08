@@ -17,15 +17,15 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imangsep                0.1995 | imangseperr1         0.0069 | imangseperr2        -0.0069 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                         21.8126  | imseperr1            0.5200 | imseperr2           -0.5200 | imseplim          0|\  # "imsep", projected star-planet separation [AU]
-impa                        153.4 | impaerr1             1.8 | impaerr2            -1.8 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                      113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim       0 |\  # "imdist", distance to star [pc]
-imtelescope	               VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument.         SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	              2015-05-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                     UCL |\ # "imcluster", name of associated cluster
-imdisk 		                   1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imangsep                0.1995 | imangseperr1 0.0069 | imangseperr2  -0.0069 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 21.8126  | imseperr1    0.5200 | imseperr2     -0.5200 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                     153.4 | impaerr1        1.8 | impaerr2         -1.8 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                  113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	        VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument   SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	       2015-05-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	              UCL |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
@@ -55,7 +55,7 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 # Model Columns
 #
 implmass                   7 | implmasserr1         2 | implmasserr2        -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-immodel		             'hottest' and 'hot' tracks, Mordasini et al. 2017 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		                'hottest' and 'hot' tracks, Mordasini et al. 2017 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
