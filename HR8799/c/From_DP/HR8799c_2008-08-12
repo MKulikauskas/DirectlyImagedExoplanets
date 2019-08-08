@@ -20,9 +20,9 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 imdeltjmag                12.25 | imdeltjmagerr    0.200 | imdeltjmaglim         0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag                11.63 | imdelthmagerr    0.180 | imdelthmaglim         0 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imdeltlpmag                9.50 | imdeltlpmagerr   0.108 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                   0.963, 0.962, K', 0.966 | imangseperr      Jform | imangseperr2      Jform | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                      37.94, 37.90, K', 38.06 | imseperr1        Jform | imseperr2         Jform | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-impa                (K') 313.02 | impaerr1         Jform | impaerr2          Jform | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imangsep                  0.964 | imangseperr     0.0028 | imangseperr2    -0.0028 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                        38 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+impa                     317.06 | impaerr1        0.0028 | impaerr2        -0.0028 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
