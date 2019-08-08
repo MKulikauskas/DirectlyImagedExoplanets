@@ -61,6 +61,6 @@ immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                Here, planet H mag. and delta mag. are in H2. |\ # "imnotes"
+imnotes                Here, planet H mag. and delta H mag. are in H2. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
