@@ -55,10 +55,6 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 #
 # Model Columns
 #
-implmass                   7 | implmasserr1         2 | implmasserr2        -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-immodel		                'hottest' and 'hot' tracks, Mordasini et al. 2017 |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
-#
 # Internal Counter
 #
 imnotes                Here, planet H mag. and delta H mag. are in H2. |\ # "imnotes"
