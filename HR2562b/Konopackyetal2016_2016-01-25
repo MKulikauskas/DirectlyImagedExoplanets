@@ -1,0 +1,61 @@
+# USER:            mheideman
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HR2562b_Konopacky2016.dat
+# DATE:            2019-08-09
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink             2016ApJ...829L...4K |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                         HR 2562 b |\ # planet name
+ra_str                          06:50:01.02  |\ # RA [sexagesimal]
+dec_str                         -60:14:56.9  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep                       0.619 | imangseperr1         0.003 | imangseperr2        -0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          20.3 | imseperr1            0.3 | imseperr2           -0.3 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           297.56 | impaerr1             0.35 | impaerr2            -0.35 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                         33.63 | imdisterr1           0.48 | imdisterr2          -0.48 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	              Gemini |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                2016-01-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                null |\ # "imcluster", name of associated cluster
+imdisk 		                1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+implnhmag                 16.83 | implnhmagerr    0.105 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			         F5V |\ # "imstype", stellar host spectral type
+immass                     1.3 | immasserr1           | immasserr2         | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             600 | imageerr1	      300 | imageerr2	     -300 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               L7 (plus or minus 3)	|\ # "implstype", planet spectral type
+implmass                    30 | implmasserr1         15 | implmasserr2        -15 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1200 | impltemperr1         100 | impltemperr2        -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.11 | implradiuserr1       0.11 | implradiuserr2      -0.11 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          Saumon & Marley (2008)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
