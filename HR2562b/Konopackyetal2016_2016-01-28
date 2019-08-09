@@ -23,7 +23,7 @@ impa                           297.56 | impaerr1             0.35 | impaerr2    
 imdist                         33.63 | imdisterr1           0.48 | imdisterr2          -0.48 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	              Gemini |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             GPI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                2016-01-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	                2016-01-28 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                null |\ # "imcluster", name of associated cluster
 imdisk 		                1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
