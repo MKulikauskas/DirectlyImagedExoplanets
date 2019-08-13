@@ -51,7 +51,7 @@ implnkmag                16.21 | implnkmagerr    0.24 | implnkmaglim     0 |\ # 
 imstype			           K7 |\ # "imstype", stellar host spectral type
 immass               0.76 | immasserr1         0.02 | immasserr2        -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                0.35 | imlumerr1          0.09 | imlumerr2         -0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              5.4 | imageerr1	            1 | imageerr2	           -1 | imagelim	       0 |\ # "image", stellar age [My]
+image		              5.4 | imageerr1	            1 | imageerr2	            0 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
