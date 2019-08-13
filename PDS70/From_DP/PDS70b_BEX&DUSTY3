@@ -1,0 +1,68 @@
+# USER:            mkulikauskas
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        PDS70b_BEX&DUSTY3.dat
+# DATE:            2019-07-18
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink                   2018A&A...617A..44K  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                        PDS 70 b |\ # planet name
+ra_str                       14:08:10.16 |\ # RA [sexagesimal]
+dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag                7.67 | imdeltkmagerr  0.24 | imdeltkmaglim       0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                 0.195 | imangseperr1   null | imangseperr2     null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                       22 | imseperr1      null | imseperr2        null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                       155 | impaerr1       null | impaerr2         null | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                  113.43 | imdisterr1     0.52 | imdisterr2      -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	            Gemini S, VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument .          NICI, SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2012-03-31, 2015-05-03, 2015-05-31, 2016-05-14, 2016-06-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                 UCL |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                   9.553 | imjmagerr      0.024 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   8.823 | imhmagerr       0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   8.542 | imkmagerr      0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                  7.913 | imlpmagerr      0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnkmag                16.21 | implnkmagerr    0.24 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			           K7 |\ # "imstype", stellar host spectral type
+immass               0.76 | immasserr1         0.02 | immasserr2        -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                0.35 | imlumerr1          0.09 | imlumerr2         -0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		              1.0 | imageerr1	         null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype			          L |\ # "implstype", planet spectral type
+implmass              3.0 | implmasserr1        1.0 | implmasserr2       -1.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		           Bern Exoplanet (BEX) evolution models, Mordasini et al. (2017), DUSTY, Chabrier et al. (2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes              Here, planet K mag. and delta K mag. are in K2. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
