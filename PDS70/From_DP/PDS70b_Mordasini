@@ -56,13 +56,13 @@ image		              5.4 | imageerr1	          1.0 | imageerr2	         -1.0 | i
 # Model Columns
 #
 implstype			          L |\ # "implstype", planet spectral type
-implmass              7.0 | implmasserr1        2.0 | implmasserr2       -2.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp             1200 | impltemperr1        200 | impltemperr2        200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		           Müller et al. (2018),  Tognelli et al. (2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass             13.0 | implmasserr1        1.0 | implmasserr2       -1.0 | implmasslim      1 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		           Mordasini et al. (2017) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Here, planet K mag. and delta K mag. are in K2. |\ # "imnotes"
+imnotes              Here, planet K mag. and delta K mag. are in K2. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
