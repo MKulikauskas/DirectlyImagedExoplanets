@@ -56,7 +56,7 @@ image		               10 | imageerr1	         null | imageerr2	         null | i
 # Model Columns
 #
 implstype			          L |\ # "implstype", planet spectral type
-impltemp             1200 | impltemperr1        200 | impltemperr2        200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		           Pecaut & Mamajek (2016) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
