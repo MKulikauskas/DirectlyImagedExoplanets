@@ -1,6 +1,6 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        PDS70b_Mordasini&DUSTY2.dat
+# FILENAME:        PDS70b_BEX&DUSTY2.dat
 # DATE:            2019-07-18
 #                                    
 # Addition of direct imaging values
@@ -58,7 +58,7 @@ image		              5.4 | imageerr1	          1.0 | imageerr2	         -1.0 | i
 implstype			          L |\ # "implstype", planet spectral type
 implmass              6.5 | implmasserr1        1.0 | implmasserr2       -1.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		           Mordasini et al. (2017), DUSTY, Chabrier et al. (2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		           Bern Exoplanet (BEX) evolution models, Mordasini et al. (2017), DUSTY, Chabrier et al. (2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
