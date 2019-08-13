@@ -55,6 +55,9 @@ image		              5.4 | imageerr1	            1 | imageerr2	           -1 | i
 # 
 # Model Columns
 #
+implstype			          L |\ # "implstype", planet spectral type
+impltemp             1200 | impltemperr1        200 | impltemperr2        200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+#
 # Internal Counter
 #
 cntr                        TBD |  # counter
