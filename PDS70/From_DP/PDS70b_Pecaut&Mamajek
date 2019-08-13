@@ -51,9 +51,14 @@ implnkmag                16.21 | implnkmagerr    0.24 | implnkmaglim     0 |\ # 
 imstype			           K7 |\ # "imstype", stellar host spectral type
 immass               0.76 | immasserr1         0.02 | immasserr2        -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                0.35 | imlumerr1          0.09 | imlumerr2         -0.09 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              5.4 | imageerr1	            1 | imageerr2	           -1 | imagelim	       0 |\ # "image", stellar age [My]
+image		               10 | imageerr1	         null | imageerr2	         null | imagelim	       1 |\ # "image", stellar age [My]
 #
 # Model Columns
+#
+implstype			          L |\ # "implstype", planet spectral type
+impltemp             1200 | impltemperr1        200 | impltemperr2        200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		           Pecaut & Mamajek (2016) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
