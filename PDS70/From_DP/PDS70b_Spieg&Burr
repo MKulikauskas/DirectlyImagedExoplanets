@@ -56,7 +56,7 @@ image		              5.4 | imageerr1	          1.0 | imageerr2	         -1.0 | i
 implstype			          L |\ # "implstype", planet spectral type
 implmass              7.5 | implmasserr1        2.5 | implmasserr2       -2.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		           Spiegel & Burrows (2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		           "warm-start", Spiegel & Burrows (2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
