@@ -1,1 +1,58 @@
+# USER:            mkulikauskas
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        PDS70c_2016-05-14.dat
+# DATE:            2019-08-14
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink               2018A&A...617A..44K  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                        PDS 70 b |\ # planet name
+ra_str                       14:08:10.16 |\ # RA [sexagesimal]
+dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag                    8.8 | imdeltkmagerr		        0.2 | imdeltkmaglim           0.2 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                   0.2151 | imangseperr1          0.007 | imangseperr2         -0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                        33.6 | imseperr1               1.5 | imseperr2              -1.5 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                        285.0 | impaerr1                1.5 | impaerr2               -1.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                     113.43 | imdisterr1             0.52 | imdisterr2            -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	           	VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	           2016-05-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	             UCL |\ # "imcluster", name of associated cluster
+imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		             1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			             1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			     1  |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+# Stellar Parameter Columns
+#
+imstype		  Young T Tauri |\ # "imstype", stellar host spectral type
+image		              5.4 | imageerr1	             1.0 | imageerr2	     -1.0 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass              8.0 | implmasserr1           4.0 | implmasserr2    -4.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+#
+# Internal Counter
+#
+imnotes               Here, delta K mag. is in K1. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
+
 
