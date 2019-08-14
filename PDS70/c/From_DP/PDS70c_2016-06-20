@@ -1,6 +1,6 @@
 # USER:            mkulikauskas
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        PDS70c_2016-05-14.dat
+# FILENAME:        PDS70c_2016-06-20.dat
 # DATE:            2019-08-14
 #                                    
 # Addition of direct imaging values
@@ -17,17 +17,17 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltkmag                    8.8 | imdeltkmagerr		        0.2 | imdeltkmaglim          -0.2 |\ # "imdeltkmag", planet-host magnitude difference [mag]
-imangsep                   0.2151 | imangseperr1          0.007 | imangseperr2         -0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                        33.6 | imseperr1               1.5 | imseperr2              -1.5 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                        285.0 | impaerr1                1.5 | impaerr2               -1.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdelthmag                    7.7 | imdelthmagerr		        0.2 | imdelthmaglim          -0.2 |\ # "imdelthmag", planet-host magnitude difference [mag]
+imangsep                   0.2355 | imangseperr1          0.025 | imangseperr2         -0.025 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                        38.6 | imseperr1               4.5 | imseperr2              -4.5 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                        277.0 | impaerr1                6.5 | impaerr2               -6.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     113.43 | imdisterr1             0.52 | imdisterr2            -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	           	VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument       SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	           2016-05-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	           	VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument               MUSE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	           2016-06-20 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	             UCL |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		             1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		             0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			             1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -51,7 +51,7 @@ implmass              8.0 | implmasserr1           4.0 | implmasserr2    -4.0 | 
 #
 # Internal Counter
 #
-imnotes               Here, delta K mag. is in K1. |\ # "imnotes"
+imnotes               Here, delta H mag. is in Hα. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
 
