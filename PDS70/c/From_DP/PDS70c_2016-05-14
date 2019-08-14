@@ -42,14 +42,11 @@ glat                  	    TBD |\ # "b" [decimal]
 # Stellar Parameter Columns
 #
 imstype		  Young T Tauri |\ # "imstype", stellar host spectral type
-immass                | immasserr1         | immasserr2         | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     | imlumerr1           | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                  | imageerr1	              | imageerr2	              | imagelim	       0 |\ # "image", stellar age [My]
+image		              5.4 | imageerr1	             1.0 | imageerr2	      1.0 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype			          L |\ # "implstype", planet spectral type
-impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implmass              8.0 | implmasserr1      4.0 | implmasserr2    -4.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 #
 # Internal Counter
 #
