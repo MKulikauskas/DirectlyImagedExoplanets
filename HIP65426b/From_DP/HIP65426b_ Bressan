@@ -64,4 +64,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
+imnotes        Different stellar age based on Bressan et al. (2012) |\ # "imnotes", #notes on table information
+#
 cntr                        TBD |  # counter
