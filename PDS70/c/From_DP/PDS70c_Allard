@@ -17,14 +17,17 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltkmag                    8.8 | imdeltkmagerr		        0.2 | imdeltkmaglim          -0.2 |\ # "imdeltkmag", planet-host magnitude difference [mag]
-imangsep                   0.2151 | imangseperr1          0.007 | imangseperr2         -0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                        33.6 | imseperr1               1.5 | imseperr2              -1.5 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                        285.0 | impaerr1                1.5 | impaerr2               -1.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdelthmag                    7.7 | imdelthmagerr		        0.2 | imdelthmaglim             0 |\ # "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                    8.8 | imdeltkmagerr		        0.2 | imdeltkmaglim             0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                   6.6 | imdeltlpmagerr		      0.2 | imdeltlpmaglim            0 |\ # "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep                    0.240 | imangseperr1           null | imangseperr2           null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                       27.22 | imseperr1              0.52 | imseperr2             -0.52 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imtruesep                    34.5 | imtrueseperr1           2.0 | imtrueseperr2          -2.0 | imtrueseplim     0 |\  # "imtruesep", true star-planet separation [AU] 
+impa                          283 | impaerr1               null | impaerr2               null | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                     113.43 | imdisterr1             0.52 | imdisterr2            -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	           	VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument       SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	           2016-05-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	          VLT UT3, VLT UT1, VLT UT4 |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          SPHERE/IRDIS, NACO, MUSE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	            2016-05-14, 2016-06-01, 2016-06-20 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	             UCL |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		             1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -48,10 +51,12 @@ image		              5.4 | imageerr1	             1.0 | imageerr2	     -1.0 | im
 # Model Columns
 #
 implmass              8.0 | implmasserr1           4.0 | implmasserr2    -4.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		            Allard et al. (2001) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Here, delta K mag. is in K1. |\ # "imnotes"
+imnotes               Here, delt H mag. is in Hα and delta K mag. is in K1. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
 
