@@ -62,7 +62,7 @@ implstype			          T4.5-T6 |\ # "implstype", planet spectral type
 implmass                      7 | implmasserr1        5 | implmasserr2      -5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    675 | impltemperr1       75 | impltemperr2     -75 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		          Cold-start, Macintosh et al. (2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
