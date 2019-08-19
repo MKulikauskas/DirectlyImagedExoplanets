@@ -38,7 +38,7 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imlpmag                   5.220 | imlpmagerr     0.178 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+imlpmag                   5.220 | imlpmagerr      null | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnlpmag                14.59 | implnlpmagerr  0.132 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
