@@ -18,9 +18,9 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltlpmag                9.37 | imdeltlpmagerr    0.12 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  0.368 | imangseperr     0.0184 | imangseperr2    -0.0184 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                      14.5 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-impa                     234.03 | impaerr1        0.0184 | impaerr2        -0.0184 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imangsep                  0.362 | imangseperr     0.0141 | imangseperr2    -0.0141 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                     14.26 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+impa                     237.19 | impaerr1        0.0141 | impaerr2        -0.0141 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	       Keck II |\ # "imtelescope", Telescope used in observations ##added this
 imdateobs	      2009-11-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
@@ -37,6 +37,9 @@ glon                        TBD |\ # "l" [decimal]
 glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
+#
+imlpmag                   5.220 | imlpmagerr     0.178 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnlpmag                14.59 | implnlpmagerr  0.132 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
