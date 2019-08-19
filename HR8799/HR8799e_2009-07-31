@@ -17,13 +17,12 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdelthmag                12.57 | imdelthmagerr    0.180 | imdelthmaglim         0 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imangsep                  0.369 | imangseperr     0.0269 | imangseperr2    -0.0269 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                           | imseperr1              | imseperr2               | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-impa                            | impaerr1          null | impaerr2           null | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imsep                     86.36 | imseperr1        0.038 | imseperr2        -0.038 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+impa                     234.03 | impaerr1        0.0269 | impaerr2        -0.0269 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            Keck II |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+iminstrument            400-mas-diameter mask |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	      2009-07-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -39,29 +38,13 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    5.383 | imjmagerr      0.027 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    5.280 | imhmagerr      0.018 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    5.240 | imkmagerr      0.018 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   5.220 | imlpmagerr     0.018 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnhmag                 17.85 | implnhmagerr   0.179 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-#
 # Stellar Parameter Columns
 #
-imstype			  A5V |\ # "imstype", stellar host spectral type
-immass                      1.5 | immasserr1        0.3 | immasserr2      -0.3 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                      4.92 | imlumerr1        0.41 | imlumerr2      -0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                     60 | imageerr1	        100 | imageerr2	       -30 | imagelim	        0 |\ # "image", stellar age [My]
+image		                    100 | imageerr1	       null | imageerr2	      null | imagelim	        1 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype			L |\ # "implstype", planet spectral type
-implmass                      7 | implmasserr1        4 | implmasserr2      -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    870 | impltemperr1       30 | impltemperr2     -70 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                  1.2 | implradiuserr1    0.1 | implradiuserr2  -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
-#
 # Internal Counter
-#
-imnotes               Here, delt H mag. is in Hα and delta K mag. is in K1. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
