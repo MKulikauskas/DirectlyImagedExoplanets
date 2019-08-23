@@ -47,7 +47,7 @@ implnlpmag               14.59 | implnlpmagerr 0.132 | implnlpmaglim   0 |\ # "i
 # Stellar Parameter Columns
 #
 imlum                      4.92 | imlumerr1        0.41 | imlumerr2      -0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                    160 | imageerr1	       null | imageerr2	      null | imagelim	       -1 |\ # "image", stellar age [My]
+image		                    116 | imageerr1	       null | imageerr2	      null | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
