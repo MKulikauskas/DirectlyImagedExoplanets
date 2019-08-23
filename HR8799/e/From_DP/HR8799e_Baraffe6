@@ -23,6 +23,7 @@ imangsep               0.164690 | imangseperr       null | imangseperr2       nu
 imsep                    14.434 | imseperr1       0.0714 | imseperr2       -0.0714 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	       Keck II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       400-mas-diameter mask |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	         2009-07-31, 2009-08-01, 2009-11-01, 2010-07-13, 2010-07-21, 2010-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		        1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
