@@ -18,12 +18,12 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltlpmag                9.37 | imdeltlpmagerr    0.12 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  0.362 | imangseperr     0.0141 | imangseperr2    -0.0141 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     14.26 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
-impa                     237.19 | impaerr1        0.0141 | impaerr2        -0.0141 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imangsep                 0.3682 | imangseperr     0.0156 | imangseperr2    -0.0156 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                     14.51 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+impa                     241.62 | impaerr1        0.0156 | impaerr2        -0.0156 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	       Keck II |\ # "imtelescope", Telescope used in observations ##added this
-imdateobs	      2009-11-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	      2010-07-21 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		        1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
