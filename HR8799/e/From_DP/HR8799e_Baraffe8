@@ -1,0 +1,60 @@
+# USER:            mkulikauskas
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HR8799e_Baraffe8.dat
+# DATE:            2019-07-22
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for object
+imreflink     2008Sci...322.1348M |\ # "imreflink, ADS bibcode
+imrefid			               TBD	  |\ # refid for paper
+#
+# Default Columns
+#
+plntname                HR 8799 e |\ # planet name
+ra_str                23:07:28.72 |\ # RA [sexagesimal]
+dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag                10.67 | imdeltkmagerr     0.22 | imdeltkmaglim         0 |\	# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                9.37 | imdeltlpmagerr    0.12 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep               0.114566 | imangseperr       null | imangseperr2       null | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                    14.472 | imseperr1        0.005 | imseperr2        -0.005 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
+impa                            | impaerr1               | impaerr2                | impalim            0 |\  # "impa", star-planet position angle [deg] 
+imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
+imtelescope	       Keck II |\ # "imtelescope", Telescope used in observations ##added this
+imdateobs	         2009-07-31, 2009-08-01, 2009-11-01, 2010-07-13, 2010-07-21, 2010-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		        1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			       1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imkmag                   5.240 | imkmagerr      null | imkmaglim       0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                  5.220 | imlpmagerr     null | imlpmaglim      0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnkmag                15.91 | implnkmagerr  0.227 | implnkmaglim    0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag               14.59 | implnlpmagerr 0.132 | implnlpmaglim   0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imlum                      4.92 | imlumerr1        0.41 | imlumerr2      -0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                    160 | imageerr1	       null | imageerr2	      null | imagelim	       -1 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass                      5 | implmasserr1        2 | implmasserr2      -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		              |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
