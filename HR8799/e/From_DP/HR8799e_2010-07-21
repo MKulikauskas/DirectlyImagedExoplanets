@@ -25,7 +25,7 @@ imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1
 imtelescope	       Keck II |\ # "imtelescope", Telescope used in observations ##added this
 imdateobs	      2010-07-21 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		        1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
