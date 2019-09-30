@@ -45,7 +45,7 @@ implnjmag                 21.66 | implnjmagerr    0.34 | implnjmaglim     0 |\ #
 # Stellar Parameter Columns
 #
 imstype			            T9.5 |\ # "imstype", stellar host spectral type
-immass                     0.11 | immasserr1          0.0006 | immasserr2        -0.0006 | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                     0.01 | immasserr1          0.0006 | immasserr2        -0.0006 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                  -6.02 | imlumerr1           0.14 | imlumerr2         -0.14 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             1000 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
 #
