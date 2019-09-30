@@ -6,7 +6,7 @@
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for object
-imreflink     2015Sci...350...64M |\ # "imreflink, ADS bibcode
+imreflink     2004A&A...425L..29C |\ # "imreflink, ADS bibcode
 imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
@@ -27,7 +27,7 @@ impa                      125.8 | impaerr1                     null | impaerr2  
 imdist                       70 | imdisterr1                   null | imdisterr2                       null | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	            VLT-UT4 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument               NACO |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	              2004-04-27, 2004-06-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	              2004-04-27 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -54,7 +54,7 @@ implnlpmag                15.28 | implnlpmagerr    0.14 | implnlpmaglim    0 |\ 
 # Stellar Parameter Columns
 #
 imstype			           M8.5 ± 1 |\ # "imstype", stellar host spectral type
-image		                      8 | imageerr1	          4 | imageerr2	        -3 | imagelim	        0 |\ # "image", stellar age [My]
+image		                      7.5 | imageerr1	          2.5 | imageerr2	        -2.5 | imagelim	        0 |\ # "image", stellar age [My]
 # 
 # Model Columns
 #
