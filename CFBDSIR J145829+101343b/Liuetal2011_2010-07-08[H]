@@ -59,6 +59,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Model does not correspond with date observed. Model does correspond with the stellar age.  |\ # "imnotes"
+imnotes                Observing date used in model not specified. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
