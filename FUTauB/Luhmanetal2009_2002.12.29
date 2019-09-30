@@ -26,6 +26,7 @@ iminstrument             CFH12K |\ # "iminstrument", Instrument used in observat
 imdateobs	           2002-12-29 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            Taurus |\ # "imcluster", name of associated cluster
 imdisk 		                1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -38,18 +39,16 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-implnkmag                 13.20 | implnkmagerr1    0.02 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Model Columns
 #
-implstype			         M9.25 (plus or minus 0.25) |\ # "implstype", planet spectral type
-implmass               0.015 | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                2375 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
+implstype			         M9.25|\ # "implstype", planet spectral type
+implmass               15.7 | implmasserr1         null | implmasserr2       null  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                2375 | impltemperr1        null  | impltemperr2      null   | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		           Luhman et al. 2003	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                       implmass is recorded in stellar masses  |\ # "imnotes", notes on previous columns
 #
 cntr                        TBD |  # counter
