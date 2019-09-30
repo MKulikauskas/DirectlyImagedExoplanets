@@ -51,7 +51,7 @@ imlum                     -3.48 | imlumerr1           0.35 | imlumerr2         -
 # Model Columns
 #
 implstype		               M8.5+L2	|\ # "implstype", planet spectral type
-implmass                    0.07 | implmasserr1         0.03 | implmasserr2        -0.04 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                    73 | implmasserr1         31 | implmasserr2        42 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    2075 | impltemperr1         70 | impltemperr2        -70 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  0.92 | implradiuserr1       0.39 | implradiuserr2      -0.36 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          DUSTY, Chabrier et al. 2000|\ # "immodel", description of model ##Reference that the model is drawn from.
@@ -59,6 +59,5 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               implmass is in Solar Masses. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
