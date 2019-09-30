@@ -49,14 +49,13 @@ image		                    12 | imageerr1	          8 | imageerr2	        -4 | i
 #
 # Model Columns
 #
-implmass                      9 | implmasserr1     3 | implmasserr2    2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                      9 | implmasserr1     3 | implmasserr2    -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    1600 | impltemperr1       null | impltemperr2     null | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		            COND, Baraffe et al. (2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		              0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
 © 2019 GitHub, Inc.
