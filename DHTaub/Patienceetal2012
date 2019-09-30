@@ -60,7 +60,7 @@ implstype		               L2	|\ # "implstype", planet spectral type
 implmass                   11 | implmasserr1         10 | implmasserr2        -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    2700 | impltemperr1         null | impltemperr2       null  | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  0.27 | implradiuserr1       0.07 | implradiuserr2      -0.07 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	Luhman et al. (2006), Itoh et al. (2005) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          	Allard et al. (2000), Itoh et al. (2005) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
