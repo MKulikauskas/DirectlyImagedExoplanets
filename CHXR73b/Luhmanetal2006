@@ -24,7 +24,7 @@ imangsep                        1.30 | imangseperr1         0.03 | imangseperr2 
 imsep                            210 | imseperr1             | imseperr2            | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           234.9 | impaerr1             1 | impaerr2            -1 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                        161.54 | imdisterr1           0.03 | imdisterr2          -0.03 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              Magellan I |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	              Magellan |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument                   PANIC |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                2005-04-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                Chamaeleon I |\ # "imcluster", name of associated cluster
@@ -52,18 +52,17 @@ implnkmag                 15.5 | implnkmagerr    0.25 | implnkmaglim     0 |\ # 
 # Stellar Parameter Columns
 #
 imstype			      M3.5 |\ # "imstype", stellar host spectral type
-immass            0.35 | immasserr1           | immasserr2         | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass            0.35 | immasserr1          null | immasserr2        null | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		             2 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		               M9.5	|\ # "implstype", planet spectral type
-implmass                    0.012 | implmasserr1         0.008 | implmasserr2        -0.005 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                    12.6 | implmasserr1         8.4 | implmasserr2        5.2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 immodel		          	Chabrier et al. (2000), Burrows et al. (1997)|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               paper does not exclusively choose one model for modeled data. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
