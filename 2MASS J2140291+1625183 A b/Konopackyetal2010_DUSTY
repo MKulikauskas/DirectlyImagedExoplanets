@@ -36,12 +36,12 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    11.33 | imjmagerr       0.87 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    10.66 | imhmagerr       0.87 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    10.28 | imkmagerr       0.87 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
-implnjmag                 12.28 | implnjmagerr    0.88 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 11.59 | implnhmagerr    0.89 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 11.02 | implnkmagerr    0.87 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+imjmag                    13.32 | imjmagerr       1.23 | imjmaglim        0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                    12.66 | imhmagerr       1.23 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                    12.27 | imkmagerr       1.23 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                 14.27 | implnjmagerr    1.24 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
+implnhmag                 13.58 | implnhmagerr    1.24 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 13.00 | implnkmagerr    1.23 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
