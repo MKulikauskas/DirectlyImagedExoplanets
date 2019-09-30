@@ -54,6 +54,5 @@ immodeldef		              0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
