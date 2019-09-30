@@ -57,7 +57,7 @@ image		             5000 | imageerr1	       | imageerr2	      | imagelim	  0 |\ 
 #
 # Model Columns
 #
-implstype		               >T10	|\ # "implstype", planet spectral type
+implstype		               T10	|\ # "implstype", planet spectral type
 implmass                    17 | implmasserr1         4 | implmasserr2        -4 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    380 | impltemperr1         50 | impltemperr2        -50 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		          TUCSON, Burrows et al. 1997 |\ # "immodel", description of model ##Reference that the model is drawn from.
