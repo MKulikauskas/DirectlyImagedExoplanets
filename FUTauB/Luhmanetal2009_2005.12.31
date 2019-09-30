@@ -48,7 +48,7 @@ implnkmag                 13.33 | implnkmagerr1    0.02 | implnkmaglim     0 |\ 
 implstype			         M9.25 |\ # "implstype", planet spectral type
 implmass               15.7 | implmasserr1         null | implmasserr2       null  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                2375 | impltemperr1        null  | impltemperr2      null   | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		           Luhman et al. 2003	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		           Luhman et al. (2003)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
