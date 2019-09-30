@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        DHTaub_Patienceetal2012.dat
+# FILENAME:        DHTaub_Patienceetal2012-2007-12-18.dat
 # DATE:            2019-07-30
 #                                    
 # Addition of direct imaging values
@@ -27,7 +27,7 @@ imdateobs	                2007-12-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                Taurus SFR |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			      1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -52,9 +52,9 @@ image		              2 | imageerr1	      1 | imageerr2	     -1 | imagelim	  0 |\
 #
 implstype		               L2	|\ # "implstype", planet spectral type
 implmass                   11 | implmasserr1         10 | implmasserr2        -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    2700 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp                    2700 | impltemperr1         null | impltemperr2        null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  0.27 | implradiuserr1       0.07 | implradiuserr2      -0.07 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	Luhman er al. 2006, Itoh et al. 2005 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          	Luhman et al. (2006), Itoh et al. (2005) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
