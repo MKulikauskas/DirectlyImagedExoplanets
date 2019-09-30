@@ -26,7 +26,7 @@ impa                           308 | impaerr1             2 | impaerr2          
 imdist                         23.1 | imdisterr1           2.4 | imdisterr2          -2.4 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	              Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                2010-05-22 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	                2010-07-08 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                null |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -52,7 +52,7 @@ implnkmag                 22.83 | implnkmagerr    0.30 | implnkmaglim     0 |\ #
 # Stellar Parameter Columns
 #
 imstype			            T9.5 |\ # "imstype", stellar host spectral type
-immass                     31 | immasserr1          4 | immasserr2        -4 | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                     0.03 | immasserr1          0.004 | immasserr2        -0.004 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                  -6.02 | imlumerr1           0.14 | imlumerr2         -0.14 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             5000 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
 #
@@ -66,6 +66,5 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Model does not correspond with date observed. Model does correspond with the stellar age.  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
