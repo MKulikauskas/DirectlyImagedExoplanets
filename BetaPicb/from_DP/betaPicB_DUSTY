@@ -1,0 +1,62 @@
+# USER:            tmesh
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        betaPicb_2003-11-10.dat
+# DATE:            2019-09-30
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for 51 Eri b
+imreflink     2009A&A...493L..21L  |\ # "imreflink, ADS bibcode
+imrefid			    TBD	  |\ # refid for paper
+#
+# Default Columns
+#
+plntname                 bet Pic b |\ # planet name
+ra_str                05:47:17.08 |\ # RA [sexagesimal]
+dec_str               -51:03:59.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdelthmag                7.7 | imdelthmagerr	  0.3 | imdelthmaglim      0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imangsep                  0.411 | imangseperr1    0.008 | imangseperr2  -0.008 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                      7.9 | imseperr1         0.2 | imseperr2      0.2 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imdist                     19.2 | imdisterr1        0.2 | imdisterr2      -0.2 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	  VLT UT4|\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          NACO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2003-11-10 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	       beta Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imlpmag                    3.5 | imlpmagerr       null | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnlmag                 11.2 | implnhmagerr    0.3 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			              A5V |\ # "imstype", stellar host spectral type
+immass                    1.8  | immasserr1       null  | immasserr2      null | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		                    12 | imageerr1	          8 | imageerr2	        -4 | imagelim	        0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass                      8 | implmasserr1     4 | implmasserr2    -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1400 | impltemperr1       null | impltemperr2     null | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		            DUSTY, Chabrier et al. (2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		              1 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+#
+cntr                        TBD |  # counter
+© 2019 GitHub, Inc.
