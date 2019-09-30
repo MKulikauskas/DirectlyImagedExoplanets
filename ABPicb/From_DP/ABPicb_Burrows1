@@ -55,7 +55,7 @@ implstype		               L1(+2, -1) |\ # "implstype", planet spectral type
 implmass                           13 | implmasserr1     null | implmasserr2    null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                         1513 | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel	         Burrows et al (1997) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		                0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		                1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
