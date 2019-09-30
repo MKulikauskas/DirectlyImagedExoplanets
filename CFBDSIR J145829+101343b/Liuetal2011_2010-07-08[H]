@@ -25,7 +25,6 @@ imdist                         23.1 | imdisterr1           2.4 | imdisterr2     
 imtelescope	              Keck II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                2010-07-08 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                null |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -46,7 +45,7 @@ implnhmag                 22.51 | implnhmagerr    0.16 | implnhmaglim     0 |\ #
 # Stellar Parameter Columns
 #
 imstype			            T9.5 |\ # "imstype", stellar host spectral type
-immass                     11.1 | immasserr1          0.7 | immasserr2        -0.7 | immasslim        0 |\ # "immass", stellar host [solar mass]
+immass                     0.11 | immasserr1          0.0006 | immasserr2        -0.0006 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                  -6.02 | imlumerr1           0.14 | imlumerr2         -0.14 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             1000 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
 #
