@@ -26,7 +26,7 @@ impa                         307.3 | impaerr1                  0.2 | impaerr2   
 imdist                          92 | imdisterr1                  6 | imdisterr2                       -6 | imdistlim          0 |\  # "imdist", distance to star [pc]
 imtelescope	   6.5 m Magellan Clay |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument           MagAO/Clio2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	              2013-04-04&12 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	              2013-04-04 2013-04-12 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               LCC |\ # "imcluster", name of associated cluster
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -62,7 +62,7 @@ implstype		     L2.5 ± 1	|\ # "implstype", planet spectral type
 implmass               11 | implmasserr1        2 | implmasserr2       -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1800 | impltemperr1      100 | impltemperr2     -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		           DUSTY (cloud) and COND (cloud-free), Chabrier et al. 2000, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
