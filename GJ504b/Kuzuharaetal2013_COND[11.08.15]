@@ -17,9 +17,6 @@ dec_str               +09:25:27.0 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                15.804 | imdeltjmagerr		     0.15  | imdeltjmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdelthmag                16.280 | imdelthmagerr		     0.14  | imdelthmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
-imdeltkmag                15.382 | imdeltkmagerr		     0.28  | imdeltkmaglim                0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imdeltlpmag               12.900 | imdeltlpmagerr		     0.21  | imdeltlpmaglim               0 |\			# "imdeltmag", planet-host magnitude difference [mag]
 imangsep                   2.448 | imangseperr1          0.024 | imangseperr2            -0.024 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      42.99 | imseperr1              0.08 | imseperr2                 -0.08 | imseplim            0 |\  # "imsep", projected star-planet separation [AU]
@@ -47,9 +44,6 @@ imjmag                    4.106 | imjmagerr            | imjmaglim        0 |\ #
 imhmag                    3.860 | imhmagerr            | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                    3.808 | imkmagerr            | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    3.94 | imlpmagerr      0.09 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 19.91 | implnjmagerr    0.15 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
-implnhmag                 20.14 | implnhmagerr    0.14 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 19.19 | implnkmagerr    0.28 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
 implnlpmag                16.84 | implnlpmagerr   0.19 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
