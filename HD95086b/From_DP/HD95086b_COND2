@@ -6,7 +6,7 @@
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for object
-imreflink     2013ApJ...779L..26R  |\ # "imreflink, ADS bibcode
+imreflink     2013ApJ...772L..15R |\ # "imreflink, ADS bibcode
 imrefid			               TBD	  |\ # refid for paper
 #
 # Default Columns
