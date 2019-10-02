@@ -54,11 +54,11 @@ implnkmag                 14.44 | implnkmagerr    0.44 | implnkmaglim     0 |\ #
 #
 # Model Columns
 #
-implstype		               M9.5 (plus or minus 0.5)	|\ # "implstype", planet spectral type
+implstype		               M9.5	|\ # "implstype", planet spectral type
 implmass                    14 | implmasserr1         6 | implmasserr2        -5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    2175 | impltemperr1         175 | impltemperr2        -175 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		          DUSTY, Chabrier et al. 2000	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
