@@ -18,6 +18,7 @@ dec_str               -55:58:31.9 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdelthmag                8.70 | imdelthmagerr		      0.05 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                8.78 | imdeltkmagerr		      0.07 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imangsep                      7.12 | imangseperr1             0.02 | imangseperr2                  -0.02 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          655.04 | imseperr1                6 | imseperr2                        -6 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imtruesep                     null | imtrueseperr1            null | imtrueseperr2                  null | imtrueseplim       null |\  # "imtruesep", true star-planet separation [AU] 
@@ -46,6 +47,7 @@ imhmag                     6.68 | imhmagerr    0.05 | imhmaglim     0 |\ # "imhm
 imkmag                     6.68 | imkmagerr    0.03 | imkmaglim     0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                     6.7 | imlpmagerr    0.1 | imlpmaglim    0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnhmag                 15.38 | implnhmagerr  0.07 | implnhmaglim   0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 15.46 | implnkmagerr  0.06 | implnkmaglim   0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -55,7 +57,7 @@ image		                13 | imageerr1	     2 | imageerr2	    -2 | imagelim	     
 #
 # Model Columns
 #
-implstype		     L2.5 ± 1	|\ # "implstype", planet spectral type
+implstype		     L2.5	|\ # "implstype", planet spectral type
 implmass               11 | implmasserr1        2 | implmasserr2       -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1800 | impltemperr1      100 | impltemperr2     -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		           DUSTY (cloud) and COND (cloud-free), Chabrier et al. 2000, Baraffe et al. 2003 |\ # "immodel", description of model ##Reference that the model is drawn from.
