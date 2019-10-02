@@ -48,13 +48,9 @@ image		             5 | imageerr1	      1 | imageerr2	     -1 | imagelim	  0 |\ 
 # Model Columns
 #
 implstype		               M7-M9	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    2800 | impltemperr1         200 | impltemperr2        -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		          Drift-Phoenixatmosphere models (Witte et al.2009; Helling et al.2008; Dehn et al.2007)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          Drift-Phoenix atmosphere models (Witte et al.2009; Helling et al.2008; Dehn et al.2007)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
-# Internal Counter
-#
-imnotes              Model does not correspond with this specific date  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
