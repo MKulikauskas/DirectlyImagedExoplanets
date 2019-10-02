@@ -17,6 +17,7 @@ dec_str                         -60:14:56.9  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
+imdeltkmag               10.6 | imdeltkmagerr              0.1 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imangsep                       0.618 | imangseperr1         0.005 | imangseperr2        -0.005 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          20.3 | imseperr1            0.3 | imseperr2           -0.3 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           297.40 | impaerr1             0.25 | impaerr2            -0.25 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -49,7 +50,7 @@ image		             600 | imageerr1	      300 | imageerr2	     -300 | imagelim	 
 #
 # Model Columns
 #
-implstype		               L7 (plus or minus 3)	|\ # "implstype", planet spectral type
+implstype		               L7 |\ # "implstype", planet spectral type
 implmass                    30 | implmasserr1         15 | implmasserr2        -15 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    1200 | impltemperr1         100 | impltemperr2        -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.11 | implradiuserr1       0.11 | implradiuserr2      -0.11 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
@@ -58,6 +59,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               implnkmag is in K1-band |\ # "imnotes"
+imnotes               K photometry is actually in K1. The paper lists photometry values for K1 and K2. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
