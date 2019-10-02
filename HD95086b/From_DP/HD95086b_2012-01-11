@@ -18,7 +18,7 @@ dec_str               -68:40:02.4 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltlpmag               9.79 | imdeltlpmagerr              0.4 | imdeltlpmaglim                0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  623.9 | imangseperr1                 7.4 | imangseperr2                -7.4 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                  0.623.9 | imangseperr1                 0.0074 | imangseperr2                -0.0074 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                      56.4 | imseperr1                    0.7 | imseperr2                   -0.7 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 impa                      151.8 | impaerr1                     0.8 | impaerr2                    -0.8 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     90.4 | imdisterr1                   3.4 | imdisterr2                  -3.4 | imdistlim          0 |\  # "imdist", distance to star [pc]
