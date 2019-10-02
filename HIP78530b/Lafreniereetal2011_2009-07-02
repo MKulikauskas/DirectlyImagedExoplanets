@@ -63,6 +63,5 @@ immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Model does not correspond to dates |\ # "imnotes"
 #
 cntr                        TBD |  # counter
