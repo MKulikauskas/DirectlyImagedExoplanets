@@ -17,6 +17,7 @@ dec_str                         -60:14:56.9  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
+imdelthmag               11.7 | imdelthmagerr              0.1 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imangsep                       0.619 | imangseperr1         0.003 | imangseperr2        -0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          20.3 | imseperr1            0.3 | imseperr2           -0.3 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           297.56 | impaerr1             0.35 | impaerr2            -0.35 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -49,12 +50,12 @@ image		             600 | imageerr1	      300 | imageerr2	     -300 | imagelim	 
 #
 # Model Columns
 #
-implstype		               L7 (plus or minus 3)	|\ # "implstype", planet spectral type
+implstype		               L7 	|\ # "implstype", planet spectral type
 implmass                    30 | implmasserr1         15 | implmasserr2        -15 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    1200 | impltemperr1         100 | impltemperr2        -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.11 | implradiuserr1       0.11 | implradiuserr2      -0.11 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          Saumon & Marley (2008)	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
