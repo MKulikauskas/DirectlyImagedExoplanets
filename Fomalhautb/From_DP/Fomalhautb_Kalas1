@@ -51,7 +51,7 @@ image		                    200 | imageerr1	        100 | imageerr2	      -100 | 
 implmass                      3 | implmasserr1     null | implmasserr2    null | implmasslim      1 |\ # "implmass", planet mass [Jupiter mass]
 implradius                  1.2 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            Kalas et al. (2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		        0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		        1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
