@@ -28,7 +28,7 @@ imdateobs	       2015-05-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	              UCL |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -60,6 +60,6 @@ impltemp             1200 | impltemperr1        200 | impltemperr2       -200 | 
 #
 # Internal Counter
 #
-imnotes                Here, planet H mag. and delta H mag. are in H2. |\ # "imnotes"
+imnotes                Planet H mag and delta H mag are in H2 filter on IRDIS. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
