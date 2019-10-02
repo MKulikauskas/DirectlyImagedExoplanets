@@ -43,7 +43,6 @@ glat                  	    TBD |\ # "b" [decimal]
 imkmag                     6.79 | imkmagerr            0.02 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                    6.70 | imlpmagerr           0.04 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
 implnkmag                17.69 | implnlpmagerr        null | implnlpmaglim    -1 |\ # "implnlpmag", planet magnitude Lp-band [mag]
-
 #
 # Stellar Parameter Columns
 #
