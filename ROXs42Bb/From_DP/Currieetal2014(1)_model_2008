@@ -6,7 +6,7 @@
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink          2014ApJ...780L..30C  |\ # "imreflink, ADS bibcode
+imreflink          2014ApJ...780L..30C   |\ # "imreflink, ADS bibcode
 imrefid			                  TBD   |\ # refid for paper
 #
 # Default Columns
@@ -32,7 +32,7 @@ imifu 			              0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                 1 |\ # "ns", number of stars constituting the host system
+ns			                 2 |\ # "ns", number of stars constituting the host system
 ra                     TBD |\ # RA [decimal]
 dec                    TBD |\ # Dec [decimal]
 glon                   TBD |\ # "l" [decimal]
@@ -58,5 +58,7 @@ immodel		          Currie et al. 2014	|\ # "immodel", description of model ##Ref
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
+#
+imnotes          Delta K mag and K mag are Ks.  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
