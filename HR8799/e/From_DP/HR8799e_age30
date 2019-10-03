@@ -54,6 +54,9 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Model Columns
 #
+implmass                     7 | implmasserr1        3 | implmasserr2      -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
+#
 # Internal Counter
 imnotes                       Delta K mag and planet K mag is Ks. |\ # "imnotes", #notes on table information
 #
