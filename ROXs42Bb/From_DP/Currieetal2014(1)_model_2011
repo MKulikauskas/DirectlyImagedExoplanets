@@ -48,13 +48,14 @@ implnhmag                15.877 | implnhmagerr    0.046 | implnhmaglim     0 |\ 
 # Stellar Parameter Columns
 #
 imstype			          M0  |\ # "imstype", stellar host spectral type
+image		             2 | imageerr1	       1 | imageerr2	     -1 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		               M8-L0 |\ # "implstype", planet spectral type
 implmass                    10.5 | implmasserr1         4.5 | implmasserr2        -4.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    2200 | impltemperr1         400 | impltemperr2        -400 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		          Currie et al. 2014	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          Spiegel & Burrows (2012), AMES/DUSTY (Allard et al. 2001), Baraffe et al. (2003)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
