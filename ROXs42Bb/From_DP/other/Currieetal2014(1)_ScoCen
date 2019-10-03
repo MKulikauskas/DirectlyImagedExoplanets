@@ -30,7 +30,7 @@ imifu 			              0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                 1 |\ # "ns", number of stars constituting the host system
+ns			                 2 |\ # "ns", number of stars constituting the host system
 ra                     TBD |\ # RA [decimal]
 dec                    TBD |\ # Dec [decimal]
 glon                   TBD |\ # "l" [decimal]
