@@ -17,7 +17,9 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltkmag                7.67 | imdeltkmagerr  0.24 | imdeltkmaglim       0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imdelthmag                9.12 | imdelthmagerr  0.24 | imdelthmaglim       0 |\ # "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                       7.81 | imdeltkmagerr          0.31 | imdeltkmaglim             0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag                   6.84 | imdeltlpmagerr     0.62 | imdeltlpmaglim       0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                 0.195 | imangseperr1   null | imangseperr2     null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                       22 | imseperr1      null | imseperr2        null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                       155 | impaerr1       null | impaerr2         null | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -44,7 +46,9 @@ imjmag                   9.553 | imjmagerr      0.024 | imjmaglim        0 |\ # 
 imhmag                   8.823 | imhmagerr       0.04 | imhmaglim        0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag                   8.542 | imkmagerr      0.023 | imkmaglim        0 |\ # "imkmag", stellar magnitude K-band [mag]
 imlpmag                  7.913 | imlpmagerr      0.03 | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnkmag                16.21 | implnkmagerr    0.24 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnhmag                17.94 | implnhmagerr    0.24 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                16.35 | implnkmagerr    0.31 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag               14.75 | implnlpmagerr   0.62 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -63,6 +67,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes               Here, planet K mag. and delta K mag. are in K2. |\ # "imnotes"
+imnotes               Planet H mag and delta H mag are in H2, and planet K mag and delta K mag are K1 on IRDIS |\ # "imnotes"
 #
 cntr                        TBD |  # counter
