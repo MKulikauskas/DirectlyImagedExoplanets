@@ -6,7 +6,7 @@
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink          2014ApJ...780L..30C  |\ # "imreflink, ADS bibcode
+imreflink        2014ApJ...780L..30C   |\ # "imreflink, ADS bibcode
 imrefid			                  TBD   |\ # refid for paper
 #
 # Default Columns
@@ -32,7 +32,7 @@ imifu 			              0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                 1 |\ # "ns", number of stars constituting the host system
+ns			                 2 |\ # "ns", number of stars constituting the host system
 ra                     TBD |\ # RA [decimal]
 dec                    TBD |\ # Dec [decimal]
 glon                   TBD |\ # "l" [decimal]
@@ -55,7 +55,7 @@ implstype		               M8-L0 |\ # "implstype", planet spectral type
 implmass                    10.5 | implmasserr1         4.5 | implmasserr2        -4.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    2200 | impltemperr1         400 | impltemperr2        -400 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		          Currie et al. 2014	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
