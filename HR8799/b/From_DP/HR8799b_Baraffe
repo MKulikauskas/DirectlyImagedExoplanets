@@ -21,12 +21,12 @@ imdeltjmag                13.90 | imdeltjmagerr        0.171 | imdeltjmaglim    
 imdelthmag                12.57 | imdelthmagerr        0.180 | imdelthmaglim            0 |\ # "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                11.79 | imdeltkmagerr        0.124 | imdeltkmaglim            0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               10.42 | imdeltlpmagerr       0.115 | imdeltlpmaglim           0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                   1.73 | imangseperr1          null | imangseperr2             0 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                   1.73 | imangseperr1          0.005 | imangseperr2             -0.005 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imimsep                   68.16 | imseperr1              1.0 | imseperr2             -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU]
 imdist                     39.4 | imdisterr1             1.0 | imdisterr2            -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	  Keck II, Gemini N |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument        NIRC2, NIRI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	          2004-07-14, 2007-10-17, 2007-10-25, 2008-07-11, 2008-08-12, 2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	  Keck II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	          2004-07-14, 2007-10-25, 2008-07-11, 2008-08-12, 2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -64,7 +64,7 @@ implmass                      7 | implmasserr1        4 | implmasserr2      -2 |
 impltemp                    870 | impltemperr1       30 | impltemperr2     -70 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1    0.1 | implradiuserr2  -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		           Baraffe et al. (2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		       0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
