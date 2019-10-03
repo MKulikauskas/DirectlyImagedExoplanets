@@ -50,9 +50,11 @@ imstype			  A5V |\ # "imstype", stellar host spectral type
 immass                      1.5 | immasserr1        0.3 | immasserr2      -0.3 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                      4.92 | imlumerr1        0.41 | imlumerr2      -0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                     60 | imageerr1	        100 | imageerr2	       -30 | imagelim	        0 |\ # "image", stellar age [My]
-immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Model Columns
+#
+implmass                     10 | implmasserr1        3 | implmasserr2      -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodeldef		       1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 imnotes                       Delta K mag and planet K mag is Ks. |\ # "imnotes", #notes on table information
