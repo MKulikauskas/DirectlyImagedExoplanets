@@ -51,7 +51,7 @@ implmass              8.0 | implmasserr1           4.0 | implmasserr2    -4.0 | 
 #
 # Internal Counter
 #
-imnotes               Here, delta H mag. is in Hα. |\ # "imnotes"
+imnotes               Delta H mag. is in H-alpha. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
 
