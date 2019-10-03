@@ -20,7 +20,7 @@ dec_str                     -41:23:52.58 |\ # Dec [sexagesimal]
 imdeltkmag                       7.81 | imdeltkmagerr          0.31 | imdeltkmaglim             0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imangsep                       0.1932 | imangseperr1         0.0083 | imangseperr2        -0.0083 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                         21.9147 | imseperr1            0.5201 | imseperr2           -0.5201 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                            151.5 | impaerr1                1.6 | impaerr2               -1.6 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+impa                            152.2 | impaerr1                2.3 | impaerr2               -2.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                         113.43 | imdisterr1             0.52 | imdisterr2            -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	               VLT UT3 |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument          SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
