@@ -50,7 +50,6 @@ imstype			  A5V |\ # "imstype", stellar host spectral type
 immass                      1.5 | immasserr1        0.3 | immasserr2      -0.3 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                      4.92 | imlumerr1        0.41 | imlumerr2      -0.41 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                     30 | imageerr1	        20 | imageerr2	       -10 | imagelim	        0 |\ # "image", stellar age [My]
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Model Columns
 #
