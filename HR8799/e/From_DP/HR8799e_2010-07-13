@@ -50,5 +50,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 # Model Columns
 #
 # Internal Counter
+imnotes                       Delta K mag and planet K mag is Ks. |\ # "imnotes", #notes on table information
 #
 cntr                        TBD |  # counter
