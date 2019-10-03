@@ -20,12 +20,12 @@ dec_str               +21:08:03.3 |\ # Dec [sexagesimal]
 imdeltjmag                12.86 | imdeltjmagerr    0.434 | imdeltjmaglim         0 |\ # "imdeltjmag", planet-host magnitude difference [mag]
 imdeltkmag                10.85 | imdeltkmagerr    0.133 | imdeltkmaglim         0 |\ # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag                9.32 | imdeltlpmagerr   0.170 | imdeltlpmaglim        0 |\	# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  0.621 | imangseperr     0.0042 | imangseperr2    -0.0042 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep                  0.621 | imangseperr     0.004 | imangseperr2    -0.004 | imangseplim        0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     24.47 | imseperr1          1.0 | imseperr2          -1.0 | imseplim           0 |\  # "imsep", projected star-planet separation [AU] 
-impa                     200.36 | impaerr1        0.0042 | impaerr2        -0.0042 | impalim            0 |\  # "impa", star-planet position angle [deg] 
+impa                     200.36 | impaerr1        0.1 | impaerr2        -0.1 | impalim            0 |\  # "impa", star-planet position angle [deg] 
 imdist                     39.4 | imdisterr1         1.0 | imdisterr2         -1.0 | imdistlim          0 |\  # "imdist", distance to star [pc]
-imtelescope	           Gemini N |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument               NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	           Keck II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument               NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	      2008-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imdisk 		               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
