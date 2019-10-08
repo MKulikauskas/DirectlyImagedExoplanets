@@ -17,7 +17,7 @@ dec_str                         +44:20:02.2  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imdelthmag                    | imdelthmagerr	     | imdelthmaglim               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imangsep                       | imangseperr1        | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -40,15 +40,14 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imhmag                    | imhmagerr       | imhmaglim        |\ # "imhmag", stellar magnitude H-band [mag]
+implnhmag                 | implnhmagerr    | implnhmaglim     |\ # "implnhmag", planet magnitude H-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			     |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+imstype			    B9 IV |\ # "imstype", stellar host spectral type
+immass                     2.45 | immasserr1         0.05 | immasserr2       -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		            30  | imageerr1	      20 | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
