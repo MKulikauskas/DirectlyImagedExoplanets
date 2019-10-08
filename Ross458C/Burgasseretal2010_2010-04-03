@@ -23,7 +23,6 @@ imdist                        11.7 | imdisterr1           0.2 | imdisterr2      
 imtelescope	             Magellan |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             FIRE |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2010-04-03 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                0 |\ # "imcluster", name of associated cluster
 imdisk 		               0  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
