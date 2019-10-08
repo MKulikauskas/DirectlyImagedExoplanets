@@ -1,0 +1,72 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Liu2012.dat
+# DATE:            2019-10-08
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2012ApJ...758...57L    |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          WISEP J121756.91+162640.2 A b |\ # planet name
+ra_str                          12:17:56.91  |\ # RA [sexagesimal]
+dec_str                         +16:26:40.2  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltjmag                   2.10 | imdeltjmagerr	     0.02 | imdeltjmaglim               0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                   2.20 | imdelthmagerr	    0.04 | imdelthmaglim               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                   2.16 | imdeltkmagerr	     0.13| imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                      0.757 | imangseperr1       0.0025 | imangseperr2     -0.0025  | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                           8.0  | imseperr1             1.3 | imseperr2          -1.3   | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                        10.5 | imdisterr1         1.7   | imdisterr2         -1.7  | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             Keck |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2012-01-29 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	               0  |\ # "imcluster", name of associated cluster
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                   17.98 | imjmagerr      0.02 | imjmaglim      0  |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   18.31 | imhmagerr      0.05 | imhmaglim       0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   18.94 | imkmagerr      0.04 | imkmaglim       0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                20.08 | implnjmagerr   0.03 | implnjmaglim    0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                20.51 | implnhmagerr   0.06 | implnhmaglim    0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                21.10 | implnkmagerr   0.12 | implnkmaglim    0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			   T9  |\ # "imstype", stellar host spectral type
+immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		             Y0  	|\ # "implstype", planet spectral type
+implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                Different angular separations and position angles are listed for each filter, for data obtained on the same night. The H-band separation and position angles are shown here. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
