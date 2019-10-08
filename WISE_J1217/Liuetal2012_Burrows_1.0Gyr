@@ -52,7 +52,7 @@ implnkmag                21.10 | implnkmagerr   0.12 | implnkmaglim    0 |\ # "i
 #
 imstype			   T9  |\ # "imstype", stellar host spectral type
 immass                     11.5 | immasserr1         1.1 | immasserr2      -1.1  | immasslim        0 |\ # "immass", stellar host [solar mass]
-image		             1000 | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+image		             1000 | imageerr1	      null | imageerr2	     null | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
