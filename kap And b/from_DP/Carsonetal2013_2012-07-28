@@ -1,0 +1,57 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Carsonetal2013.dat
+# DATE:            2019-10-08
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2013ApJ...763L..32C   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          kap And b  |\ # planet name
+ra_str                          23:40:24.51  |\ # RA [sexagesimal]
+dec_str                         +44:20:02.2  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdist                        52.0 | imdisterr1           null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	              Subaru |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument              IRCS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2012-07-28  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                1 |\ # "imcluster", name of associated cluster
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		       0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+implnlpmag               13.12  | implnlpmagerr   0.09 | implnlpmaglim     0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			    B9 IV |\ # "imstype", stellar host spectral type
+immass                     2.45 | immasserr1         0.05 | immasserr2       -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		            30  | imageerr1	      20 | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               L5	|\ # "implstype", planet spectral type
+implmass                    12.8 | implmasserr1        2.0  | implmasserr2        -1.0 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1680 | impltemperr1        30  | impltemperr2        -20 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          Chabrier et al. (2000)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
