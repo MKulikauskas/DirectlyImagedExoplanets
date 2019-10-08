@@ -1,0 +1,60 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Burgasseretal2010.dat
+# DATE:            2019-10-08
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2010ApJ...725.1405B   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          Ross 458 c  |\ # planet name
+ra_str                          13:00:41.94  |\ # RA [sexagesimal]
+dec_str                         +12:21:14.7  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep                      102 | imangseperr1       null | imangseperr2      null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                           1100  | imseperr1            null  | imseperr2            null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imdist                        11.7 | imdisterr1           0.2 | imdisterr2          -0.2 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             Magellan |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             FIRE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2010-04-03 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                0 |\ # "imcluster", name of associated cluster
+imdisk 		               0  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      2 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+imstype			    M0.5 Ve + M7 Ve |\ # "imstype", stellar host spectral type
+image		             475 | imageerr1	     325  | imageerr2	    -325  | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               T8	|\ # "implstype", planet spectral type
+implmass                    8.9 | implmasserr1         2.6 | implmasserr2        -2.6 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    760 | impltemperr1         70 | impltemperr2       -45  | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  0.125 | implradiuserr1       0.005 | implradiuserr2       -0.005 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          	cloudless, Saumon and Marley (2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                Spectra were obtained, not broadband images. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
