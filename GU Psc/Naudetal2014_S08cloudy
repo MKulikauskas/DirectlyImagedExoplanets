@@ -60,7 +60,7 @@ implmass                   11.4  | implmasserr1         0.6 | implmasserr2      
 impltemp                    1050 | impltemperr1        50  | impltemperr2        -50 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                 1.355  | implradiuserr1      0.025  | implradiuserr2      0.025 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          cloudy, Saumon and Marley (2008)	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
