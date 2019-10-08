@@ -42,17 +42,13 @@ implnhmag                15.21 | implnhmagerr   0.03 | implnhmaglim   0 |\ # "im
 #
 # Stellar Parameter Columns
 #
-imstype			     |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		            2.1  | imageerr1	      7.9 | imageerr2	     -1.8 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		               M9.0	|\ # "implstype", planet spectral type
 implmass                   13.6  | implmasserr1       7.4   | implmasserr2       -7.4  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          	This work |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
