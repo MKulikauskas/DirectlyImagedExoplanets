@@ -60,7 +60,7 @@ implstype		             Y0  	|\ # "implstype", planet spectral type
 implmass                   20  | implmasserr1         2 | implmasserr2     -2    | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                  470   | impltemperr1        30  | impltemperr2      -30   | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		          Lyon/COND models and M(J)	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
