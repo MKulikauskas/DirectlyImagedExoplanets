@@ -27,7 +27,6 @@ imdist                        10.5 | imdisterr1         1.7   | imdisterr2      
 imtelescope	             Keck |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2012-01-29 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	               0  |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -52,17 +51,15 @@ implnkmag                21.10 | implnkmagerr   0.12 | implnkmaglim    0 |\ # "i
 # Stellar Parameter Columns
 #
 imstype			   T9  |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+immass                 29     | immasserr1        3  | immasserr2      -3  | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             5000 | imageerr1	     null  | imageerr2	     null | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		             Y0  	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                   18.4  | implmasserr1      1.0    | implmasserr2       -1.0  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                  402   | impltemperr1        11  | impltemperr2        -11 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          Burrows et al. (2003)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
