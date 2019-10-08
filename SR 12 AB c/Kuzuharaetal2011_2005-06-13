@@ -22,8 +22,8 @@ imangsep                      8.659 | imangseperr1      0.048  | imangseperr2   
 imsep                          | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                        125 | imdisterr1           25 | imdisterr2         -25  | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              IRSF |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              SIRIUS |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	              Subaru |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument              IRCS |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2005-06-13 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                rho Ophiuchi |\ # "imcluster", name of associated cluster
 imdisk 		               0  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
