@@ -25,7 +25,7 @@ imdist                         | imdisterr1            | imdisterr2           | 
 imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                 |\ # "imcluster", name of associated cluster
+imcluster	                rho Ophiuchi |\ # "imcluster", name of associated cluster
 imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
