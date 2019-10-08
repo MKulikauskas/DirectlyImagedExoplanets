@@ -22,15 +22,14 @@ imdelthmag                   8.102 | imdelthmagerr	     0.04| imdelthmaglim     
 imdeltkmag                   8.055 | imdeltkmagerr	    0.04 | imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imangsep                      41.97 | imangseperr1      0.03  | imangseperr2      -0.03 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                          2000   | imseperr1          200    | imseperr2        -200     | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                       48  | imdisterr1           5 | imdisterr2         -5  | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             CFHT |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             WIRCam |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2011-10-10, 2011-12-26, 2011-12-28, 2011-12,29, 2012-09-07 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               AB Doradus  |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		       0|\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			       0|\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -52,17 +51,15 @@ implnkmag                17.40 | implnkmagerr  0.03 | implnkmaglim    -0.03 |\ #
 # Stellar Parameter Columns
 #
 imstype			    M3 |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             100 | imageerr1	      30 | imageerr2	     -30 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		              T3.5 	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                   11.25  | implmasserr1       0.85   | implmasserr2       -0.85  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1050 | impltemperr1        50  | impltemperr2        -50 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.25 | implradiuserr1       0.02 | implradiuserr2      -0.02 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		         no cloud, Saumon and Marley (2008)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
