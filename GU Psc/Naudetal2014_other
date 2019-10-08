@@ -48,7 +48,7 @@ implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpm
 imstype			    M3 |\ # "imstype", stellar host spectral type
 immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+image		            100  | imageerr1	     30  | imageerr2	     -30 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
