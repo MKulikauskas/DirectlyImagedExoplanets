@@ -1,0 +1,63 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Carsonetal2013.dat
+# DATE:            2019-10-09
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2013ApJ...774...55B    |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          2MASS J01225093-2439505 b  |\ # planet name
+ra_str                          01:22:50.94  |\ # RA [sexagesimal]
+dec_str                         -24:39:50.7  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltlpmag                   4.19 | imdeltlpmagerr	    0.03 | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep                      1.452 | imangseperr1       0.005 | imangseperr2      -0.005 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                            52 | imseperr1            6  | imseperr2          -6   | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                          216.6 | impaerr1             0.4 | impaerr2            -0.4 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                      36   | imdisterr1           4 | imdisterr2         -4  | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             Keck |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2013-01-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                AB Dor  |\ # "imcluster", name of associated cluster
+imdisk 		               1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imlpmag                   9.0 | imlpmagerr     0.1  | imlpmaglim       0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnlpmag                13.2 | implnlpmagerr   0.1 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			    M3.5V |\ # "imstype", stellar host spectral type
+immass                    0.40  | immasserr1        0.05  | immasserr2       -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             120 | imageerr1	     10  | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		              L5 	|\ # "implstype", planet spectral type
+implmass                   25  | implmasserr1        2  | implmasserr2      -2   | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          Burrows et al. (2001), Spiegel et al. (2011)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes               The mass assumes membership in AB Dor. If it is not a member of AB Dor, a younger age of 10-120 Myr is possible and thus a lower mass (12-14 MJup).  |\ # "imnotes"
+#
+cntr                        TBD |  # counter
