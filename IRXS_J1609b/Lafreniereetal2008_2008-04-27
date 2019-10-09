@@ -17,11 +17,11 @@ dec_str                         -21:04:58.9  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                       | imangseperr1        | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                        145 | imdisterr1         20   | imdisterr2          -20 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imdeltkmag                    7.25 | imdeltkmagerr	    0.18 | imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                     2.219  | imangseperr1       0.002 | imangseperr2     -0.002  | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                            330 | imseperr1            null  | imseperr2          null   | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                          27.7 | impaerr1            0.1  | impaerr2           -0.1  | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                        150 | imdisterr1         null   | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             Gemini North |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	              2008-04-27  |\ # "imdateobs", [YYYY-MM-DD] ##added this
@@ -40,27 +40,25 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imkmag                  8.916  | imkmagerr      0.021 | imkmaglim       0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnkmag                16.17 | implnkmagerr   0.18 | implnkmaglim     |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			     |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imstype			   K7 V  |\ # "imstype", stellar host spectral type
+immass                    0.85  | immasserr1        0.20  | immasserr2      -0.10  | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		             5 | imageerr1	      null | imageerr2	     null | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		               	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+implstype		               L4	|\ # "implstype", planet spectral type
+implmass                    8.376 | implmasserr1        4.19  | implmasserr2       -2.09  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1800 | impltemperr1         200 | impltemperr2        -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  0.171 | implradiuserr1      null  | implradiuserr2     null  | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          Chabrier et al. (2000)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 |\ # "imnotes"
 #
 cntr                        TBD |  # counter
