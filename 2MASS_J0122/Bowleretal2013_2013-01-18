@@ -17,18 +17,20 @@ dec_str                         -24:39:50.7  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                       | imangseperr1        | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                         | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
+imdeltjmag                   5.8 | imdeltjmagerr	    null | imdeltjmaglim               -1 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag                  6.18  | imdelthmagerr	    0.04 | imdelthmaglim               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                  5.36  | imdeltkmagerr	    0.04 | imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                      1.4495 | imangseperr1      0.0015  | imangseperr2      -0.0015 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                            52 | imseperr1              6 | imseperr2            -6 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                          216.59 | impaerr1             0.08 | impaerr2           -0.08  | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                      36   | imdisterr1         4   | imdisterr2         -4  | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             Keck |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2013-01-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                 |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+imcluster	               AB Dor   |\ # "imcluster", name of associated cluster
+imdisk 		                1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -40,27 +42,28 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                  10.02  | imjmagerr     0.03  | imjmaglim     0   |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   9.47 | imhmagerr       0.02 | imhmaglim     0   |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   9.17 | imkmagerr      0.03 | imkmaglim      0  |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                16.81 | implnjmagerr  0.14  | implnjmaglim    0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                15.65 | implnhmagerr   0.04 | implnhmaglim   0  |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                14.53 | implnkmagerr   0.05 | implnkmaglim    0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
 imstype			    M3.5V |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+immass                    0.40  | immasserr1        0.05  | immasserr2       -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             120 | imageerr1	     10  | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		               	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+implstype		              L5 	|\ # "implstype", planet spectral type
+implmass                   25  | implmasserr1        2  | implmasserr2      -2   | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          Burrows et al. (2001), Spiegel et al. (2011)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 |\ # "imnotes"
+imnotes                Different angular separations and PAs were listed for H and K on the same night. The H-band results are shown here. The mass assumes membership in AB Dor. If it is not a member of AB Dor, a younger age of 10-120 Myr is possible and thus a lower mass (12-14 MJup). |\ # "imnotes"
 #
 cntr                        TBD |  # counter
