@@ -17,16 +17,16 @@ dec_str                        +47:51:42.5 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                       | imangseperr1        | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdelthmag                   9.8 | imdelthmagerr	    0.4 | imdelthmaglim               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag                   8.2 | imdeltkmagerr	    0.3 | imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                      3.696 | imangseperr1     0.003   | imangseperr2     -0.003  | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa                         135.3  | impaerr1           0.2   | impaerr2            -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                         | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             Keck |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	               2016-06-27 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                AB Doradus |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
