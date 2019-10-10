@@ -17,18 +17,16 @@ dec_str                         +23:01:51.4  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep                      0.105 | imangseperr1       0.004 | imangseperr2      -0.004 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                          120.4 | impaerr1            2.2  | impaerr2            -2.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                         | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
+imdist                      140   | imdisterr1           null | imdisterr2         null  | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	             HST |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument              WFPC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2008-08-20 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                 |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+imcluster	                Taurus |\ # "imcluster", name of associated cluster
+imdisk 		              1   |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		     0  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -40,27 +38,19 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			     |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+imstype			     M8.5 |\ # "imstype", stellar host spectral type
+immass                   0.019   | immasserr1       null   | immasserr2      null  | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             1 | imageerr1	      null | imageerr2	     null | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		               	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 |\ # "imnotes"
+imnotes                The companion is detected in WFPC2 filters F791 and F850. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
