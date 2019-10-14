@@ -27,8 +27,8 @@ iminstrument             CIAO |\ # "iminstrument", Instrument used in observatio
 imdateobs	              2002-07-17  |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                Lupus |\ # "imcluster", name of associated cluster
 imdisk 		               1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
