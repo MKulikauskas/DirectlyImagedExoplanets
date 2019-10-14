@@ -19,14 +19,14 @@ dec_str                         -20:43:09.13  |\ # Dec [sexagesimal]
 #
 imdeltkmag                  5.74  | imdeltkmagerr	    0.05 | imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imangsep                      2.203 | imangseperr1      0.0015  | imangseperr2      -0.0015 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                         | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
+imsep                           319  | imseperr1            14  | imseperr2          -14   | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           176.04| impaerr1             0.06 | impaerr2           -0.06  | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                        145 | imdisterr1          14  | imdisterr2          -14 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             Keck |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2008-06-17 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                Upper Sco |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		               null  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		       0|\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
@@ -47,19 +47,15 @@ implnkmag               14.89  | implnkmagerr   null | implnkmaglim    0 |\ # "i
 #
 imstype			    M1 |\ # "imstype", stellar host spectral type
 immass                    0.60  | immasserr1         null | immasserr2        null| immasslim        0 |\ # "immass", stellar host [solar mass]
-image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+image		             5 | imageerr1	      null | imageerr2	    null  | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		               	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                   13.5  | implmasserr1       1.5  | implmasserr2        -1.5 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          DUSTY, Chabrier et al. (2000)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 |\ # "imnotes"
 #
 cntr                        TBD |  # counter
