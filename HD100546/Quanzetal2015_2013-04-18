@@ -1,0 +1,66 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Quanzetal2015.dat
+# DATE:            2019-10-08
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2015ApJ...807...64Q    |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          HD 100546 b  |\ # planet name
+ra_str                          11:33:25.44  |\ # RA [sexagesimal]
+dec_str                         -70:11:41.2  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep                       | imangseperr1        | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                         | imdisterr1            | imdisterr2           | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	            VLT  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             NACO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2013-04-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	                 |\ # "imcluster", name of associated cluster
+imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			     |\ # "imstype", stellar host spectral type
+immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		              | imageerr1	       | imageerr2	      | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               	|\ # "implstype", planet spectral type
+implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                 |\ # "imnotes"
+#
+cntr                        TBD |  # counter
