@@ -1,0 +1,54 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Sallumetal2015.dat
+# DATE:            2019-10-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2015Natur.527..342S  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          LkCa 15 b |\ # planet name
+ra_str                          04:39:17.79 |\ # RA [sexagesimal]
+dec_str                        +22:21:03.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep                      0.093 | imangseperr1       0.008 | imangseperr2      -0.008 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          14.7   | imseperr1           2.1   | imseperr2         -2.1    | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                         256  | impaerr1            3  | impaerr2           -3  | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	             Magellan |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             MagAO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2014-11-15 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	               null  |\ # "imcluster", name of associated cluster
+imdisk 		               1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                 Detection was in H-alpha. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
+
