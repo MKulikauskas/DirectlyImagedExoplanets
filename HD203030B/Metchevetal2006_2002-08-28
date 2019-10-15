@@ -1,0 +1,66 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Metchevetal2006.dat
+# DATE:            2019-10-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2006ApJ...651.1166M   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          HD 203030 B   |\ # planet name
+ra_str                          21:18:58.97  |\ # RA [sexagesimal]
+dec_str                        +26:13:46.1  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag              9.56      | imdeltkmagerr	    0.10 | imdeltkmaglim               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                      11.923 | imangseperr1      0.021 | imangseperr2      -0.021 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                           487.1  | imseperr1            1.8  | imseperr2           -1.8  | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                           108.76| impaerr1            0.12  | impaerr2           -0.12  | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                        40 | imdisterr1           null | imdisterr2         null  | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             Palomar |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             PHARO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2002-08-28  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	               null  |\ # "imcluster", name of associated cluster
+imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imkmag                   6.65 | imkmagerr      0.10 | imkmaglim       0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                 18.13 | implnjmagerr   0.55  | implnjmaglim    0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                 16.85 | implnhmagerr   0.12 | implnhmaglim     0|\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                 16.21 | implnkmagerr   0.10 | implnkmaglim     0|\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			  G8V   |\ # "imstype", stellar host spectral type
+image		             265 | imageerr1	     135  | imageerr2	    -135  | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		             L7.5  	|\ # "implstype", planet spectral type
+implmass                  24.1   | implmasserr1       8.4   | implmasserr2       -11.5  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1206 | impltemperr1        74  | impltemperr2      -116   | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                 1.06  | implradiuserr1      0.16  | implradiuserr2     -0.06  | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		          Burrows et al. (1997)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                The companion was detected on two other dates but the photometry and astrometry was not listed for those detections individually. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
