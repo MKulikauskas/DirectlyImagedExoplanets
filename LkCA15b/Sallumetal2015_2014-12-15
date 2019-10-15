@@ -45,7 +45,7 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Model Columns
 #
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
