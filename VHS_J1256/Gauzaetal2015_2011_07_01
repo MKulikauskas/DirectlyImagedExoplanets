@@ -1,0 +1,64 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Gauzaetal2015.dat
+# DATE:            2019-10-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2015ApJ...804...96G   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                         VHS J125601.92-125723.9 b  |\ # planet name
+ra_str                          12:56:02.15 |\ # RA [sexagesimal]
+dec_str                         -12:57:21.7  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep                      8.06 | imangseperr1       0.03 | imangseperr2      -0.03 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                          102   | imseperr1            9  | imseperr2           -9  | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                          218.1 | impaerr1            0.2  | impaerr2            -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                        12.7 | imdisterr1           1.0 | imdisterr2         -1.0  | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             VISTA |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             VIRCAM |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2011-07-01  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		               0  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag                  11.36  | imjmagerr     null  | imjmaglim      1  |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   11.02 | imhmagerr    null   | imhmaglim     1   |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   10.42 | imkmagerr    null   | imkmaglim      1  |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag                17.136 | implnjmagerr   0.020 | implnjmaglim    0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                15.777 | implnhmagerr   0.015 | implnhmaglim    0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                14.665 | implnkmagerr   0.010 | implnkmaglim    0 |\ # "implnjmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			     M7.5 |\ # "imstype", stellar host spectral type
+immass                   73   | immasserr1         20 | immasserr2       -15 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             225 | imageerr1	     75  | imageerr2	     -75 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		               L7	|\ # "implstype", planet spectral type
+implmass                    11.2 | implmasserr1       9.7   | implmasserr2        -1.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    880 | impltemperr1       140   | impltemperr2      -110   | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          this work, Gagne et al. (2014), Chauvin et al. (2005), McLean et al. (2003), Liu et al. (2013)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+cntr                        TBD |  # counter
