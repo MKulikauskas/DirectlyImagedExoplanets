@@ -1,0 +1,58 @@
+# USER:            meshkat
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        Luhmanetal2011.dat
+# DATE:            2019-10-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink           2011ApJ...730L...9L   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                          WD 0806-661 b  |\ # planet name
+ra_str                         08:06:53.75 |\ # RA [sexagesimal]
+dec_str                       -66:18:16.7  |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep                      130.2 | imangseperr1      0.2  | imangseperr2      -0.2 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa                          104.2 | impaerr1            0.2  | impaerr2            -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                       19.2  | imdisterr1           0.6 | imdisterr2         -0.6  | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	            Spitzer  |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument            IRAC |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2004-12-15, 2009-08-24 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		               0  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		     0  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			     0  |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			      1 |\ # "ns", number of stars constituting the host system
+ra                          TBD |\ # RA [decimal]
+dec                         TBD |\ # Dec [decimal]
+glon                        TBD |\ # "l" [decimal]
+glat                  	    TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+imstype			   DQ  |\ # "imstype", stellar host spectral type
+immass                    0.62  | immasserr1        0.03  | immasserr2       -0.03 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             1500 | imageerr1	     500  | imageerr2	     -300 | imagelim	  0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass                   7  | implmasserr1       null   | implmasserr2        null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    300 | impltemperr1       null   | impltemperr2     null    | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          Burrows et al. (1997), Burrows et al. (2003)	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                Spitzer data were collected in 4.5 microns. |\ # "imnotes"
+#
+cntr                        TBD |  # counter
