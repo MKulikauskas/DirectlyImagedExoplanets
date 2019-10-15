@@ -17,18 +17,17 @@ dec_str                         -23:41:07.5  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltlpmag                    | imdeltlpmagerr	     | imdeltlpmaglim               0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                       | imangseperr1        | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                             | imseperr1              | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           | impaerr1              | impaerr2             | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imangsep                      2.357 | imangseperr1        0.033| imangseperr2      -0.033 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                           344.8  | imseperr1            2.5  | imseperr2          -2.5   | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                          116.6 | impaerr1             0.8 | impaerr2           -0.8  | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                       146.3  | imdisterr1           2.5 | imdisterr2           -2.5 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	             3.6-m ESO |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             ADONIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	              2000-05-26  |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               Upper Sco  |\ # "imcluster", name of associated cluster
-imdisk 		                 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		       |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			       |\ # "imifu", IFU used (1=yes, 0=no)
+imdisk 		               0  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		     1  |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
@@ -40,27 +39,21 @@ glat                  	    TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imlpmag                    | imlpmagerr       | imlpmaglim        |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnlpmag                 | implnlpmagerr    | implnlpmaglim     |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
 imstype			    B9 |\ # "imstype", stellar host spectral type
-immass                      | immasserr1          | immasserr2        | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                       | imlumerr1            | imlumerr2          | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+immass                    3.75  | immasserr1        1.25  | immasserr2      -1.25  | immasslim        0 |\ # "immass", stellar host [solar mass]
 image		             10 | imageerr1	      3 | imageerr2	      -3 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		               	|\ # "implstype", planet spectral type
-implmass                     | implmasserr1          | implmasserr2         | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                     | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                   | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	|\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                    20.5 | implmasserr1        4.5  | implmasserr2      -4.5  | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                   2450  | impltemperr1         150 | impltemperr2        -150 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          Baraffe et al. (2015), Pecaut and Mamajek (2016)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 |\ # "imnotes"
 #
 cntr                        TBD |  # counter
