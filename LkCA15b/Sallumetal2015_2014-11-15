@@ -23,7 +23,6 @@ impa                         256  | impaerr1            3  | impaerr2           
 imtelescope	             Magellan |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             MagAO |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2014-11-15 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	               null  |\ # "imcluster", name of associated cluster
 imdisk 		               1  |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -48,7 +47,7 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 Detection was in H-alpha. |\ # "imnotes"
+imnotes                 Detection was in H-alpha. Rather than Jupiter masses, the companions are characterized with planet mass accretion rate.  |\ # "imnotes"
 #
 cntr                        TBD |  # counter
 
